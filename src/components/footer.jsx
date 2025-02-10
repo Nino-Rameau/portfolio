@@ -3,14 +3,17 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-row items-center justify-around bg-bleu_fonce text-white p-4 mt-4">
+    <footer className="md:flex flex-row items-center justify-around bg-bleu_fonce text-white p-4 mt-4 font-texte">
       <div className="flex flex-col text-center">
         <p>Copyright © 2025 nino-rameau</p>
         <Link to="/mentionsLegales" className="underline">
           Mentions Légales
         </Link>
       </div>
-      <div className="flex flex-row space-x-8">
+      <div
+        className="flex flex-row space-x-8 
+        max-md:justify-center max-md:pt-4"
+      >
         <a href="https://www.linkedin.com/in/nino-rameau-1a0636332/">
           <svg
             xmlns="http://www.w3.org/2000/svg"

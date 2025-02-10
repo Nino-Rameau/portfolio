@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         bleu_fonce: "#28337e",
+        bleu_fonce2: "#3000f0",
         bleu_milieu: "#4269b1",
         bleu_clair: "#acddf6",
         white: "#ffffff",
@@ -13,6 +14,14 @@ module.exports = {
       fontFamily: {
         titre: ["Orbitron", "sans-serif"],
         texte: ["IBM Plex Mono", "sans-serif"],
+      },
+      fontSize: {
+        xs: ["0.85rem"],
+        s: ["1rem"],
+        m: ["1.1rem"],
+        l: ["1.2rem"],
+        xl: ["1.4rem"],
+        xxl: ["2.1rem"],
       },
       backgroundImage: {
         fontSombre: `linear-gradient(
@@ -81,10 +90,6 @@ module.exports = {
         linear-gradient(61deg, rgba(230, 230, 230, 0) 0%, rgba(230, 230, 230, 0) 33.3%, rgba(241, 241, 241, 0) 33.3%, rgba(241, 241, 241, 0) 66.6%, rgba(55, 55, 55, 0) 66.6%, rgba(55, 55, 55, 0) 99%),
         linear-gradient(0deg, rgb(0, 0, 0), rgb(2, 3, 3))`,
       },
-      // h1: {
-      //   fontSize: "2rem",
-      //   fontFamily: titre,
-      // },
     },
   },
   plugins: [],

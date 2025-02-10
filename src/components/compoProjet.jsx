@@ -30,14 +30,22 @@ export const Projet = ({
 
         <p className="m-3">{date}</p>
 
+        {/* .map(...) --> parcours tout les elt id par id de tags */}
+
         <div className="flex flex-row flex-wrap m-auto text-center justify-center">
-          {tags && tags.map((tag, index) => <Tag tag={tag} key={index} />)}
+          {tags &&
+            tags.map(function (tag, indice) {
+              return <Tag tag={tag} key={indice} />;
+            })}
         </div>
       </div>
 
       <div className="flex flex-col space-y-5 w-1/2 m-auto">
-        <img src={image} alt={nomImg} className="w-3/12 m-auto" />
-
+        if (image.lenght === 1)
+        {<img src={image} alt={nomImg} className="w-1/2 m-auto" />} else
+        {
+          // TODO carrousel a ajouter
+        }
         {/*GitHub affichée que si une url est donné */}
         {repoHref && (
           <>

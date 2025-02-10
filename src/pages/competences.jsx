@@ -1,10 +1,11 @@
 import { ProgressBar } from "../components/progressbar";
 import { CardRV } from "../components/cardrectoverso";
+import { Titre } from "../components/titre";
 
 function Competences() {
   return (
     <>
-      <h1>Mes compétences</h1>
+      <Titre titre="Mes compétences :" />
       <h2>Mes compétences en langages informatiques :</h2>
       <ProgressBar texte="Python" valeur="70" />
       <ProgressBar texte="HTML" valeur="80" />
