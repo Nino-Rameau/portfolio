@@ -14,24 +14,12 @@ const Header = () => {
       </Link>
 
       <nav className="flex space-x-10">
-        <Navbtn>
-          <Link to="/">Accueil</Link>
-        </Navbtn>
-        <Navbtn>
-          <Link to="/competences">Compétence</Link>
-        </Navbtn>
-        <Navbtn>
-          <Link to="/projets">Projets</Link>
-        </Navbtn>
-        <Navbtn>
-          <Link to="/charteGraphique">Charte Graphique</Link>
-        </Navbtn>
-        <Navbtn>
-          <Link to="/cv">CV</Link>
-        </Navbtn>
-        <Navbtn>
-          <Link to="/contact">Contact</Link>
-        </Navbtn>
+        <Navbtn to="/">Accueil</Navbtn>
+        <Navbtn to="/competences">Compétences</Navbtn>
+        <Navbtn to="/projets">Projets</Navbtn>
+        <Navbtn to="/charteGraphique">Charte Graphique</Navbtn>
+        <Navbtn to="/cv">CV</Navbtn>
+        <Navbtn to="/contact">Contact</Navbtn>
       </nav>
 
       <svg

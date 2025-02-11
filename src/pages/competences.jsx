@@ -1,12 +1,18 @@
 import { ProgressBar } from "../components/progressbar";
 import { CardRV } from "../components/cardrectoverso";
-import { Titre } from "../components/titre";
+import { Texte } from "../components/texte";
 
 function Competences() {
   return (
     <>
-      <Titre titre="Mes compétences :" />
-      <h2>Mes compétences en langages informatiques :</h2>
+      <Texte tag="h1" variant="h1" texte="Mes compétences :" />
+
+      <Texte
+        tag="h2"
+        variant="h2"
+        texte="Mes compétences en langages informatiques"
+      ></Texte>
+
       <ProgressBar texte="Python" valeur="70" />
       <ProgressBar texte="HTML" valeur="80" />
       <ProgressBar texte="CSS" valeur="70" />
@@ -16,28 +22,29 @@ function Competences() {
       <ProgressBar texte="SQL" valeur="45" />
       <ProgressBar texte="PHP" valeur="5" />
 
-      <h2>Mes autres compétences :</h2>
+      <Texte tag="h2" variant="h2" texte="Mes autres compétences :"></Texte>
 
-      <h3>Développement web</h3>
+      <Texte tag="h3" variant="h3" texte="Développement web"></Texte>
       <ProgressBar texte="WordPress & Elementor" valeur="45" />
       <ProgressBar texte="Git et GitHub" valeur="60" />
       <ProgressBar texte="Figma" valeur="25" />
 
-      <h3>Graphisme</h3>
+      <Texte tag="h3" variant="h3" texte="Graphisme"></Texte>
       <ProgressBar texte="Canva" valeur="85" />
       <ProgressBar texte="PhotoShop" valeur="30" />
       <ProgressBar texte="Illustrator" valeur="35" />
       <ProgressBar texte="InDesign" valeur="30" />
 
-      <h3>Communication</h3>
+      <Texte tag="h3" variant="h3" texte="Communication"></Texte>
       <ProgressBar texte="Trello" valeur="30" />
 
-      <h3>Traitements de texte</h3>
+      <Texte tag="h3" variant="h3" texte="Traitements de texte"></Texte>
       <ProgressBar texte="Word" valeur="90" />
       <ProgressBar texte="Power Point" valeur="80" />
       <ProgressBar texte="Exel" valeur="30" />
 
-      <h1>Mes certifications :</h1>
+      <Texte tag="h1" variant="h1" texte="Mes certifications :"></Texte>
+
       <div className="w-[90%]  m-auto flex flex-row flex-wrap justify-around">
         <CardRV
           titleRecto="Utilisez ChatGPT pour améliorer votre productivité"
