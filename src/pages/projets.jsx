@@ -1,11 +1,17 @@
 import { Projet } from "../components/compoProjet";
 import { BtnHaut } from "../components/btnhautpage";
+import { Texte } from "../components/texte";
 
 function Projets() {
   return (
     <>
-      <BtnHaut />
+      <Texte
+        tag="h1"
+        variant="h1"
+        texte="Voici des projets que j'ai réalisé :"
+      />
 
+      <BtnHaut />
       <Projet
         ordre="reverse"
         titleProjet="Projet pour Handisup"
@@ -15,7 +21,6 @@ function Projets() {
         image={["img/handisup/page-accueil-site.png"]}
         nomImg={["Image du site"]}
       />
-
       <Projet
         ordre="row-reverse"
         titleProjet="Création d'un site web pour une artiste peintre"
@@ -38,7 +43,6 @@ function Projets() {
         nomImg={["Le logo que j'ai réalisé", "image du site web"]}
         repoHref="https://github.com/Nino-Rameau/grange-aux-peintures"
       />
-
       <Projet
         ordre="row"
         titleProjet="Intégration d'une maquette figma"
@@ -49,7 +53,6 @@ function Projets() {
         nomImg={["Image de la maquette a integrer"]}
         repoHref="https://nino-rameau.github.io/partiel-html-css/"
       />
-
       <Projet
         ordre="row-reverse"
         titleProjet="Normandie Blog School"
@@ -62,7 +65,6 @@ function Projets() {
         nomImg={["logo du Normandie Blog School"]}
         repoHref="https://github.com/Nino-Rameau/normandie-blog-school"
       />
-
       <Projet
         ordre="row"
         titleProjet="Projet Club Eco Saint Sever"
@@ -93,7 +95,6 @@ function Projets() {
         ]}
         repoHref="https://github.com/Nino-Rameau/integration-maquette-figma-projet-club-eco-saint-sever"
       />
-
       <Projet
         ordre="row-reverse"
         titleProjet="Projet BDE : Normandie Web Five"
@@ -107,7 +108,6 @@ function Projets() {
         ]}
         nomImg={["Affiche Normandie Web Five", "Logo Normandie Web Five"]}
       />
-
       <Projet
         ordre="row"
         titleProjet="Interview d'un étudiant :"
@@ -135,7 +135,6 @@ function Projets() {
           "Image 8 de l'interview",
         ]}
       />
-
       <Projet
         ordre="row-reverse"
         titleProjet="Site de mini-jeux"
@@ -164,7 +163,6 @@ function Projets() {
         ]}
         repoHref="https://github.com/Nino-Rameau/mini_jeux"
       />
-
       <Projet
         ordre="row"
         titleProjet="Gestion de badges RFID en Python et MySQL"
@@ -175,7 +173,6 @@ function Projets() {
         nomImg={["image du programme"]}
         repoHref="https://github.com/Nino-Rameau/Gestion_badge_RFID"
       />
-
       <Projet
         ordre="row-reverse"
         titleProjet="Quiz sur la Guyane"
@@ -191,7 +188,6 @@ function Projets() {
         nomImg={["Page de connexion", "Page d'accueil", "Page du quiz"]}
         repoHref="https://github.com/Nino-Rameau/Quiz_Guyane"
       />
-
       <Projet
         ordre="row"
         titleProjet="Projet Architecture urbaine sur turtle"

@@ -1,8 +1,10 @@
+import { Texte } from "../components/texte";
+
 function CharteGraphique() {
   return (
     <>
       <div>
-        <h1>Charte graphique</h1>
+        <Texte tag="h1" variant="h1" texte="Ma Charte Graphique" />
       </div>
     </>
   );

@@ -1,8 +1,10 @@
+import { Texte } from "../components/texte";
+
 function Contact() {
   return (
     <>
       <div>
-        <h1>contact</h1>
+        <Texte tag="h1" variant="h1" texte="Contactez-moi !" />
       </div>
     </>
   );

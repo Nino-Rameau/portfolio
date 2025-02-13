@@ -1,8 +1,10 @@
+import { Texte } from "../components/texte";
+
 function Cv() {
   return (
     <>
       <div>
-        <h1>CV</h1>
+        <Texte tag="h1" variant="h1" texte="Mon CV" />
       </div>
     </>
   );
