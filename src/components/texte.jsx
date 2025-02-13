@@ -30,9 +30,20 @@ const texteTags = tv({
   },
 });
 
-const Texte = ({ tag: Tag, variant, texte, lien, marge, padding, className }) => {
+const Texte = ({
+  tag: Tag,
+  variant,
+  texte,
+  lien,
+  marge,
+  padding,
+  className,
+}) => {
   return (
-    <Tag className={texteTags({ variant, marge, padding, className })} href={lien}>
+    <Tag
+      className={texteTags({ variant, marge, padding, className })}
+      href={lien}
+    >
       {texte}
     </Tag>
   );

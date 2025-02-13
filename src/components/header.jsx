@@ -24,7 +24,7 @@ const Header = () => {
         <Navbtn to="/cv">CV</Navbtn>
         <Navbtn to="/contact">Contact</Navbtn>
       </nav>
-      <button onClick={() => setDarkMode(!darkMode)}>
+      <button title="Bouton jour nuit" onClick={() => setDarkMode(!darkMode)}>
         {darkMode ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"

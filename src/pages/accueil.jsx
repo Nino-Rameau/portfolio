@@ -16,6 +16,7 @@ function Accueil() {
         img="../../img/image-deco-site/image-codage-1.jpg"
         altimg="Image de codage"
         direction="row"
+        cta="False"
       />
       <Container
         para1="Je suis curieux, motivé, à l'écoute et déterminé. Je m'efforce d'apprendre continuellement et me tiens au courant des nouvelles technologies. Mon objectif est de pouvoir combiner la rigueur technique et la créativité afin de livrer des projets numériques qui sont à la fois fonctionnels et esthétiques."
@@ -23,6 +24,7 @@ function Accueil() {
         img="../../img/image-deco-site/image-codage-2.jpg"
         altimg="Image de codage"
         direction="row-reverse"
+        cta="True"
       />
     </>
   );

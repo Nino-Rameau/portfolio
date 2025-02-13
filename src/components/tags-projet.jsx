@@ -12,6 +12,7 @@ export const Tag = ({ tag }) => {
     "Charte graphique": "bg-[#64f564]",
     Canva: "bg-[#71d4e8]",
     Figma: "bg-[#fe7667]",
+    WordPress: "bg-[#14aecc]",
     "Travail en groupe": "bg-[#c69ea5]",
     "Travail individuel": "bg-[#b771e8]",
   };

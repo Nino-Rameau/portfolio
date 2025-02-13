@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <div className="flex flex-col min-h-screen bg-fontClair dark:bg-fontSombre">
       <Header />
 
-      <main className="flex-grow container mx-auto py-8">{children}</main>
+      <main className="flex-grow  mx-auto py-8">{children}</main>
 
       <Footer />
     </div>
