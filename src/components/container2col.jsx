@@ -3,7 +3,7 @@ import { Texte } from "../components/texte";
 export const Container = ({ para1, para2, img, altimg, direction }) => {
   return (
     <div
-      className=" lg:flex  items-center bg-bleu_fonce rounded-xl m-10"
+      className=" lg:flex  items-center bg-bleu_clair dark:bg-bleu_fonce rounded-xl m-10"
       style={{ flexDirection: direction }}
     >
       <div className="p-10 lg:max-w-[55%]">

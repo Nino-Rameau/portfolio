@@ -1,3 +1,5 @@
+import { Texte } from "../components/texte";
+
 export const CardRV = ({
   titleRecto,
   image,
@@ -9,30 +11,29 @@ export const CardRV = ({
   lien,
 }) => {
   return (
-    <div className="group relative h-80 w-60 [perspective:1000px] m-4">
+    <div className="group relative h-[340px] w-[250px] [perspective:1000px] m-4">
       <div
         className="absolute duration-1000 w-full h-full 
       [transform-style:preserve-3d] 
       group-hover:[transform:rotatey(180deg)]"
       >
         <div
-          className="absolute 
-        w-full h-full 
-        rounded-xl 
-        bg-gradient-to-r from-blue-600 to-indigo-700 text-white 
-        [backface-visibility:hidden]"
-        >
-          <h2 className="text-center text-2xl mt-3">{titleRecto}</h2>
+          className="absolute w-full h-full rounded-xl 
+        bg-gradient-to-br from-cyan-600 to-indigo-900 [backface-visibility:hidden] text-black dark:text-white">
+
+          <Texte tag="h2" variant="h3" marge="s" texte={titleRecto} className="mt-4" />
+
           <img
             src={image}
             alt={descriptionImage}
             className="w-1/2 mx-auto my-8"
           />
-          <p className="text-center">{date}</p>
+          <Texte tag="p" variant="p" marge="l" texte={date} className="text-center" />
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            className="w-10 absolute bottom-4 right-5"
+            className="w-7 absolute bottom-4 right-5 fill-current"
           >
             <path
               fill="currentColor"
@@ -44,21 +45,19 @@ export const CardRV = ({
         <div
           className="absolute 
           w-full h-full 
-          rounded-xl 
-          bg-gradient-to-r from-blue-600 to-indigo-700  text-white
-          p-6 [transform:rotatey(180deg)] [backface-visibility:hidden]"
-        >
-          <h3 className="text-center">{titreVerso}</h3>
-          <ul>
+          rounded-xl
+          bg-gradient-to-br from-cyan-600 to-indigo-900  p-5 [transform:rotatey(180deg)] [backface-visibility:hidden]">
+          <Texte tag="h3" variant="h3" texte={titreVerso} />
+
+          <ul className="text-black dark:text-white pb-4 mt-3">
             {descriptionVerso.map((text, index) => (
-              <li key={index} className="list-disc ml-4 mt-3">
-                {text}
+              <li key={index} className="list-disc ml-4">
+                <Texte tag="p" variant="p2" texte={text} />
               </li>
             ))}
           </ul>
-          <a href={lien} className="underline block text-center mt-3">
-            {textLien}
-          </a>
+
+          <Texte tag="a" variant="a" texte={textLien} lien={lien} />
         </div>
       </div>
     </div>

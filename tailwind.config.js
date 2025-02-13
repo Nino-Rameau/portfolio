@@ -9,8 +9,9 @@ module.exports = {
         bleu_fonce2: "#3000f0",
         bleu_milieu: "#4269b1",
         bleu_clair: "#acddf6",
+        bleu_clair2: "#8cd0f2",
         white: "#ffffff",
-        black: "#000000",
+        black: "#202020",
       },
       fontFamily: {
         titre: ["Orbitron", "sans-serif"],

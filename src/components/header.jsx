@@ -7,7 +7,7 @@ const Header = () => {
   const [darkMode, setDarkMode] = Darkmod();
 
   return (
-    <header className="flex flex-row items-center justify-around bg-gradient-to-r from-bleu_milieu to-bleu_fonce h-20 sticky top-0 z-50">
+    <header className="flex flex-row items-center justify-around bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:bg-gradient-to-r dark:from-bleu_milieu dark:to-bleu_fonce h-20 sticky top-0 z-50">
       <Link to="/">
         <img
           src="img/logo/logo-verti-sans-nom.png"

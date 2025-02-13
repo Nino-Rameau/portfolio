@@ -12,7 +12,7 @@ function Projets() {
         lienSiteWeb="https://google.com"
         date="Réalisé en décembre 2024"
         tags={["HTML", "CSS", "JavaScript", "Figma", "Travail individuel"]}
-        image="img/partiel-html-css-maquette-nexcent/maquette.png"
+        image={["img/partiel-html-css-maquette-nexcent/maquette.png"]}
         nomImg="Logo de mon projet"
         repoHref="https://github.com"
       />
@@ -31,8 +31,7 @@ function Projets() {
           "Travail en groupe",
           "Travail individuel",
         ]}
-        image={["logo-verti-sans-nom.png", "logo-verti-sans-nom.png"]}
-        // image="logo-verti-sans-nom.png"
+        image={["logo-verti-sans-nom.png"]}
         nomImg="Logo de mon projet"
         repoHref="https://github.com"
       />
