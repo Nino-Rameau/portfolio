@@ -4,10 +4,10 @@ import { Texte } from "../components/texte";
 export const Container = ({ para1, para2, img, altimg, direction, cta }) => {
   return (
     <div
-      className=" lg:flex  items-center bg-bleu_clair dark:bg-bleu_fonce rounded-xl m-10"
+      className=" lg:flex  items-center bg-bleu_clair dark:bg-bleu_fonce rounded-xl mx-4 lg:mx-40 my-20"
       style={{ flexDirection: direction }}
     >
-      <div className="p-10 lg:max-w-[55%]">
+      <div className="p-4 lg:p-10 lg:max-w-[55%]">
         <Texte tag="p" variant="p" texte={para1} />
         <Texte tag="p" variant="p" texte={para2} className="pt-6 mb-8" />
         {cta === "True" && (

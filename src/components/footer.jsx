@@ -7,7 +7,11 @@ const Footer = () => {
     <footer className="md:flex flex-row items-center justify-around bg-bleu_clair dark:bg-bleu_fonce text-black dark:text-white p-4 mt-4 font-texte">
       <div className="flex flex-col text-center">
         <Texte tag="p" variant="p" texte="Copyright © 2025 nino-rameau" />
-        <Link to="/mentionsLegales" className="underline font-texte">
+        <Link
+          to="/mentionsLegales"
+          className="underline font-texte"
+          onClick={() => window.scrollTo(0, 0)}
+        >
           Mentions Légales
         </Link>
       </div>

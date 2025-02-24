@@ -12,6 +12,7 @@ function Projets() {
       />
 
       <BtnHaut />
+
       <Projet
         ordre="reverse"
         titleProjet="Projet pour Handisup"

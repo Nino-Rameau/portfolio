@@ -9,25 +9,25 @@ function MentionsLegales() {
         <Texte
           tag="h2"
           variant="h2"
-          marge="l"
+          marge="s"
           texte="1. Informations générales"
-          className="text-left"
+          className="text-left pt-6"
         />
         <ul>
           <Texte
             tag="li"
-            variant="p"
+            variant="li"
             texte="Propriétaire du site : Nino Rameau"
           />
           <Texte
             tag="li"
-            variant="p"
+            variant="li"
             texte="Étudiant en Bachelor Chef de Projets Digitaux"
           />
-          <Texte tag="li" variant="p" texte="Normandie Web School, Rouen" />
+          <Texte tag="li" variant="li" texte="Normandie Web School, Rouen" />
           <Texte
             tag="li"
-            variant="p"
+            variant="li"
             texte="adresse mail : nrameau@normandiewebschool.fr"
           />
         </ul>
@@ -35,9 +35,9 @@ function MentionsLegales() {
         <Texte
           tag="h2"
           variant="h2"
-          marge="l"
+          marge="s"
           texte="2. Propriété intellectuelle"
-          className="text-left"
+          className="text-left pt-6"
         />
         <Texte
           tag="p"
@@ -48,9 +48,9 @@ function MentionsLegales() {
         <Texte
           tag="h2"
           variant="h2"
-          marge="l"
+          marge="s"
           texte="3. Responsabilité"
-          className="text-left"
+          className="text-left pt-6"
         />
         <Texte
           tag="p"
@@ -61,9 +61,9 @@ function MentionsLegales() {
         <Texte
           tag="h2"
           variant="h2"
-          marge="l"
+          marge="s"
           texte="4. Liens hypertextes"
-          className="text-left"
+          className="text-left pt-6"
         />
         <Texte
           tag="p"
@@ -74,9 +74,9 @@ function MentionsLegales() {
         <Texte
           tag="h2"
           variant="h2"
-          marge="l"
+          marge="s"
           texte="5. Données personnelles et cookies"
-          className="text-left"
+          className="text-left pt-6"
         />
         <Texte
           tag="p"
@@ -87,9 +87,9 @@ function MentionsLegales() {
         <Texte
           tag="h2"
           variant="h2"
-          marge="l"
+          marge="s"
           texte="6. Contact"
-          className="text-left"
+          className="text-left pt-6"
         />
         <Texte
           tag="p"

@@ -1,9 +1,9 @@
 export const BtnHaut = () => {
   return (
-    <a
-      href="#retour"
+    <button
       className="fixed bottom-4 right-4 px-1 py-3 bg-bleu_milieu rounded-full text-xl hover:scale-125 text-white"
       title="Retour en haut de la page"
+      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -19,6 +19,6 @@ export const BtnHaut = () => {
           d="M5 10l7-7m0 0l7 7m-7-7v18"
         />
       </svg>
-    </a>
+    </button>
   );
 };

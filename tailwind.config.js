@@ -16,6 +16,7 @@ module.exports = {
       fontFamily: {
         titre: ["Orbitron", "sans-serif"],
         texte: ["IBM Plex Mono", "sans-serif"],
+        logo: ["nasalization"],
       },
       fontSize: {
         xs: ["0.85rem"],

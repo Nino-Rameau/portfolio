@@ -4,11 +4,12 @@ const texteTags = tv({
   base: "!text-black dark:!text-white",
   variants: {
     variant: {
-      h1: "font-titre text-xxl bg-bleu_clair dark:bg-bleu_fonce text-center rounded-2xl py-3 lg:mx-60 my-20 shadow-[0px_0px_60px] shadow-bleu_fonce2 ",
+      h1: "font-titre text-xxl bg-bleu_clair dark:bg-bleu_fonce text-center rounded-2xl py-3 mx-4 lg:mx-60 my-20 shadow-[0px_0px_60px] shadow-bleu_fonce2 ",
       h2: "font-titre text-center text-xl",
       h3: "font-titre text-center text-l",
       h4: "font-titre text-center text-m",
       p: "text-s font-texte",
+      li: "text-s font-texte list-disc ml-8",
       p2: "text-xs font-texte",
       a: "text-s font-texte  underline whitespace-nowrap",
     },
@@ -18,6 +19,7 @@ const texteTags = tv({
       l: "m-4",
       xl: "m-6",
       xxl: "m-8",
+      auto: "m-auto",
     },
     padding: {
       s: "p-1",

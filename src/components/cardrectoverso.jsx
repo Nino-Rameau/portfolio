@@ -19,8 +19,8 @@ export const CardRV = ({
       >
         <div
           className="absolute w-full h-full rounded-xl 
-        bg-gradient-to-br from-cyan-600 to-indigo-900 [backface-visibility:hidden] text-black dark:text-white flex flex-col justify-around items-center ">
-
+        bg-gradient-to-br from-cyan-600 to-indigo-900 [backface-visibility:hidden] text-black dark:text-white flex flex-col justify-around items-center "
+        >
           <Texte tag="h2" variant="h3" marge="s" texte={titleRecto} />
 
           <img
@@ -28,7 +28,13 @@ export const CardRV = ({
             alt={descriptionImage}
             className="w-1/2 mx-auto my-8"
           />
-          <Texte tag="p" variant="p" marge="l" texte={date} className="text-center pb-8" />
+          <Texte
+            tag="p"
+            variant="p"
+            marge="l"
+            texte={date}
+            className="text-center pb-8"
+          />
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +52,8 @@ export const CardRV = ({
           className="absolute w-full rounded-xl
           bg-gradient-to-br from-cyan-600 to-indigo-900  p-5 
           [transform:rotatey(180deg)] [backface-visibility:hidden] 
-          flex flex-col justify-around items-center h-[95%]">
+          flex flex-col justify-around items-center h-[95%]"
+        >
           <Texte tag="h3" variant="h3" texte={titreVerso} />
 
           <ul className="text-black dark:text-white pb-4 mt-3">
