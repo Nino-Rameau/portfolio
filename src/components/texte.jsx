@@ -1,17 +1,21 @@
 import { tv } from "tailwind-variants";
 
 const texteTags = tv({
-  base: "!text-black dark:!text-white",
+  //base: "!text-black dark:!text-white",
   variants: {
-    variant: {
-      h1: "font-titre text-xxl bg-bleu_clair dark:bg-bleu_fonce text-center rounded-2xl py-3 mx-4 lg:mx-60 my-20 shadow-[0px_0px_60px] shadow-bleu_fonce2 ",
+    balise: {
+      h1: "font-titre text-xxl bg-bleu_clair dark:bg-bleu_fonce text-center rounded-2xl py-3 mx-4 lg:mx-60 my-20 shadow-[0px_0px_20px_#8cd0f2] dark:shadow-[0px_0px_20px_#3000f0]",
       h2: "font-titre text-center text-xl",
       h3: "font-titre text-center text-l",
       h4: "font-titre text-center text-m",
       p: "text-s font-texte",
-      li: "text-s font-texte list-disc ml-8",
       p2: "text-xs font-texte",
       a: "text-s font-texte  underline whitespace-nowrap",
+      btn_xs: "text-xs font-titre",
+    },
+    couleur: {
+      classique: "!text-black dark:!text-white",
+      couleur: "!text-bleu_fonce dark:!text-bleu_clair",
     },
     marge: {
       s: "m-1",
@@ -30,11 +34,15 @@ const texteTags = tv({
       left_l: "pl-4",
     },
   },
+  defaults: {
+    couleur: "classique",
+  },
 });
 
 const Texte = ({
   tag: Tag,
-  variant,
+  balise,
+  couleur = "classique",
   texte,
   lien,
   marge,
@@ -43,7 +51,7 @@ const Texte = ({
 }) => {
   return (
     <Tag
-      className={texteTags({ variant, marge, padding, className })}
+      className={texteTags({ balise, couleur, marge, padding, className })}
       href={lien}
     >
       {texte}

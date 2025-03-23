@@ -1,57 +1,61 @@
 import { ProgressBar } from "../components/progressbar";
 import { CardRV } from "../components/cardrectoverso";
 import { Texte } from "../components/texte";
+import { BtnHaut } from "../components/btnhautpage";
+
 
 function Competences() {
   return (
     <>
-      <Texte tag="h1" variant="h1" texte="Mes compétences :" />
+      <Texte tag="h1" balise="h1" texte="Mes compétences :" />
+
+      <BtnHaut />
 
       <Texte
         tag="h2"
-        variant="h2"
+        balise="h2"
         texte="Mes compétences en langages informatiques"
         className="mb-10"
       />
 
       <ProgressBar texte="Python" valeur="70" />
-      <ProgressBar texte="HTML" valeur="80" />
-      <ProgressBar texte="CSS" valeur="70" />
-      <ProgressBar texte="Tailwindcss" valeur="25" />
-      <ProgressBar texte="JavaScript" valeur="20" />
-      <ProgressBar texte="React" valeur="25" />
-      <ProgressBar texte="SQL" valeur="45" />
+      <ProgressBar texte="HTML" valeur="85" />
+      <ProgressBar texte="CSS" valeur="75" />
+      <ProgressBar texte="Tailwindcss" valeur="50" />
+      <ProgressBar texte="JavaScript" valeur="30" />
+      <ProgressBar texte="React" valeur="50" />
+      <ProgressBar texte="SQL" valeur="40" />
       <ProgressBar texte="PHP" valeur="5" />
 
       <Texte
         tag="h2"
-        variant="h2"
+        balise="h2"
         texte="Mes autres compétences :"
         className="my-10"
       />
 
       <Texte
         tag="h3"
-        variant="h3"
+        balise="h3"
         texte="Développement web"
         className="mt-10"
       />
       <ProgressBar texte="WordPress & Elementor" valeur="45" />
-      <ProgressBar texte="Git et GitHub" valeur="60" />
-      <ProgressBar texte="Figma" valeur="25" />
+      <ProgressBar texte="Git et GitHub" valeur="65" />
+      <ProgressBar texte="Figma" valeur="60" />
 
-      <Texte tag="h3" variant="h3" texte="Graphisme" className="mt-10" />
+      <Texte tag="h3" balise="h3" texte="Graphisme" className="mt-10" />
       <ProgressBar texte="Canva" valeur="85" />
       <ProgressBar texte="PhotoShop" valeur="30" />
-      <ProgressBar texte="Illustrator" valeur="35" />
+      <ProgressBar texte="Illustrator" valeur="30" />
       <ProgressBar texte="InDesign" valeur="30" />
 
-      <Texte tag="h3" variant="h3" texte="Communication" className="mt-10" />
+      <Texte tag="h3" balise="h3" texte="Communication" className="mt-10" />
       <ProgressBar texte="Trello" valeur="30" />
 
       <Texte
         tag="h3"
-        variant="h3"
+        balise="h3"
         texte="Traitements de texte"
         className="mt-10"
       />
@@ -61,7 +65,7 @@ function Competences() {
 
       <Texte
         tag="h1"
-        variant="h1"
+        balise="h1"
         texte="Mes certifications :"
         className="mt-30"
       />

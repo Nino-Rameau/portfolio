@@ -5,6 +5,7 @@ export function Darkmod() {
     localStorage.getItem("theme") === "dark"
   );
 
+  // ajoute dark pour mode sombre
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");

@@ -7,14 +7,23 @@ function Projets() {
     <>
       <Texte
         tag="h1"
-        variant="h1"
+        balise="h1"
         texte="Voici des projets que j'ai réalisé :"
       />
 
       <BtnHaut />
 
       <Projet
-        ordre="reverse"
+        ordre="row-reverse"
+        titleProjet="Site e-commerce de vente de goodies de l'école"
+        description="J'ai réalisé un wireframe, la maquette sur Figma et l'intégration web sur WordPress. J'ai également fait le SEO du site e-commerce qui permettrait la vente de goodies pour la Normandie Web School."
+        date="Réalisé en mars 2025"
+        tags={["Figma", "WordPress", "Travail individuel"]}
+        image={["img/site_e-commerce_nws/img-figma-sweat.png"]}
+        nomImg={["Image de la maquette de la page du produit"]}
+      />
+      <Projet
+        ordre="row"
         titleProjet="Projet pour Handisup"
         description="En équipe, nous avons réalisé la refonte d’un site web en réalisant d’abord une analyse benchmark pour identifier les axes d’amélioration. Nous avons ensuite repensé l’arborescence du site, conçu une maquette sur Figma, puis intégré le site sur WordPress."
         date="Réalisé de janvier à février 2025"
@@ -70,7 +79,7 @@ function Projets() {
         ordre="row"
         titleProjet="Projet Club Eco Saint Sever"
         description="Par groupe de 5 nous avons réalisé des projets comprenant un logo, une charte graphique, une maquette de site vitrine sur figma, une bannière et des goodies. J'ai en plus de cela réalisé l'intégration web de notre maquette."
-        texteLienSiteWeb="Lien vers la maquette que j'ai intégré"
+        texteLienSiteWeb="Lien vers l'intégration de la maquette"
         lienSiteWeb="https://nino-rameau.github.io/integration-maquette-figma-projet-club-eco-saint-sever/"
         date="Réalisé de novembre à decembre 2024"
         tags={[

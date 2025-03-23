@@ -3,8 +3,9 @@ export const BtnHaut = () => {
     <button
       className="fixed bottom-4 right-4 px-1 py-3 bg-bleu_milieu rounded-full text-xl hover:scale-125 text-white"
       title="Retour en haut de la page"
-      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}   // remonte en haut de la page
     >
+      {/* icone de fleche */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

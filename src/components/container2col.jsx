@@ -7,9 +7,11 @@ export const Container = ({ para1, para2, img, altimg, direction, cta }) => {
       className=" lg:flex  items-center bg-bleu_clair dark:bg-bleu_fonce rounded-xl mx-4 lg:mx-40 my-20"
       style={{ flexDirection: direction }}
     >
+      {/* div avec 2 paragraphes */}
       <div className="p-4 lg:p-10 lg:max-w-[55%]">
-        <Texte tag="p" variant="p" texte={para1} />
-        <Texte tag="p" variant="p" texte={para2} className="pt-6 mb-8" />
+        <Texte tag="p" balise="p" texte={para1} className="md:text-justify"/>
+        <Texte tag="p" balise="p" texte={para2} className="pt-6 mb-8 md:text-justify" />
+        {/* si cta (btn) afficher ici */}
         {cta === "True" && (
           <Link
             to="/contact"
@@ -20,6 +22,7 @@ export const Container = ({ para1, para2, img, altimg, direction, cta }) => {
         )}
       </div>
       <div>
+        {/* img */}
         <img src={img} alt={altimg} className="flex m-auto pb-4 max-w-[95%]" />
       </div>
     </div>

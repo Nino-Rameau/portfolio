@@ -10,6 +10,7 @@ export const CardRV = ({
   textLien,
   lien,
 }) => {
+
   return (
     <div className="group relative h-[340px] w-[250px] [perspective:1000px] m-7">
       <div
@@ -17,25 +18,31 @@ export const CardRV = ({
       [transform-style:preserve-3d] 
       group-hover:[transform:rotatey(180deg)]"
       >
+        {/* recto de la carte */}
         <div
           className="absolute w-full h-full rounded-xl 
-        bg-gradient-to-br from-cyan-600 to-indigo-900 [backface-visibility:hidden] text-black dark:text-white flex flex-col justify-around items-center "
+        bg-gradient-to-br  from-bleu_clair2 to-bleu_milieu dark:bg-gradient-to-r dark:from-bleu_milieu dark:to-bleu_fonce [backface-visibility:hidden] text-black dark:text-white flex flex-col justify-around items-center "
         >
-          <Texte tag="h2" variant="h3" marge="s" texte={titleRecto} />
+          {/* titre recto */}
+          <Texte tag="h2" balise="h3" marge="s" texte={titleRecto} />
 
+          {/* image recto (logo)*/}
           <img
             src={image}
             alt={descriptionImage}
             className="w-1/2 mx-auto my-8"
           />
+
+          {/* date */}
           <Texte
             tag="p"
-            variant="p"
+            balise="p"
             marge="l"
             texte={date}
             className="text-center pb-8"
           />
 
+          {/* icone pour retourner la carte */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -48,23 +55,27 @@ export const CardRV = ({
           </svg>
         </div>
 
+        {/* verso de la carte */}
         <div
           className="absolute w-full rounded-xl
           bg-gradient-to-br from-cyan-600 to-indigo-900  p-5 
           [transform:rotatey(180deg)] [backface-visibility:hidden] 
           flex flex-col justify-around items-center h-[95%]"
         >
-          <Texte tag="h3" variant="h3" texte={titreVerso} />
+          {/* titre verso */}
+          <Texte tag="h3" balise="h3" texte={titreVerso} />
 
+          {/* description verso (liste) */}
           <ul className="text-black dark:text-white pb-4 mt-3">
             {descriptionVerso.map((text, index) => (
               <li key={index} className="list-disc ml-4">
-                <Texte tag="p" variant="p2" texte={text} />
+                <Texte tag="p" balise="p2" texte={text} />
               </li>
             ))}
           </ul>
 
-          <Texte tag="a" variant="a" texte={textLien} lien={lien} />
+          {/* lien verso vers la certification*/}
+          <Texte tag="a" balise="a" texte={textLien} lien={lien} />
         </div>
       </div>
     </div>
