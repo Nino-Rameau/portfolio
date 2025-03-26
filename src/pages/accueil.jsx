@@ -19,7 +19,7 @@ function Accueil() {
         cta="False"
       />
       <Container
-        para1="Je suis curieux, motivé, à l'écoute et déterminé. Je m'efforce d'apprendre continuellement et me tiens au courant des nouvelles technologies. Mon  objectif est de pouvoir combiner la rigueur technique et la créativité afin de livrer des projets numériques qui sont à la fois fonctionnels et esthétiques."
+        para1="Je suis curieux curieux, motivé, à l'écoute et déterminé. Je m'efforce d'apprendre continuellement et me tiens au courant des nouvelles technologies. Mon  objectif est de pouvoir combiner la rigueur technique et la créativité afin de livrer des projets numériques qui sont à la fois fonctionnels et esthétiques."
         para2="Actuellement en recherche d'une alternance pour la rentrée 2025 sur les secteurs d'Evreux ou de Rouen, j'aimerais pouvoir contribuer à la création de sites variés (vitrine, e-commerce, blog, événement, communautaire...). Je souhaite saisir de nouvelles opportunités pour mettre en pratique mes compétences dans un environnement professionnel, tout en approfondissant mes connaissances en développement."
         img="../../img/image-deco-site/image-codage-2.jpg"
         altimg="Image de codage"
