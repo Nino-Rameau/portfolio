@@ -13,13 +13,13 @@ function Contact() {
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="text-bleu_fonce dark:text-bleu_clair">
                 <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 14H4V8l8 5l8-5zm-8-7L4 6h16z"></path>
               </svg>
-              <Texte tag="a" balise="a" texte="nrameau@normandiewebschool.fr" couleur="couleur" href="mailto:nrameau@normandiewebschool.fr" className="text-nowrap"/>
-            </div>
+              <Texte tag="a" balise="a" texte="nrameau@normandiewebschool.fr" couleur="couleur" className="text-nowrap" lien="mailto:nrameau@normandiewebschool.fr" /> 
+              </div>
 
             <div className="flex items-center p-10 gap-4">
               {/* svg telephone */}
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="text-bleu_fonce dark:text-bleu_clair">
-                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.6 14.522c-2.395 2.52-8.504-3.534-6.1-6.064c1.468-1.545-.19-3.31-1.108-4.609c-1.723-2.435-5.504.927-5.39 3.066c.363 6.746 7.66 14.74 14.726 14.042c2.21-.218 4.75-4.21 2.215-5.669c-1.268-.73-3.009-2.17-4.343-.767"></path>
+                <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15.6 14.522c-2.395 2.52-8.504-3.534-6.1-6.064c1.468-1.545-.19-3.31-1.108-4.609c-1.723-2.435-5.504.927-5.39 3.066c.363 6.746 7.66 14.74 14.726 14.042c2.21-.218 4.75-4.21 2.215-5.669c-1.268-.73-3.009-2.17-4.343-.767"></path>
               </svg>
               <Texte tag="p" balise="p" couleur="couleur" texte="+33 6 66 70 05 91" className="text-nowrap" />
             </div>
