@@ -43,6 +43,9 @@ function Cv() {
           />
 
           {/* QRCode */}
+          <Texte tag="h3" balise="h3" texte="Portfolio" className="mt-6" />
+          <Texte tag="a" balise="a" lien="https://nino-rameau.fr" texte="nino-rameau.fr" couleur="couleur" className="text-xl no-underline"/>
+
           <Texte tag="h3" balise="h3" texte="LinkedIn" className="mt-6" />
           <Texte
             tag="a"
@@ -71,19 +74,6 @@ function Cv() {
             }
           />
 
-          <Texte tag="h3" balise="h3" texte="Portfolio" className="mt-6" />
-          <Texte
-            tag="a"
-            balise="a"
-            lien="https://nino-rameau.github.io/portfolio-nino-rameau/index.html"
-            texte={
-              <img
-                src="../../img/portfolio.png"
-                alt="QR code Portfolio"
-                className="mb-4 w-[8rem] md:w-40"
-              />
-            }
-          />
         </div>
 
         <div className="p-4 flex flex-col gap-6 md:border-l-[15px] border-bleu_fonce">
@@ -152,16 +142,16 @@ function Cv() {
               />,
               <Liste
                 items={[
-                  "2024 : Projet Club Eco Saint Sever",
-                  "(Création de logo, charte graphique, site vitrine, identité visuelle...)",
+                  "2025 : Création d’un Portfolio",
+                  "(Codé avec React.js et Tailwind CSS, il présente mes projets, mes compétences. Ce nouveau portfolio est une refonte de mon ancien réalisé en HTML, CSS et JS)",
                 ]}
                 variant="pasPoint"
                 marge="top_6"
               />,
               <Liste
                 items={[
-                  "2024 : Création d’un Portfolio",
-                  "(Codé en HTML, CSS, et JavaScript, il présente mes projets et compétences.)",
+                  "2024 : Projet Club Eco Saint Sever",
+                  "(Création de logo, charte graphique, site vitrine, identité visuelle...)",
                 ]}
                 variant="pasPoint"
                 marge="top_6"
