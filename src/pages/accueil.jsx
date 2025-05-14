@@ -1,5 +1,7 @@
 import { Container } from "../components/container2col";
 import { Texte } from "../components/texte";
+import { Typewriter } from 'react-simple-typewriter'
+
 
 function Accueil() {
   return (
@@ -9,7 +11,17 @@ function Accueil() {
         alt="Nino Rameau"
         className="m-auto rounded-full w-40 mb-10 shadow-[0px_0px_20px_#8cd0f2] dark:shadow-[0px_0px_20px_#3000f0]"
       />
-      <Texte tag="h1" balise="h1" texte="Nino Rameau" />
+      <Texte tag="h1" balise="h1">
+        <Typewriter
+          words={['Nino Rameau']}  // tableau de mots à écrire
+          loop={0}  // pas de boucle (equivalent à boucle infini)
+          cursor    // affiche un curseur
+          cursorStyle="|" // type du curseur
+          typeSpeed={150} // vitesse pour écrire le texte
+          deleteSpeed={100} // vitesse pour supprimer le texte
+          delaySpeed={3000} // temps ou le texte reste affiché
+        />
+      </Texte>
       <Container
         para1="Je m'appelle Nino Rameau, j'ai 18 ans, et je suis étudiant en première année du Bachelor Chef de Projets Digitaux à la Normandie Web School de Rouen. Passionné par le numérique, j'ai découvert l'univers du développement web au lycée, où j'ai obtenu un baccalauréat général avec les spécialités Numérique et Sciences de l'Informatique (NSI) et mathématiques au lycée Modeste Leroy d'Évreux en 2024."
         para2="J'ai ainsi acquis mes premières connaissances en HTML, CSS, SQL et Python, des langages qui me permettent aujourd'hui de réaliser des projets variés, tant en développement front-end qu'en back-end. Mon parcours m'a permis d'explorer différents aspects du développement web qui me passionne en créant des sites web interactifs. Ce sont des projets qui allient à la fois technique, design et créativité."

@@ -8,7 +8,6 @@ function Competences() {
   return (
     <>
       <Texte tag="h1" balise="h1" texte="Mes compétences :" />
-
       <BtnHaut />
 
       <Texte
@@ -23,8 +22,8 @@ function Competences() {
       <ProgressBar texte="CSS" valeur="75" />
       <ProgressBar texte="Tailwindcss" valeur="50" />
       <ProgressBar texte="JavaScript" valeur="30" />
-      <ProgressBar texte="React" valeur="50" />
-      <ProgressBar texte="SQL" valeur="40" />
+      <ProgressBar texte="React" valeur="35" />
+      <ProgressBar texte="SQL" valeur="37" />
       <ProgressBar texte="PHP" valeur="5" />
 
       <Texte
@@ -98,6 +97,21 @@ function Competences() {
           ]}
           textLien="Consulter la formation"
           lien="https://grafikart.fr/formations/php"
+        />
+
+        <CardRV
+          titleRecto="Débutez avec React"
+          image="../../img/logo-openclasseroom.jpg"
+          descriptionImage="logo OpenClassrooms"
+          date="4 avril 2025"
+          titreVerso="Objectifs :"
+          descriptionVerso={[
+            "Comprendre le fonctionnement de React",
+            "Créer une application React complète avec Create React App",
+            "Stocker et récupérer des données avec le state et les effets",
+          ]}
+          textLien="Consulter la formation"
+          lien="https://openclassrooms.com/fr/courses/7008001-debutez-avec-react"
         />
 
         <CardRV

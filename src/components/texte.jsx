@@ -4,7 +4,7 @@ const texteTags = tv({
   //base: "!text-black dark:!text-white",
   variants: {
     balise: {
-      h1: "font-titre text-xxl bg-bleu_clair dark:bg-bleu_fonce text-center rounded-2xl py-3 mx-4 lg:mx-60 my-20 shadow-[0px_0px_20px_#8cd0f2] dark:shadow-[0px_0px_20px_#3000f0]",
+      h1: "font-titre text-xxl bg-bleu_clair dark:bg-bleu_fonce text-center rounded-2xl py-3 mx-4 lg:mx-60 my-20 shadow-[0px_0px_20px_#8cd0f2] dark:shadow-[0px_0px_60px_#3000f0]",
       h2: "font-titre text-center text-xl",
       h3: "font-titre text-center text-l",
       h4: "font-titre text-center text-m",
@@ -48,13 +48,14 @@ const Texte = ({
   marge,
   padding,
   className,
+  children, // Pour le texte animé
 }) => {
   return (
     <Tag
       className={texteTags({ balise, couleur, marge, padding, className })}
       href={lien}
     >
-      {texte}
+      {children ? children : texte}   {/* on affiche children (utilisé pour texte animé) et si il y en a pas on affiche le props texte */}
     </Tag>
   );
 };

@@ -26,6 +26,7 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/nino-rameau-1a0636332/"
           title="LinkedIn"
+          className="hover:scale-150"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +40,7 @@ const Footer = () => {
         </a>
 
         {/* github */}
-        <a href="https://github.com/Nino-Rameau" title="GitHub">
+        <a href="https://github.com/Nino-Rameau" title="GitHub" className="hover:scale-150">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"

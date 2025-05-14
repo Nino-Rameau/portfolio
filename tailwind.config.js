@@ -4,6 +4,16 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      animation: {
+        'border-move': 'borderMove 4s linear infinite',
+      },
+      keyframes: {
+        borderMove: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
+        },
+      },
       colors: {
         bleu_fonce: "#28337e",
         bleu_fonce2: "#3000f0",
@@ -99,7 +109,7 @@ module.exports = {
           rgba(55, 55, 55, 0) 66.6%,
           rgba(55, 55, 55, 0) 99%
         ),
-        linear-gradient(0deg, rgb(33, 97, 211), rgb(145, 214, 250))`,
+        linear-gradient(0deg, rgb(33, 97, 211), rgb(115, 194, 251))`,
 
         fontSombre: `linear-gradient(
           52deg,
