@@ -5,16 +5,12 @@ import { Texte } from "../components/texte";
 function Projets() {
   return (
     <>
-      <Texte
-        tag="h1"
-        balise="h1"
-        texte="Voici des projets que j'ai réalisé :"
-      />
+      <Texte tag="h1" balise="h1" texte="Voici des projets que j'ai réalisé :" />
 
       <BtnHaut />
 
       <Projet
-        ordre="row"
+        ordre="row-reverse"
         titleProjet="Site e-commerce de vente de goodies de l'école"
         description="J'ai réalisé un wireframe, la maquette sur Figma et l'intégration web sur WordPress. J'ai également fait le SEO du site e-commerce qui permettrait la vente de goodies pour la Normandie Web School."
         date="Réalisé en mars 2025"
@@ -23,7 +19,7 @@ function Projets() {
         nomImg={["Image de la maquette de la page du produit"]}
       />
       <Projet
-        ordre="row-reverse"
+        ordre="row"
         titleProjet="Projet pour Handisup"
         description="En équipe, nous avons réalisé la refonte d’un site web en réalisant d’abord une analyse benchmark pour identifier les axes d’amélioration. Nous avons ensuite repensé l’arborescence du site, conçu une maquette sur Figma, puis intégré le site sur WordPress."
         date="Réalisé de janvier à février 2025"
@@ -32,7 +28,7 @@ function Projets() {
         nomImg={["Image du site"]}
       />
       <Projet
-        ordre="row"
+        ordre="row-reverse"
         titleProjet="Création d'un site web pour une artiste peintre"
         description="J'ai réalisé le logo, la charte graphique, le site vitrine avec le référencement et l'hebergement (via un nom de domaine et github pages) d'une artiste peintre du Loiret."
         texteLienSiteWeb="Le site web"
@@ -54,7 +50,7 @@ function Projets() {
         repoHref="https://github.com/Nino-Rameau/grange-aux-peintures"
       />
       <Projet
-        ordre="row-reverse"
+        ordre="row"
         titleProjet="Intégration d'une maquette figma"
         description="J'ai réalisé l'intégration web d'une maquette figma fictive."
         date="Réalisé en décembre 2024"
@@ -64,7 +60,7 @@ function Projets() {
         repoHref="https://nino-rameau.github.io/partiel-html-css/"
       />
       <Projet
-        ordre="row"
+        ordre="row-reverse"
         titleProjet="Normandie Blog School"
         description="J'ai participé au projet de la création du Normandie Blog School, un site web d'entraide scolaire entre étudiants de mon école."
         texteLienSiteWeb="Le site web"
@@ -75,9 +71,8 @@ function Projets() {
         nomImg={["logo du Normandie Blog School"]}
         repoHref="https://github.com/Nino-Rameau/normandie-blog-school"
       />
-
       <Projet
-        ordre="row-reverse"
+        ordre="row"
         titleProjet="Portfolio V1"
         description="Première et ancienne version de mon portfolio réalisé en HTML, CSS, JS. Il est entièrement responsive."
         texteLienSiteWeb="Lien vers le portfolio"
@@ -88,9 +83,8 @@ function Projets() {
         nomImg={["Aperçu de la page d'accueil"]}
         repoHref="https://github.com/Nino-Rameau/portfolio-nino-rameau"
       />
-
       <Projet
-        ordre="row"
+        ordre="row-reverse"
         titleProjet="Projet Club Eco Saint Sever"
         description="Par groupe de 5 nous avons réalisé des projets comprenant un logo, une charte graphique, une maquette de site vitrine sur figma, une bannière et des goodies. J'ai en plus de cela réalisé l'intégration web de notre maquette."
         texteLienSiteWeb="Lien vers l'intégration de la maquette"
@@ -118,6 +112,18 @@ function Projets() {
           "Les mockup",
         ]}
         repoHref="https://github.com/Nino-Rameau/integration-maquette-figma-projet-club-eco-saint-sever"
+      />
+      <Projet
+        ordre="row"
+        titleProjet="Ma charte graphique"
+        description="Voila ma propre charte graphique, elle est composée de mon logo, ma palette de couleur et mes polices d'écritures."
+        texteLienSiteWeb="Lien vers la charte graphique"
+        lienSiteWeb="https://nino-rameau.fr/charteGraphique"
+        date="Réalisé en octobre 2024"
+        tags={["Logo", "Charte graphique", "Travail individuel"]}
+        image={["img/logo/logo-verti-sans-nom.png",]}
+        nomImg={["image de mon logo"]}
+        className="w-[80%] m-auto"
       />
       <Projet
         ordre="row-reverse"

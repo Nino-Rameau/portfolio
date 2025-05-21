@@ -1,49 +1,129 @@
 import { Texte } from "../components/texte";
+import { useState, useRef } from "react";
+import emailjs from "emailjs-com";
+import ReCAPTCHA from "react-google-recaptcha";
 
-function Contact() {
+
+import { MdOutlineMailOutline } from "react-icons/md";
+import { FaPhone } from "react-icons/fa6";
+import { FaHome } from "react-icons/fa";
+
+const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+const captchaKey = process.env.REACT_APP_RECAPTCHA_PUBLIC_KEY;
+
+const Contact = () => {
+  // utilisation de useState donc des variables d'etat (donnée dynamique géré par react) et non pas de variables classiques
+  const [infoForm, setinfoForm] = useState({ nom: "", email: "", objet: "", message: "" });
+  const [envoieMsg, setChargement] = useState(false); // false si pas d'envoi en cours et true si envoi en cours
+  const [statutMessage, setStatutMessage] = useState({ texte: "", type: "" }); // type = "succès" ou "erreur"
+  const [valeurCaptcha, setValeurCaptcha] = useState(null);
+  const refCaptcha = useRef(null);    // utiliser pour reset le captcha après envoi
+
+  // Quand un champ est complété / modifié
+  const envoyerDonnee = (e) => {
+    const { name, value } = e.target;              // e.target permet de récupérer le contenu du champ 
+    setinfoForm({ ...infoForm, [name]: value });   // copier les valeurs de infoForm puis mes a jour la valeur de la clé qui a changé
+  };
+
+  // Quand captcha est coché 
+  const envoyerCaptcha = (valeur) => {   // stocke le boolean de l'etat du captcha d'apres google
+    setValeurCaptcha(valeur);
+  };
+
+  // envoi du formulaire
+  const EnvoyerForm = async (e) => {
+    e.preventDefault();   // desactive le rechargement de la page quand on envoie le formulaire
+
+    if (!valeurCaptcha) {  // verifie si le captcha est coché sinon message d'erreur
+      setStatutMessage({ texte: "Veuillez valider le reCAPTCHA.", type: "erreur" });
+      return;
+    }
+
+    setChargement(true);  // change l'etat du btn par "envoi en cours"
+    setStatutMessage({ texte: "", type: "" });     // supprime l'ancien message si il y en a un 
+
+    try {
+      const reponse = await emailjs.sendForm(  // envoi du formulaire a emailJS
+        serviceID,
+        templateID,
+        e.target,
+        publicKey
+      );
+      if (reponse.status === 200) {     // 200 est l'etat quand l'envoi est réussi en HTTP
+        setStatutMessage({ texte: "Votre message a été envoyé avec succès !", type: "succès" });   // affiche le message de succès d'envoie sous le btn
+        setinfoForm({ nom: "", email: "", objet: "", message: "" });                               // vide le formulaire
+        refCaptcha.current.reset();                                                                // reset le captcha
+        setValeurCaptcha(null);
+      } else {
+        setStatutMessage({ texte: "Une erreur s'est produite lors de l'envoi du message.", type: "erreur" });
+      }
+    } catch (erreur) {
+      setStatutMessage({ texte: "Erreur : " + erreur.text, type: "erreur" });
+    } finally {
+      setChargement(false);                         // reset le btn a "envoyer" dans tous les cas
+    }
+  };
+
   return (
     <>
-      <div>
-        <Texte tag="h1" balise="h1" texte="Contactez-moi ! " />
-        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 rounded-2xl bg-bleu_clair dark:bg-bleu_fonce md:w-full px-12 md:px-24 m-3 md:m-auto">
+      <Texte tag="h1" balise="h1" texte="Contactez-moi ! " />
 
-          <div className="flex flex-col items-center px-12 md:px-24 sm:py-8">
-            <div className="flex items-center p-10 gap-4">
-              {/* svg enveloppe email */}
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="text-bleu_fonce dark:text-bleu_clair">
-                <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 14H4V8l8 5l8-5zm-8-7L4 6h16z"></path>
-              </svg>
-              <Texte tag="a" balise="a" texte="nrameau@normandiewebschool.fr" couleur="couleur" className="text-nowrap" lien="mailto:nrameau@normandiewebschool.fr" /> 
-              </div>
+      <div className="flex flex-col lg:flex-row rounded-2xl items-center gap-20 lg:gap-40 bg-bleu_clair dark:bg-bleu_fonce p-3 w-[90%] md:w-full md:py-5 md:px-20 lg:py-10 lg:px-40 m-auto">
 
-            <div className="flex items-center p-10 gap-4">
-              {/* svg telephone */}
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="text-bleu_fonce dark:text-bleu_clair">
-                <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15.6 14.522c-2.395 2.52-8.504-3.534-6.1-6.064c1.468-1.545-.19-3.31-1.108-4.609c-1.723-2.435-5.504.927-5.39 3.066c.363 6.746 7.66 14.74 14.726 14.042c2.21-.218 4.75-4.21 2.215-5.669c-1.268-.73-3.009-2.17-4.343-.767"></path>
-              </svg>
-              <Texte tag="p" balise="p" couleur="couleur" texte="+33 6 66 70 05 91" className="text-nowrap" />
+        {/* div formulaire */}
+        <div>
+          <Texte tag="h2" balise="h2" texte="Formulaire de contact" couleur="couleur" className="text-center pb-5" />
+
+          <form onSubmit={EnvoyerForm} className="flex items-center flex-col space-y-4 m-auto">
+
+            <input type="text" name="nom" value={infoForm.nom} onChange={envoyerDonnee} placeholder="Nom et prénom" className="w-80 lg:w-full p-2 rounded dark:bg-gray-700 dark:text-white" required />
+
+            <input type="email" name="email" value={infoForm.email} onChange={envoyerDonnee} placeholder="Adresse email" className="w-80 lg:w-full p-2 rounded dark:bg-gray-700 dark:text-white" required />
+
+            <input type="text" name="objet" value={infoForm.objet} onChange={envoyerDonnee} placeholder="Objet" className="w-80 lg:w-full p-2 rounded dark:bg-gray-700 dark:text-white" required />
+
+            <textarea name="message" value={infoForm.message} onChange={envoyerDonnee} placeholder="Message" className="w-80 lg:w-full p-2 rounded dark:bg-gray-700 dark:text-white" rows="3" required />
+
+            <ReCAPTCHA ref={refCaptcha} sitekey={captchaKey} onChange={envoyerCaptcha} className="pt-4" />  
+
+            <button type="submit" className={`w-80 p-2 bg-bleu_milieu text-white rounded ${envoieMsg ? "opacity-50 cursor-not-allowed" : ""}`} disabled={envoieMsg} >
+              {envoieMsg ? "Envoi en cours..." : "Envoyer"}
+            </button>
+
+          </form>
+
+          {statutMessage.texte && (
+            <div className={`mt-4 text-center ${statutMessage.type === "succès" ? "text-green-500" : "text-red-500"}`}>
+              {statutMessage.texte}
             </div>
-          </div>
-          
-          <div className="flex flex-col items-center px-12 md:px-24 sm:py-8">
-            <div className="flex items-center p-10 gap-4">
-              {/* svg maison */}
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="text-bleu_fonce dark:text-bleu_clair">
-                <path fill="currentColor" d="M5 20v-9.15L2.2 13L1 11.4L12 3l4 3.05V4h3v4.35l4 3.05l-1.2 1.6l-2.8-2.15V20h-5v-6h-4v6zm5-9.975h4q0-.8-.6-1.313T12 8.2t-1.4.513t-.6 1.312"></path>
-              </svg>
-              <Texte tag="p" balise="p" couleur="couleur" texte="Rouen (76)" className="text-nowrap"/>
-            </div>
-
-            <div className="flex items-center p-10 gap-4">
-              {/* svg maison */}
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="text-bleu_fonce dark:text-bleu_clair">
-                <path fill="currentColor" d="M5 20v-9.15L2.2 13L1 11.4L12 3l4 3.05V4h3v4.35l4 3.05l-1.2 1.6l-2.8-2.15V20h-5v-6h-4v6zm5-9.975h4q0-.8-.6-1.313T12 8.2t-1.4.513t-.6 1.312"></path>
-              </svg>
-              <Texte tag="p" balise="p" couleur="couleur" texte="Evreux (27)" className="text-nowrap"/>
-            </div>
-          </div>
-
+          )}
         </div>
+
+        <div className="flex flex-col justify-center items-center">
+
+          <div className="flex items-center p-5 gap-4 pt-10 md:pt-0">
+            <MdOutlineMailOutline className="text-bleu_fonce dark:text-bleu_clair w-8 h-auto" />
+            <Texte tag="a" balise="a" texte="nrameau@normandiewebschool.fr" couleur="couleur" className="text-nowrap" lien="mailto:nrameau@normandiewebschool.fr" />
+          </div>
+
+          <div className="flex items-center p-5 gap-4">
+            <FaPhone className="text-bleu_fonce dark:text-bleu_clair w-6 h-auto" />
+            <Texte tag="p" balise="p" couleur="couleur" texte="+33 6 66 70 05 91" className="text-nowrap" />
+          </div>
+
+          <div className="flex items-center p-5 gap-4">
+            <FaHome className="text-bleu_fonce dark:text-bleu_clair w-8 h-auto" />
+            <Texte tag="p" balise="p" couleur="couleur" texte="Rouen (76)" className="text-nowrap" />
+          </div>
+
+          <div className="flex items-center p-5 gap-4">
+            <FaHome className="text-bleu_fonce dark:text-bleu_clair w-8 h-auto" />
+            <Texte tag="p" balise="p" couleur="couleur" texte="Evreux (27)" className="text-nowrap" />
+          </div>
+        </div>
+
       </div>
     </>
   );

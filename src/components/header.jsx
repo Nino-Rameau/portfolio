@@ -1,22 +1,58 @@
-import { useState, useEffect } from "react";
-import HeaderMobile from "./headerMobile";
-import HeaderDesktop from "./headerDesktop";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
+import { Darkmod } from "./darkmod";
+import { BtnHeader } from "./btnHeader";
+
+import { RxHamburgerMenu } from "react-icons/rx";
+import { RxCross2 } from "react-icons/rx";
+import { FiSun } from "react-icons/fi";
+import { FaRegMoon } from "react-icons/fa";
 
 const Header = () => {
-  // si ecran plus petit que 1080px alors mobile sinon desktop
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 1080);
+  const [darkMode, setDarkMode] = Darkmod();                         // on récupère le darkMode et la fonction setDarkMode
+  const [menuOuvert, setmenuOuvert] = useState(false);              // on initialise le menuOuvert à false (fermé)
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 1080);
-    };
+  const OuvrirFermerMenuBruger = () => setmenuOuvert(!menuOuvert);   // fonction qui inverse l'état du menu
+  const FermetMenuBurger = () => setmenuOuvert(false);               // fonction qui ferme le menu (pour mobile quand on clique sur un lien)
 
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  return (
+    <header className="flex items-center justify-around bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:bg-gradient-to-r dark:from-bleu_milieu dark:to-bleu_fonce h-20 sticky top-0 z-50">
 
-  // renvoie soit compo header mobile ou desktop
-  return isMobile ? <HeaderMobile /> : <HeaderDesktop />;
+      {/* Logo */}
+      <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+        <img src="img/logo/logo-verti-sans-nom.png" alt="Mon logo (renvoie à la page d'accueil)" className="w-16" />
+      </Link>
+
+      {/* Menu burger */}
+      <button onClick={OuvrirFermerMenuBruger} className="lg:hidden z-50 text-black dark:text-white" >
+        {menuOuvert ? (
+          <RxCross2 className="w-10 h-auto"/>  // icone croix
+        ) : (
+          <RxHamburgerMenu className="w-10 h-auto"/> // icone burger
+        )}
+      </button>
+
+      {/* Navigation */}
+      <nav className={`bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:from-bleu_milieu dark:to-bleu_fonce lg:bg-none flex flex-col items-center lg:flex-row lg:space-x-10 lg:space-y-0 fixed top-20 left-0 w-full lg:static lg:w-auto z-40 ${menuOuvert ? "block" : "hidden"} lg:flex lg:space-x-10`} >
+        <BtnHeader to="/" onClick={FermetMenuBurger} texte="Accueil"/>
+        <BtnHeader to="/competences" onClick={FermetMenuBurger} texte="Compétences"/>
+        <BtnHeader to="/projets" onClick={FermetMenuBurger} texte="Projets"/>
+        {/* <BtnHeader to="/experiences" onClick={FermetMenuBurger} texte="Expériences"/> */}
+        <BtnHeader to="/cv" onClick={FermetMenuBurger} texte="CV"/>
+        <BtnHeader to="/contact" onClick={FermetMenuBurger} texte="Contact"/>
+      </nav>
+
+      {/* Bouton dark mode */}
+      <button title="Mode clair / sombre" onClick={() => setDarkMode(!darkMode)} className="ml-4" >
+        {darkMode ? (
+          <FaRegMoon className="text-white w-8 h-auto"/>
+        ) : (
+          <FiSun className="w-8 h-auto"/>
+        )}
+      </button>
+    </header>
+  );
 };
 
 export default Header;

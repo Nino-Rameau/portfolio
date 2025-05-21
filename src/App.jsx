@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Accueil from "./pages/accueil";
 import Competences from "./pages/competences";
 import Projets from "./pages/projets";
+import Experiences from "./pages/experiences";
 import CharteGraphique from "./pages/charteGraphique";
 import Cv from "./pages/cv";
 import Contact from "./pages/contact";
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Accueil />} />
           <Route path="/competences" element={<Competences />} />
           <Route path="/projets" element={<Projets />} />
+          <Route path="/experiences" element={<Experiences />} />
           <Route path="/charteGraphique" element={<CharteGraphique />} />
           <Route path="/cv" element={<Cv />} />
           <Route path="/contact" element={<Contact />} />

@@ -10,7 +10,6 @@ const listStyles = tv({
       point: "list-disc",
       pasPoint: "list-none",
     },
-    // gestion des marges
     marge: {
       left: "ml-4",
       top_6: "mt-6",
@@ -28,8 +27,9 @@ const listStyles = tv({
 const Liste = ({ items, variant, marge, className, text }) => {
   return (
     <ul className={listStyles({ variant, marge })}>
-      {items.map((item, index) => (
-        <li key={index} className={`${className || ""} ${listStyles({ text })}`}>
+      {items.map((item, index) => ( // on parcours le tableau items (tab avec tout les li)
+        // on ajoute a chaque li si il y a le className (sinon chaine vide pour eviter erreur) et le text (aligbement)
+        <li key={index} className={`${className || ""} ${listStyles({ text })}`}>    
           {item}
         </li>
       ))}

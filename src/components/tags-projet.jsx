@@ -21,9 +21,7 @@ export const Tag = ({ tag }) => {
   const bgColor = couleurTag[tag] || "bg-black";
 
   return (
-    <p
-      className={`px-3 py-0.5 text-black font-texte rounded-3xl text-nowrap m-1 ${bgColor}`}
-    >
+    <p className={`px-3 py-0.5 text-black font-texte rounded-3xl text-nowrap m-1 ${bgColor}`} >
       {tag}
     </p>
   );

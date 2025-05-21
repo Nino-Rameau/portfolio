@@ -8,14 +8,10 @@ function Competences() {
   return (
     <>
       <Texte tag="h1" balise="h1" texte="Mes compétences :" />
+
       <BtnHaut />
 
-      <Texte
-        tag="h2"
-        balise="h2"
-        texte="Mes compétences en langages informatiques"
-        className="mb-10"
-      />
+      <Texte tag="h2" balise="h2" texte="Mes compétences en langages informatiques" className="mb-10" />
 
       <ProgressBar texte="Python" valeur="70" />
       <ProgressBar texte="HTML" valeur="85" />
@@ -26,19 +22,9 @@ function Competences() {
       <ProgressBar texte="SQL" valeur="37" />
       <ProgressBar texte="PHP" valeur="5" />
 
-      <Texte
-        tag="h2"
-        balise="h2"
-        texte="Mes autres compétences :"
-        className="my-10"
-      />
+      <Texte tag="h2" balise="h2" texte="Mes autres compétences :" className="my-10" />
 
-      <Texte
-        tag="h3"
-        balise="h3"
-        texte="Développement web"
-        className="mt-10"
-      />
+      <Texte tag="h3" balise="h3" texte="Développement web" className="mt-10" />
       <ProgressBar texte="WordPress & Elementor" valeur="45" />
       <ProgressBar texte="Git et GitHub" valeur="65" />
       <ProgressBar texte="Figma" valeur="60" />
@@ -52,22 +38,12 @@ function Competences() {
       <Texte tag="h3" balise="h3" texte="Communication" className="mt-10" />
       <ProgressBar texte="Trello" valeur="30" />
 
-      <Texte
-        tag="h3"
-        balise="h3"
-        texte="Traitements de texte"
-        className="mt-10"
-      />
+      <Texte tag="h3" balise="h3" texte="Traitements de texte" className="mt-10" />
       <ProgressBar texte="Word" valeur="90" />
       <ProgressBar texte="Power Point" valeur="80" />
       <ProgressBar texte="Exel" valeur="30" />
 
-      <Texte
-        tag="h1"
-        balise="h1"
-        texte="Mes certifications :"
-        className="mt-30"
-      />
+      <Texte tag="h1" balise="h1" texte="Mes certifications :" className="mt-30" />
 
       <div className=" m-auto flex flex-row flex-wrap justify-around">
         <CardRV
