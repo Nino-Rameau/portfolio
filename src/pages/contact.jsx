@@ -14,7 +14,6 @@ const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 const captchaKey = process.env.REACT_APP_RECAPTCHA_PUBLIC_KEY;
 
 const Contact = () => {
-  // utilisation de useState donc des variables d'etat (donnée dynamique géré par react) et non pas de variables classiques
   const [infoForm, setinfoForm] = useState({ nom: "", email: "", objet: "", message: "" });
   const [envoieMsg, setChargement] = useState(false); // false si pas d'envoi en cours et true si envoi en cours
   const [statutMessage, setStatutMessage] = useState({ texte: "", type: "" }); // type = "succès" ou "erreur"
@@ -51,7 +50,7 @@ const Contact = () => {
         e.target,
         publicKey
       );
-      if (reponse.status === 200) {     // 200 est l'etat quand l'envoi est réussi en HTTP
+      if (reponse.status === 200) { 
         setStatutMessage({ texte: "Votre message a été envoyé avec succès !", type: "succès" });   // affiche le message de succès d'envoie sous le btn
         setinfoForm({ nom: "", email: "", objet: "", message: "" });                               // vide le formulaire
         refCaptcha.current.reset();                                                                // reset le captcha
@@ -72,7 +71,6 @@ const Contact = () => {
 
       <div className="flex flex-col lg:flex-row rounded-2xl items-center gap-20 lg:gap-40 bg-bleu_clair dark:bg-bleu_fonce p-3 w-[90%] md:w-full md:py-5 md:px-20 lg:py-10 lg:px-40 m-auto">
 
-        {/* div formulaire */}
         <div>
           <Texte tag="h2" balise="h2" texte="Formulaire de contact" couleur="couleur" className="text-center pb-5" />
 

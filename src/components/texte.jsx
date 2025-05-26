@@ -1,7 +1,6 @@
 import { tv } from "tailwind-variants";
 
 const texteTags = tv({
-  //base: "!text-black dark:!text-white",
   variants: {
     balise: {
       h1: "font-titre text-xxl bg-bleu_clair dark:bg-bleu_fonce text-center rounded-2xl py-3 mx-4 lg:mx-60 my-20 shadow-[0px_0px_20px_#8cd0f2] dark:shadow-[0px_0px_60px_#3000f0]",

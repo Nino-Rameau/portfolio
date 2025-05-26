@@ -1,13 +1,14 @@
 import { Texte } from "../components/texte";
 
-
-
-function experiences() {
+function Experience() {
   return (
     <>
-        <Texte tag="h1" balise="h1" texte="Expériences :"/>
+      <div>
+        <Texte tag="h1" balise="h1" texte="Mes expériences" />
+        
+      </div>
     </>
   );
 }
 
-export default experiences;
+export default Experience;

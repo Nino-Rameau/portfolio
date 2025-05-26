@@ -17,7 +17,6 @@ export const Tag = ({ tag }) => {
     "Travail individuel": "bg-[#b771e8]",
   };
 
-  // Si pas de couleur pour le tag alors couleur par default
   const bgColor = couleurTag[tag] || "bg-black";
 
   return (

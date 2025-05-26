@@ -10,13 +10,13 @@ function Accueil() {
       
       <Texte tag="h1" balise="h1">
         <Typewriter
-          words={['Nino Rameau']}  // tableau de mots à écrire
-          loop={0}  // pas de boucle (equivalent à boucle infini)
-          cursor    // affiche un curseur
-          cursorStyle="|" // type du curseur
-          typeSpeed={150} // vitesse pour écrire le texte
-          deleteSpeed={100} // vitesse pour supprimer le texte
-          delaySpeed={3000} // temps ou le texte reste affiché
+          words={['Nino Rameau']}  
+          loop={0}
+          cursor    
+          cursorStyle="|" 
+          typeSpeed={150} 
+          deleteSpeed={100}
+          delaySpeed={3000}
         />
       </Texte>
 

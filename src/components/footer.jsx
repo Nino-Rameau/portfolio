@@ -19,12 +19,10 @@ const Footer = () => {
 
       <div className="flex flex-row space-x-8 max-md:justify-center max-md:pt-4 text-black dark:text-white">
 
-        {/* Linkedin */}
         <a href="https://www.linkedin.com/in/nino-rameau-1a0636332/" title="LinkedIn" className="hover:scale-150 duration-100">
           <FaLinkedin className="w-10 h-auto"/>
         </a>
 
-        {/* github */}
         <a href="https://github.com/Nino-Rameau" title="GitHub" className="hover:scale-150 duration-100">
           <IoLogoGithub className="w-10 h-auto"/>
         </a>

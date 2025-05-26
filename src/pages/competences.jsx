@@ -36,12 +36,12 @@ function Competences() {
       <ProgressBar texte="InDesign" valeur="30" />
 
       <Texte tag="h3" balise="h3" texte="Communication" className="mt-10" />
-      <ProgressBar texte="Trello" valeur="30" />
+      <ProgressBar texte="Trello" valeur="60" />
 
       <Texte tag="h3" balise="h3" texte="Traitements de texte" className="mt-10" />
       <ProgressBar texte="Word" valeur="90" />
       <ProgressBar texte="Power Point" valeur="80" />
-      <ProgressBar texte="Exel" valeur="30" />
+      <ProgressBar texte="Excel" valeur="30" />
 
       <Texte tag="h1" balise="h1" texte="Mes certifications :" className="mt-30" />
 

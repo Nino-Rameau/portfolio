@@ -19,22 +19,19 @@ const Header = () => {
   return (
     <header className="flex items-center justify-around bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:bg-gradient-to-r dark:from-bleu_milieu dark:to-bleu_fonce h-20 sticky top-0 z-50">
 
-      {/* Logo */}
       <Link to="/" onClick={() => window.scrollTo(0, 0)}>
         <img src="img/logo/logo-verti-sans-nom.png" alt="Mon logo (renvoie à la page d'accueil)" className="w-16" />
       </Link>
 
-      {/* Menu burger */}
       <button onClick={OuvrirFermerMenuBruger} className="lg:hidden z-50 text-black dark:text-white" >
         {menuOuvert ? (
-          <RxCross2 className="w-10 h-auto"/>  // icone croix
+          <RxCross2 className="w-10 h-auto"/>
         ) : (
-          <RxHamburgerMenu className="w-10 h-auto"/> // icone burger
+          <RxHamburgerMenu className="w-10 h-auto"/>
         )}
       </button>
 
-      {/* Navigation */}
-      <nav className={`bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:from-bleu_milieu dark:to-bleu_fonce lg:bg-none flex flex-col items-center lg:flex-row lg:space-x-10 lg:space-y-0 fixed top-20 left-0 w-full lg:static lg:w-auto z-40 ${menuOuvert ? "block" : "hidden"} lg:flex lg:space-x-10`} >
+      <nav className={`bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:from-bleu_milieu dark:to-bleu_fonce lg:bg-none flex flex-col items-center lg:flex-row lg:space-x-10 lg:space-y-0 fixed top-20 left-0 w-full lg:static lg:w-auto z-40 ${menuOuvert ? "block" : "hidden"} lg:flex lg:space-x-10`} >   
         <BtnHeader to="/" onClick={FermetMenuBurger} texte="Accueil"/>
         <BtnHeader to="/competences" onClick={FermetMenuBurger} texte="Compétences"/>
         <BtnHeader to="/projets" onClick={FermetMenuBurger} texte="Projets"/>
@@ -43,7 +40,6 @@ const Header = () => {
         <BtnHeader to="/contact" onClick={FermetMenuBurger} texte="Contact"/>
       </nav>
 
-      {/* Bouton dark mode */}
       <button title="Mode clair / sombre" onClick={() => setDarkMode(!darkMode)} className="ml-4" >
         {darkMode ? (
           <FaRegMoon className="text-white w-8 h-auto"/>

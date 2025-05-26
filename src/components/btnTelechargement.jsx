@@ -8,7 +8,7 @@ const BtnTelechargement = ({ texte, lien }) => {
 
             <Texte tag="p" balise="btn_xs" className="m-2 text-black dark:text-white transition-all" texte={texte} />
 
-            <div className="absolute right-0 w-10 h-full flex items-center justify-center rounded-xl bg-bleu_milieu dark:bg-bleu_fonce group-hover:w-full group-hover:bg-bleu_fonce transition-all duration-300">
+            <div className="absolute right-0 w-10 h-full flex items-center justify-center rounded-xl bg-bleu_milieu dark:bg-bleu_fonce group-hover:w-full group-hover:bg-bleu_milieu group-hover:dark:bg-bleu_fonce transition-all duration-300">
 
                 <FiDownload className="text-bleu_clair h-6 w-6"/>
             </div>
