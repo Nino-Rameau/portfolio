@@ -14,12 +14,12 @@ const Header = () => {
   const [menuOuvert, setmenuOuvert] = useState(false);              // on initialise le menuOuvert à false (fermé)
 
   const OuvrirFermerMenuBruger = () => setmenuOuvert(!menuOuvert);   // fonction qui inverse l'état du menu
-  const FermetMenuBurger = () => setmenuOuvert(false);               // fonction qui ferme le menu (pour mobile quand on clique sur un lien)
+  const FermerMenuBurger = () => setmenuOuvert(false);               // fonction qui ferme le menu (pour mobile quand on clique sur un lien)
 
   return (
     <header className="flex items-center justify-around bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:bg-gradient-to-r dark:from-bleu_milieu dark:to-bleu_fonce h-20 sticky top-0 z-50">
 
-      <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+      <Link to="/" onClick={() => { window.scrollTo(0, 0); FermerMenuBurger(); }}>
         <img src="img/logo/logo-verti-sans-nom.png" alt="Mon logo (renvoie à la page d'accueil)" className="w-16" />
       </Link>
 
@@ -32,12 +32,12 @@ const Header = () => {
       </button>
 
       <nav className={`bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:from-bleu_milieu dark:to-bleu_fonce lg:bg-none flex flex-col items-center lg:flex-row lg:space-x-10 lg:space-y-0 fixed top-20 left-0 w-full lg:static lg:w-auto z-40 ${menuOuvert ? "block" : "hidden"} lg:flex lg:space-x-10`} >   
-        <BtnHeader to="/" onClick={FermetMenuBurger} texte="Accueil"/>
-        <BtnHeader to="/competences" onClick={FermetMenuBurger} texte="Compétences"/>
-        <BtnHeader to="/projets" onClick={FermetMenuBurger} texte="Projets"/>
-        {/* <BtnHeader to="/experiences" onClick={FermetMenuBurger} texte="Expériences"/> */}
-        <BtnHeader to="/cv" onClick={FermetMenuBurger} texte="CV"/>
-        <BtnHeader to="/contact" onClick={FermetMenuBurger} texte="Contact"/>
+        <BtnHeader to="/" onClick={FermerMenuBurger} texte="Accueil"/>
+        <BtnHeader to="/competences" onClick={FermerMenuBurger} texte="Compétences"/>
+        <BtnHeader to="/projets" onClick={FermerMenuBurger} texte="Projets"/>
+        {/* <BtnHeader to="/experiences" onClick={FermerMenuBurger} texte="Expériences"/> */}
+        <BtnHeader to="/cv" onClick={FermerMenuBurger} texte="CV"/>
+        <BtnHeader to="/contact" onClick={FermerMenuBurger} texte="Contact"/>
       </nav>
 
       <button title="Mode clair / sombre" onClick={() => setDarkMode(!darkMode)} className="ml-4" >

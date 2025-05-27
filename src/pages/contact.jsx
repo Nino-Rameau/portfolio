@@ -3,7 +3,6 @@ import { useState, useRef } from "react";
 import emailjs from "emailjs-com";
 import ReCAPTCHA from "react-google-recaptcha";
 
-
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
@@ -69,7 +68,7 @@ const Contact = () => {
     <>
       <Texte tag="h1" balise="h1" texte="Contactez-moi ! " />
 
-      <div className="flex flex-col lg:flex-row rounded-2xl items-center gap-20 lg:gap-40 bg-bleu_clair dark:bg-bleu_fonce p-3 w-[90%] md:w-full md:py-5 md:px-20 lg:py-10 lg:px-40 m-auto">
+      <div className="flex flex-col lg:flex-row rounded-2xl items-center gap-20 lg:gap-25 bg-bleu_clair dark:bg-bleu_fonce p-2 w-[90%] md:w-full md:py-3 md:px-20 lg:py-10 lg:px-20 xl:px-40 xl:gap-40 m-auto">
 
         <div>
           <Texte tag="h2" balise="h2" texte="Formulaire de contact" couleur="couleur" className="text-center pb-5" />

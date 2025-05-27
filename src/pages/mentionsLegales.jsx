@@ -28,8 +28,10 @@ function MentionsLegales() {
         <Texte tag="p" balise="p" texte="Le site peut contenir des liens hypertextes redirigeant vers des sites tiers. Le propriétaire du site n'exerce aucun contrôle sur ces contenus externes et décline toute responsabilité quant à leur disponibilité, contenu ou utilisation." />
 
         <Texte tag="h2" balise="h2" marge="s" texte="5. Données personnelles et cookies" className="text-left pt-6" />
-        <Texte tag="p" balise="p" texte="Ce site ne possède aucun cookie. Ce site ne collecte aucune donnée personnelle sans le consentement explicite des utilisateurs." />
-
+        <Texte tag="p" balise="p" texte="Ce site ne dépose aucun cookie." />
+        <Texte tag="p" balise="p" texte="Concernant les données personnelles : ce site ne collecte aucune donnée personnelle sans le consentement explicite des utilisateurs." />
+        <Texte tag="p" balise="p" texte="Le formulaire de contact disponible sur le site permet aux utilisateurs de transmettre volontairement des informations (nom, prénom, adresse email, message) uniquement dans le but d’être recontactés. Ces données ne sont pas stockées sur le site ou dans une base de données et sont uniquement utilisées pour répondre aux demandes." />
+      
         <Texte tag="h2" balise="h2" marge="s" texte="6. Contact" className="text-left pt-6" />
         <Texte tag="p" balise="p" texte="Pour toute question relative au site ou à son contenu, veuillez contacter : nrameau@normandiewebschool.fr" />
       </div>
