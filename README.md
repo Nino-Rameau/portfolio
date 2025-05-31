@@ -1,6 +1,6 @@
 # Portfolio
 
-Ce projet est mon portfolio personnel, développé avec React et Tailwind CSS. Il présente mon parcours, mes compétences et mes réalisations dans le domaine du développement web.
+Ce projet est mon portfolio personnel, développé par Create React App avec React 19 et Tailwind CSS 3. Il présente mon parcours, mes compétences et mes réalisations dans le domaine du développement web.
 
 ## Sommaire
 
@@ -13,17 +13,17 @@ Ce projet est mon portfolio personnel, développé avec React et Tailwind CSS. I
 3. [Pages](#pages)
 4. [Déploiement](#déploiement)
 5. [Auteur](#auteur)
-6. [License](#License)
+6. [Licence](#Licence)
 
 ## Technologies utilisées
 
 - **React** : Bibliothèque JavaScript pour construire l'interface utilisateur
 - **Tailwind CSS** : Framework CSS pour le design
-- **Tailwind Variant** : Création de variant dans certain composant
+- **Tailwind Variant** : Création de variants dans certains composants comme les boutons
 - **React Router DOM** : Gestion de la navigation entre les pages
 - **Swiper** : carrousel de la page projet
 - **simple typewriter** : texte animé sur la page d'accueil
-- **React icons** : icons
+- **React icons** : icones
 - **emailJS** : Permet de faire fonctionner mon formulaire
 - **react google recaptcha** : Permet l'ajout d'un captcha dans le formulaire
 
@@ -66,10 +66,11 @@ Les fichiers optimisés seront dans le dossier `build/`.
 
 - **Page d'accueil**
 - **Page de compétence et certification**
-- **Page de présentation de tout mes projets**
+- **Page de présentation de mes projets**
 - **Page de présentation de ma charte graphique**
 - **Page avec mon CV**
 - **Page de contact**
+- **Page de mentions légales**
 
 ## Déploiement
 
@@ -80,7 +81,7 @@ Le site est déployé sur mon nom de domaine : [nino-rameau.fr](https://nino-ram
 
 **Nino Rameau** - [LinkedIn](https://www.linkedin.com/in/nino-rameau-1a0636332/) - [GitHub](https://github.com/Nino-Rameau)
 
-## License
+## Licence
 
-Réalisé dans le cadre scolaire et personels en février 2025 et est mise a jour régulièrement.
+Réalisé dans le cadre scolaire et personel en février 2025 et est mis a jour régulièrement.
 

@@ -14,6 +14,8 @@ const texteTags = tv({
     },
     couleur: {
       classique: "!text-black dark:!text-white",
+      black: "!text-black",
+      white: "!text-white",
       couleur: "!text-bleu_fonce dark:!text-bleu_clair",
     },
     marge: {

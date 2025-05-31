@@ -95,7 +95,7 @@ export const Projet = ({
           {repoHref && (
             <>
               <Texte tag="p" balise="p" texte="Pour plus d’informations sur le codage, cliquez sur l’icône GitHub :" className="text-center" />
-              <a href={repoHref}>
+              <a href={repoHref} title="Lien vers le repository GitHub">
                 <IoLogoGithub className="text-black dark:text-white m-auto w-10 md:w-20 h-auto"/>
               </a>
             </>

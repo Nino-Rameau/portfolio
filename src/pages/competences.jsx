@@ -1,47 +1,152 @@
-import { ProgressBar } from "../components/progressbar";
 import { CardRV } from "../components/cardrectoverso";
 import { Texte } from "../components/texte";
 import { BtnHaut } from "../components/btnhautpage";
+import { CardTerminal } from "../components/cardTerminal";
 
 
 function Competences() {
   return (
     <>
-      <Texte tag="h1" balise="h1" texte="Mes compétences :" />
-
       <BtnHaut />
 
-      <Texte tag="h2" balise="h2" texte="Mes compétences en langages informatiques" className="mb-10" />
-
-      <ProgressBar texte="Python" valeur="70" />
-      <ProgressBar texte="HTML" valeur="85" />
-      <ProgressBar texte="CSS" valeur="75" />
-      <ProgressBar texte="Tailwindcss" valeur="50" />
-      <ProgressBar texte="JavaScript" valeur="30" />
-      <ProgressBar texte="React" valeur="35" />
-      <ProgressBar texte="SQL" valeur="37" />
-      <ProgressBar texte="PHP" valeur="5" />
-
-      <Texte tag="h2" balise="h2" texte="Mes autres compétences :" className="my-10" />
-
-      <Texte tag="h3" balise="h3" texte="Développement web" className="mt-10" />
-      <ProgressBar texte="WordPress & Elementor" valeur="45" />
-      <ProgressBar texte="Git et GitHub" valeur="65" />
-      <ProgressBar texte="Figma" valeur="60" />
-
-      <Texte tag="h3" balise="h3" texte="Graphisme" className="mt-10" />
-      <ProgressBar texte="Canva" valeur="85" />
-      <ProgressBar texte="PhotoShop" valeur="30" />
-      <ProgressBar texte="Illustrator" valeur="30" />
-      <ProgressBar texte="InDesign" valeur="30" />
-
-      <Texte tag="h3" balise="h3" texte="Communication" className="mt-10" />
-      <ProgressBar texte="Trello" valeur="60" />
-
-      <Texte tag="h3" balise="h3" texte="Traitements de texte" className="mt-10" />
-      <ProgressBar texte="Word" valeur="90" />
-      <ProgressBar texte="Power Point" valeur="80" />
-      <ProgressBar texte="Excel" valeur="30" />
+      <Texte tag="h1" balise="h1" texte="Mes compétences :" />
+      
+            <div className="flex justify-center items-center flex-wrap mt-4">
+              <CardTerminal 
+              titre="Front-end :"
+              competence={[
+                { 
+                  Langage: "HTML",
+                  Note: 5, 
+                  Description: "Je sais réaliser des pages web bien structurées et optimisées en HTML5, en respectant les standards du web et en utilisant des balises sémantiques pour améliorer l’accessibilité et le référencement naturel (SEO).", 
+                  dureeExperience: "Découvert début 2024, utilisé régulièrement depuis." },
+                { 
+                  Langage: "CSS", 
+                  Note: 5,
+                  Description: "J’utilise CSS3 avec Flexbox, Grid et les media queries pour concevoir des sites web responsifs et esthétiques, adaptés à tous les types d’écrans.", 
+                  dureeExperience: "Découvert début 2024, utilisé régulièrement depuis." },
+                { 
+                  Langage: "JavaScript", 
+                  Note: 2,
+                  Description: "J’ai acquis les bases de JavaScript pour rendre les sites web interactifs et dynamiques. J'apprends à manipuler le DOM, gérer des événements, et j’ai aussi découvert l’automatisation avec Puppeteer, que j’ai utilisé pour réaliser des scripts de scraping de données.", 
+                  dureeExperience: "Découvert fin 2024, mais je l'apprends en priorité sur la partie native et la partie Puppeteer pour du scraping." },
+                { 
+                  Langage: "React", 
+                  Note: 2,
+                  Description: "Je suis en train de découvrir React et son écosystème. J’ai réalisé mon portfolio avec React 19, en intégrant par exemple React Router Dom pour la navigation et Tailwind CSS pour le design. J’apprends à structurer mes applications avec des composants.", 
+                  dureeExperience: "Découvert début 2025, utilisé pour mon portfolio et en cours d’apprentissage." },
+                { 
+                  Langage: "Tailwind CSS", 
+                  Note: 4,
+                  Description: "J’utilise Tailwind CSS pour construire mes interfaces rapidement et efficacement. Grâce à sa syntaxe, je peux créer des designs responsifs et cohérents sans passer par des fichiers CSS classiques et beaucoup plus rapidement.", 
+                  dureeExperience: "Découvert début 2025, utilisé régulièrement dans mes projets, notamment sur mon portfolio." }
+              ]}
+            />
+      
+              <CardTerminal 
+                titre="Back-end :"
+                competence={[
+                  { 
+                    Langage: "Python", 
+                    Note: 4,
+                    Description: "Je maîtrise Python pour créer des scripts et j’utilise des frameworks comme Flask pour développer des sites web avec une base de données.", 
+                    dureeExperience: "Utilisé quotidiennement pendant deux ans au lycée (2022-2024)."},
+                  { 
+                    Langage: "SQL", 
+                    Note: 4,
+                    Description: "J’utilise les requêtes SQL avec un terminal MySQL ou PhpMyAdmin pour effectuer des opérations simples (sélections, insertions, jointures...).", 
+                    dureeExperience: "Appris en 2024 et utilisé régulièrement depuis." },
+                  { Langage: "PHP", 
+                    Note: 1,
+                    Description: "Je possède les bases du langage.", 
+                    dureeExperience: "Initiation en mai 2025." }
+                ]}
+              />
+      
+              <CardTerminal 
+                titre="Développement web :"
+                competence={[
+                  { 
+                    Langage: "WordPress & Elementor", 
+                    Note: 2,
+                    Description: "", 
+                    dureeExperience: "Découvert fin 2024, utilisé très rarement." },
+                  { 
+                    Langage: "Git & GitHub", 
+                    Note: 3,
+                    Description: "Je connais les principes de Git et GitHub. Je connais les commandes de base pour Git.", 
+                    dureeExperience: "Découvert fin 2024, utilisé régulièrement." },
+                  { 
+                    Langage: "Figma", 
+                    Note: 4,
+                    Description: "J’utilise Figma pour créer des maquettes simples de sites web, comme mon portfolio.", 
+                    dureeExperience: "Découvert fin 2024, utilisé ponctuellement." }
+                ]}
+              />
+      
+              <CardTerminal 
+                titre="Graphisme :"
+                competence={[
+                  { 
+                    Langage: "Canva", 
+                    Note: 5,
+                    Description: "Je maîtrise Canva pour créer des visuels simples et efficaces. Je l’utilise surtout pour des présentations ou des mises en pages diverses.", 
+                    dureeExperience: "Découvert au lycée et utilisé régulièrement au quotidien." },
+                  { 
+                    Langage: "PhotoShop", 
+                    Note: 1,
+                    Description: "Je connais les bases de Photoshop et son utilité principale (retouche photo, création d’images).", 
+                    dureeExperience: "Découvert fin 2024, utilisé très rarement." },
+                  { 
+                    Langage: "Illustrator", 
+                    Note: 1,
+                    Description: "J’ai une bonne compréhension d’Illustrator, principalement pour la création de graphismes vectoriels.", 
+                    dureeExperience: "Découvert fin 2024, utilisé très rarement." },
+                  { 
+                    Langage: "InDesign", 
+                    Note: 1,
+                    Description: "Je connais les notions fondamentales d’InDesign pour la mise en page.", 
+                    dureeExperience: "Découvert fin 2024, utilisé très rarement." },
+                  { 
+                    Langage: "LightRoom", 
+                    Note: 1,
+                    Description: "Je connais les fonctions de base de Lightroom pour la retouche photo.", 
+                    dureeExperience: "Découvert fin 2024, utilisé très rarement." }
+                ]}
+              />
+      
+              <CardTerminal 
+                titre="Communication :"
+                competence={[
+                  { 
+                    Langage: "Trello", 
+                    Note: 4,
+                    Description: "J’organise mes tâches et mes projets grâce à Trello, en créant des tableaux collaboratifs pour suivre l’avancement et les priorités.", 
+                    dureeExperience: "Découvert fin 2024, utilisé ponctuellement." },
+                ]}
+              />
+      
+              <CardTerminal 
+                titre="Traitement de texte :"
+                competence={[
+                  { 
+                    Langage: "Word - Google Docs", 
+                    Note: 4,
+                    Description: "J’utilise régulièrement Word et Google Docs pour rédiger et mettre en forme des documents. Je maîtrise les fonctions de base comme les styles, les tableaux et la collaboration en ligne.", 
+                    dureeExperience: "Utilisation fréquente depuis plusieurs années." },
+                  { 
+                    Langage: "Excel - Google Sheets", 
+                    Note: 2,
+                    Description: "J’ai les bases d’Excel et Google Sheets, je sais créer des tableaux simples et utiliser quelques formules de base.", 
+                    dureeExperience: "Utilisation ponctuelle depuis plusieurs années." },
+                  { 
+                    Langage: "Power Point", 
+                    Note: 4,
+                    Description: "Je sais créer des présentations claires et efficaces, en ajoutant des animations et transitions simples.", 
+                    dureeExperience: "Utilisation fréquente depuis plusieurs années." }
+                ]}
+              />
+        </div>
 
       <Texte tag="h1" balise="h1" texte="Mes certifications :" className="mt-30" />
 
