@@ -17,27 +17,32 @@ function Competences() {
               competence={[
                 { 
                   Langage: "HTML",
-                  Note: 5, 
+                  Note: 4.5, 
+                  img: "img/logo-divers/html.png",
                   Description: "Je sais réaliser des pages web bien structurées et optimisées en HTML5, en respectant les standards du web et en utilisant des balises sémantiques pour améliorer l’accessibilité et le référencement naturel (SEO).", 
                   dureeExperience: "Découvert début 2024, utilisé régulièrement depuis." },
                 { 
                   Langage: "CSS", 
                   Note: 5,
+                  img: "img/logo-divers/css.png",
                   Description: "J’utilise CSS3 avec Flexbox, Grid et les media queries pour concevoir des sites web responsifs et esthétiques, adaptés à tous les types d’écrans.", 
                   dureeExperience: "Découvert début 2024, utilisé régulièrement depuis." },
                 { 
                   Langage: "JavaScript", 
-                  Note: 2,
+                  Note: 2.5,
+                  img: "img/logo-divers/js.png",
                   Description: "J’ai acquis les bases de JavaScript pour rendre les sites web interactifs et dynamiques. J'apprends à manipuler le DOM, gérer des événements, et j’ai aussi découvert l’automatisation avec Puppeteer, que j’ai utilisé pour réaliser des scripts de scraping de données.", 
                   dureeExperience: "Découvert fin 2024, mais je l'apprends en priorité sur la partie native et la partie Puppeteer pour du scraping." },
                 { 
                   Langage: "React", 
                   Note: 2,
+                  img: "img/logo-divers/react.png",
                   Description: "Je suis en train de découvrir React et son écosystème. J’ai réalisé mon portfolio avec React 19, en intégrant par exemple React Router Dom pour la navigation et Tailwind CSS pour le design. J’apprends à structurer mes applications avec des composants.", 
                   dureeExperience: "Découvert début 2025, utilisé pour mon portfolio et en cours d’apprentissage." },
                 { 
                   Langage: "Tailwind CSS", 
-                  Note: 4,
+                  Note: 3.5,
+                  img: "img/logo-divers/tailwindcss.png",
                   Description: "J’utilise Tailwind CSS pour construire mes interfaces rapidement et efficacement. Grâce à sa syntaxe, je peux créer des designs responsifs et cohérents sans passer par des fichiers CSS classiques et beaucoup plus rapidement.", 
                   dureeExperience: "Découvert début 2025, utilisé régulièrement dans mes projets, notamment sur mon portfolio." }
               ]}
@@ -49,15 +54,18 @@ function Competences() {
                   { 
                     Langage: "Python", 
                     Note: 4,
+                    img: "img/logo-divers/python.png",
                     Description: "Je maîtrise Python pour créer des scripts et j’utilise des frameworks comme Flask pour développer des sites web avec une base de données.", 
                     dureeExperience: "Utilisé quotidiennement pendant deux ans au lycée (2022-2024)."},
                   { 
                     Langage: "SQL", 
                     Note: 4,
+                    img: "img/logo-divers/sql.png",
                     Description: "J’utilise les requêtes SQL avec un terminal MySQL ou PhpMyAdmin pour effectuer des opérations simples (sélections, insertions, jointures...).", 
                     dureeExperience: "Appris en 2024 et utilisé régulièrement depuis." },
                   { Langage: "PHP", 
                     Note: 1,
+                    img: "img/logo-divers/php.png",
                     Description: "Je possède les bases du langage.", 
                     dureeExperience: "Initiation en mai 2025." }
                 ]}
@@ -69,16 +77,19 @@ function Competences() {
                   { 
                     Langage: "WordPress & Elementor", 
                     Note: 2,
-                    Description: "", 
+                    img: "img/logo-divers/wordpress.png",
+                    Description: "J'ai les bases avec Elementor et je sais utiliser des extensions pour créer des pages simples.", 
                     dureeExperience: "Découvert fin 2024, utilisé très rarement." },
                   { 
                     Langage: "Git & GitHub", 
                     Note: 3,
+                    img: "img/logo-divers/github.png",
                     Description: "Je connais les principes de Git et GitHub. Je connais les commandes de base pour Git.", 
                     dureeExperience: "Découvert fin 2024, utilisé régulièrement." },
                   { 
                     Langage: "Figma", 
                     Note: 4,
+                    img: "img/logo-divers/figma.png",
                     Description: "J’utilise Figma pour créer des maquettes simples de sites web, comme mon portfolio.", 
                     dureeExperience: "Découvert fin 2024, utilisé ponctuellement." }
                 ]}
@@ -90,26 +101,31 @@ function Competences() {
                   { 
                     Langage: "Canva", 
                     Note: 5,
+                    img: "img/logo-divers/canva.png",
                     Description: "Je maîtrise Canva pour créer des visuels simples et efficaces. Je l’utilise surtout pour des présentations ou des mises en pages diverses.", 
                     dureeExperience: "Découvert au lycée et utilisé régulièrement au quotidien." },
                   { 
                     Langage: "PhotoShop", 
                     Note: 1,
+                    img: "img/logo-divers/photoshop.png",
                     Description: "Je connais les bases de Photoshop et son utilité principale (retouche photo, création d’images).", 
                     dureeExperience: "Découvert fin 2024, utilisé très rarement." },
                   { 
                     Langage: "Illustrator", 
                     Note: 1,
+                    img: "img/logo-divers/illustrator.png",
                     Description: "J’ai une bonne compréhension d’Illustrator, principalement pour la création de graphismes vectoriels.", 
                     dureeExperience: "Découvert fin 2024, utilisé très rarement." },
                   { 
                     Langage: "InDesign", 
                     Note: 1,
+                    img: "img/logo-divers/indesign.png",
                     Description: "Je connais les notions fondamentales d’InDesign pour la mise en page.", 
                     dureeExperience: "Découvert fin 2024, utilisé très rarement." },
                   { 
                     Langage: "LightRoom", 
                     Note: 1,
+                    img: "img/logo-divers/lightroom.png",
                     Description: "Je connais les fonctions de base de Lightroom pour la retouche photo.", 
                     dureeExperience: "Découvert fin 2024, utilisé très rarement." }
                 ]}
@@ -122,16 +138,19 @@ function Competences() {
                   { 
                     Langage: "Word - Google Docs", 
                     Note: 4,
+                    img: "img/logo-divers/word.png",
                     Description: "J’utilise régulièrement Word et Google Docs pour rédiger et mettre en forme des documents. Je maîtrise les fonctions de base comme les styles, les tableaux et la collaboration en ligne.", 
                     dureeExperience: "Utilisation fréquente depuis plusieurs années." },
                   { 
                     Langage: "Excel - Google Sheets", 
                     Note: 2,
+                    img: "img/logo-divers/excel.png",
                     Description: "J’ai les bases d’Excel et Google Sheets, je sais créer des tableaux simples et utiliser quelques formules de base.", 
                     dureeExperience: "Utilisation ponctuelle depuis plusieurs années." },
                   { 
                     Langage: "Power Point", 
                     Note: 4,
+                    img: "img/logo-divers/powerpoint.png",
                     Description: "Je sais créer des présentations claires et efficaces, en ajoutant des animations et transitions simples.", 
                     dureeExperience: "Utilisation fréquente depuis plusieurs années." }
                     ]}
@@ -143,6 +162,7 @@ function Competences() {
                   { 
                     Langage: "Trello", 
                     Note: 4,
+                    img: "img/logo-divers/trello.webp",
                     Description: "J’organise mes tâches et mes projets grâce à Trello, en créant des tableaux collaboratifs pour suivre l’avancement et les priorités.", 
                     dureeExperience: "Découvert fin 2024, utilisé ponctuellement." },
                 ]}
@@ -154,7 +174,7 @@ function Competences() {
       <div className=" m-auto flex flex-row flex-wrap justify-around">
         <CardRV
           titleRecto="Apprendre le JavaScript"
-          image="../../img/logo-grafikart.png"
+          image="../../img/logo-divers/grafikart.png"
           descriptionImage="logo Grafikart"
           date="En cours"
           titreVerso="Objectifs :"
@@ -168,7 +188,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Apprendre le PHP"
-          image="../../img/logo-grafikart.png"
+          image="../../img/logo-divers/grafikart.png"
           descriptionImage="logo Grafikart"
           date="En cours"
           titreVerso="Objectifs :"
@@ -183,7 +203,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Débutez avec React"
-          image="../../img/logo-openclasseroom.jpg"
+          image="../../img/logo-divers/openclasseroom.jpg"
           descriptionImage="logo OpenClassrooms"
           date="4 avril 2025"
           titreVerso="Objectifs :"
@@ -198,7 +218,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Apprenez les bases du langage Python"
-          image="../../img/logo-openclasseroom.jpg"
+          image="../../img/logo-divers/openclasseroom.jpg"
           descriptionImage="logo OpenClassrooms"
           date="13 février 2025"
           titreVerso="Objectifs :"
@@ -213,7 +233,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Créez et appliquez une charte graphique"
-          image="../../img/logo-openclasseroom.jpg"
+          image="../../img/logo-divers/openclasseroom.jpg"
           descriptionImage="logo OpenClassrooms"
           date="31 janvier 2025"
           titreVerso="Objectifs :"
@@ -228,7 +248,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Apprenez à utiliser la ligne de commande dans un terminal"
-          image="../../img/logo-openclasseroom.jpg"
+          image="../../img/logo-divers/openclasseroom.jpg"
           descriptionImage="logo OpenClassrooms"
           date="24 janvier 2025"
           titreVerso="Objectifs :"
@@ -242,7 +262,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Utilisez ChatGPT pour améliorer votre productivité"
-          image="../../img/logo-openclasseroom.jpg"
+          image="../../img/logo-divers/openclasseroom.jpg"
           descriptionImage="logo OpenClassrooms"
           date="23 janvier 2025"
           titreVerso="Objectifs :"
@@ -257,7 +277,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Codez un site web accessible avec HTML & CSS"
-          image="../../img/logo-openclasseroom.jpg"
+          image="../../img/logo-divers/openclasseroom.jpg"
           descriptionImage="logo OpenClassrooms"
           date="19 décembre 2024"
           titreVerso="Objectifs :"
@@ -271,7 +291,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Concevez un contenu web accessible"
-          image="../../img/logo-openclasseroom.jpg"
+          image="../../img/logo-divers/openclasseroom.jpg"
           descriptionImage="logo OpenClassrooms"
           date="18 décembre 2024"
           titreVerso="Objectifs :"
@@ -286,7 +306,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Créez une maquette web avec Figma"
-          image="../../img/logo-openclasseroom.jpg"
+          image="../../img/logo-divers/openclasseroom.jpg"
           descriptionImage="logo OpenClassrooms"
           date="10 décembre 2024"
           titreVerso="Objectifs :"
@@ -301,7 +321,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Apprenez à programmer avec JavaScript"
-          image="../../img/logo-openclasseroom.jpg"
+          image="../../img/logo-divers/openclasseroom.jpg"
           descriptionImage="logo OpenClassrooms"
           date="9 décembre 2024"
           titreVerso="Objectifs :"
@@ -317,7 +337,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Créez votre site web avec HTML5 et CSS3"
-          image="../../img/logo-openclasseroom.jpg"
+          image="../../img/logo-divers/openclasseroom.jpg"
           descriptionImage="logo OpenClassrooms"
           date="15 novembre 2024"
           titreVerso="Objectifs :"
@@ -333,7 +353,7 @@ function Competences() {
 
         <CardRV
           titleRecto="Pix"
-          image="../../img/logo-pix.png"
+          image="../../img/logo-divers/pix.png"
           descriptionImage="Logo de pix"
           date="18 mars 2024"
           titreVerso="Description :"
