@@ -115,16 +115,6 @@ function Competences() {
                 ]}
               />
       
-              <CardTerminal 
-                titre="Communication :"
-                competence={[
-                  { 
-                    Langage: "Trello", 
-                    Note: 4,
-                    Description: "J’organise mes tâches et mes projets grâce à Trello, en créant des tableaux collaboratifs pour suivre l’avancement et les priorités.", 
-                    dureeExperience: "Découvert fin 2024, utilisé ponctuellement." },
-                ]}
-              />
       
               <CardTerminal 
                 titre="Traitement de texte :"
@@ -144,6 +134,17 @@ function Competences() {
                     Note: 4,
                     Description: "Je sais créer des présentations claires et efficaces, en ajoutant des animations et transitions simples.", 
                     dureeExperience: "Utilisation fréquente depuis plusieurs années." }
+                    ]}
+              />
+
+              <CardTerminal 
+                titre="Autre :"
+                competence={[
+                  { 
+                    Langage: "Trello", 
+                    Note: 4,
+                    Description: "J’organise mes tâches et mes projets grâce à Trello, en créant des tableaux collaboratifs pour suivre l’avancement et les priorités.", 
+                    dureeExperience: "Découvert fin 2024, utilisé ponctuellement." },
                 ]}
               />
         </div>
