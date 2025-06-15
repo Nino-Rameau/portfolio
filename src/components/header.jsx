@@ -35,7 +35,6 @@ const Header = () => {
         <BtnHeader to="/" onClick={FermerMenuBurger} texte="Accueil"/>
         <BtnHeader to="/competences" onClick={FermerMenuBurger} texte="Compétences"/>
         <BtnHeader to="/projets" onClick={FermerMenuBurger} texte="Projets"/>
-        {/* <BtnHeader to="/experiences" onClick={FermerMenuBurger} texte="Expériences"/> */}
         <BtnHeader to="/cv" onClick={FermerMenuBurger} texte="CV"/>
         <BtnHeader to="/contact" onClick={FermerMenuBurger} texte="Contact"/>
       </nav>
