@@ -70,7 +70,7 @@ export const Projet = ({
 
   return (
     <>
-      <div className={`lg:flex justify-center items-center mt-8 lg:bg-bleu_clair lg:dark:bg-bleu_fonce w-full pb-6 lg:w-11/12 lg:rounded-2xl border-b-2 border-black dark:border-white lg:border-none lg:m-auto lg:mb-20 p-5 ${OrdreImage ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
+      <article className={`lg:flex justify-center items-center mt-8 lg:bg-bleu_clair lg:dark:bg-bleu_fonce w-full pb-6 lg:w-11/12 lg:rounded-2xl border-b-2 border-black dark:border-white lg:border-none lg:m-auto lg:mb-20 p-5 ${OrdreImage ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
 
         <div className="flex flex-col space-y-5 lg:w-1/2 pb-3 lg:pb-0">
           <Texte tag="h2" balise="h2" texte={titleProjet} marge="auto"/>
@@ -101,7 +101,7 @@ export const Projet = ({
             </>
           )}
         </div>
-      </div>
+      </article>
 
     {photoOuverte && (
       <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50 cursor-pointer" onClick={() => setphotoOuverte(false)} >

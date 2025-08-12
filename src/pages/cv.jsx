@@ -68,9 +68,13 @@ function Cv() {
         {/* OBJECTIF / FORMATIONS / EXPERIENCES */}
         <div className="p-4 flex flex-col gap-6 md:border-l-[15px] border-bleu_fonce">
           <div>
+            <Texte tag="h3" balise="h3" texte="Actuellement" couleur="couleur" className="m-6" />
+            <Texte tag="p" balise="p" texte="Je suis étudiant en deuxième année à la Normandie Web School de Rouen et en alternance à Immobilier Neuf Conseil à Bois-Guillaume en développement web." />
+          </div>
+          {/* <div>
             <Texte tag="h3" balise="h3" texte="OBJECTIF" couleur="couleur" className="m-6" />
             <Texte tag="p" balise="p" texte="Actuellement étudiant en première année à la Normandie Web School de Rouen, je suis à la recherche d’une alternance pour la rentrée 2025 en développement web ou en intégration web. Je m’intéresse autant au développement front-end qu’au back-end." />
-          </div>
+          </div> */}
 
           <div>
             <Texte tag="h3" balise="h3" texte="FORMATIONS" couleur="couleur" className="m-6" />

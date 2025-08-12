@@ -3,7 +3,7 @@ import { AffichageEtoile } from "./etoile";
 
 
 export const CardTerminal = ({titre, competence }) => (
-    <div className="bg-gray-900 w-[90%] md:w-[75%] rounded-2xl mb-10">
+    <article className="bg-gray-900 w-[90%] md:w-[75%] rounded-2xl mb-10">
         <div className="p-2">
             <span className="bg-red-500 inline-block center w-3 h-3 rounded-full mr-2 cursor-pointer"></span>
             <span className="bg-yellow-500 inline-block center w-3 h-3 rounded-full mr-2 cursor-pointer"></span>
@@ -28,5 +28,5 @@ export const CardTerminal = ({titre, competence }) => (
                 </li>
             ))}
         </ul>
-    </div>
+    </article>
 );

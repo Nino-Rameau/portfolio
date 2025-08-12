@@ -4,7 +4,7 @@ import { FiDownload } from "react-icons/fi";
 
 const BtnTelechargement = ({ texte, lien }) => {
     return (
-        <a href={lien} className="relative w-[250px] h-[45px] flex items-center p-4 mt-5 mx-auto rounded-xl bg-bleu_clair dark:bg-bleu_milieu overflow-hidden group shadow-[0px_0px_20px_#8cd0f2] dark:shadow-[0px_0px_20px_#3000f0]" >
+        <a href={lien} target="__Blank" className="relative w-[250px] h-[45px] flex items-center p-4 mt-5 mx-auto rounded-xl bg-bleu_clair dark:bg-bleu_milieu overflow-hidden group shadow-[0px_0px_20px_#8cd0f2] dark:shadow-[0px_0px_20px_#3000f0]" >
 
             <Texte tag="p" balise="btn_xs" className="m-2 text-black dark:text-white transition-all" texte={texte} />
 
