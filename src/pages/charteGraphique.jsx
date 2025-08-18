@@ -1,12 +1,20 @@
-import { Texte } from "../components/texte";
-import { Liste } from "../components/liste-ul-li";
-import { BtnHaut } from "../components/btnhautpage";
+import Texte from "../components/texte";
+import Liste from "../components/liste-ul-li";
+import BtnHaut from "../components/btnhautpage";
+import SEO from "../components/seo";
 
 import  BtnTelechargement  from "../components/btnTelechargement"; 
 
 function CharteGraphique() {
   return (
     <>
+      <SEO
+        title="Charte Graphique | Nino Rameau | Étudiant Développeur Web à la NWS de Rouen"
+        description={`Voici ma charte graphique : les couleurs, les polices et l’identité visuelle que j’ai choisies pour mon portfolio.`}
+        keywords="Nino Rameau, développeur web, portfolio, Rouen, Normandie Web School, NWS, étudiant, charte graphique, logo, typographie, couleurs"
+        canonical="https://nino-rameau.fr/charteGraphique"
+      />
+
       <Texte tag="h1" balise="h1" texte="Ma Charte Graphique" />
       <BtnHaut />
 

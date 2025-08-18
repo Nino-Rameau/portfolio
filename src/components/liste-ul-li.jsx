@@ -19,6 +19,8 @@ const listStyles = tv({
     }
   },
 });
+
+
 const Liste = ({ items, variant, marge, className, text }) => {
   return (
     <ul className={listStyles({ variant, marge })}>
@@ -31,4 +33,4 @@ const Liste = ({ items, variant, marge, className, text }) => {
   );
 };
 
-export { Liste };
+export default Liste;

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { Texte } from "../components/texte";
+import Texte from "../components/texte";
 
-export const Container = ({ para1, para2, img, altimg, direction, cta }) => {
+const Container = ({ para1, para2, img, altimg, direction, cta }) => {
   return (
     // bordure animé
     <div className="relative mx-4 lg:mx-40 my-20">
@@ -28,3 +28,5 @@ export const Container = ({ para1, para2, img, altimg, direction, cta }) => {
     </div>
   );
 };
+
+export default Container;

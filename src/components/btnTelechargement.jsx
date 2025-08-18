@@ -1,4 +1,4 @@
-import { Texte } from "./texte";
+import Texte from "./texte";
 
 import { FiDownload } from "react-icons/fi";
 

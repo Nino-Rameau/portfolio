@@ -1,9 +1,17 @@
-import { Texte } from "../components/texte";
-import { Liste } from "../components/liste-ul-li";
+import Texte from "../components/texte";
+import Liste from "../components/liste-ul-li";
+import SEO from "../components/seo"
 
 function MentionsLegales() {
   return (
     <>
+      <SEO
+        title="Mentions Légales | Nino Rameau | Étudiant Développeur Web à la NWS de Rouen"
+        description={`Voici les mentions légales de mon portfolio.`}
+        keywords="Nino Rameau, développeur web, portfolio, Rouen, Normandie Web School, NWS, étudiant, mentions légales"
+        canonical="https://nino-rameau.fr/"
+      />
+
       <div className="m-10">
         <Texte tag="h1" balise="h1" texte="Mentions Légales" />
 

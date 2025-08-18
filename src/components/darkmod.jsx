@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export function Darkmod() {
+function Darkmod() {
   const [darkMode, setDarkMode] = useState(true);    // variable etat du mode sombre initialisé à true pour avoir le mode sombre par défaut
 
   useEffect(() => {
@@ -15,3 +15,5 @@ export function Darkmod() {
 
   return [darkMode, setDarkMode];                // renvoie un tab avec l'etat de darkMode (true/false) et la fonction setDarkMode pour changer l'etat
 }
+
+export default Darkmod;

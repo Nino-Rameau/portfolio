@@ -1,4 +1,5 @@
-import { Texte } from "../components/texte";
+import Texte from "../components/texte";
+import SEO from "../components/seo";
 import { useState, useRef } from "react";
 import emailjs from "emailjs-com";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -66,6 +67,13 @@ const Contact = () => {
 
   return (
     <>
+      <SEO
+        title="Contact | Nino Rameau | Étudiant Développeur Web à la NWS de Rouen"
+        description={`Contacter moi ! Nino Rameau, étudiant en développement web à la Normandie Web School de Rouen.`}
+        keywords="Nino Rameau, développeur web, portfolio, Rouen, Evreux, Normandie Web School, NWS, étudiant, alternance, contact, email, téléphone, adresse"
+        canonical="https://nino-rameau.fr/contact"
+      />
+
       <Texte tag="h1" balise="h1" texte="Contactez-moi ! " />
 
       <div className="flex flex-col lg:flex-row rounded-2xl items-center gap-20 lg:gap-25 bg-bleu_clair dark:bg-bleu_fonce p-2 w-[90%] md:w-full md:py-3 md:px-20 lg:py-10 lg:px-20 xl:px-40 xl:gap-40 m-auto">
@@ -98,7 +106,7 @@ const Contact = () => {
           )}
         </div>
 
-        <div className="flex flex-col justify-center items-center">
+        <address className="flex flex-col justify-center items-center not-italic">
 
           <div className="flex items-center p-5 gap-4 pt-10 md:pt-0">
             <MdOutlineMailOutline className="text-bleu_fonce dark:text-bleu_clair w-8 h-auto" />
@@ -119,7 +127,7 @@ const Contact = () => {
             <FaHome className="text-bleu_fonce dark:text-bleu_clair w-8 h-auto" />
             <Texte tag="p" balise="p" couleur="couleur" texte="Evreux (27)" className="text-nowrap" />
           </div>
-        </div>
+        </address>
 
       </div>
     </>

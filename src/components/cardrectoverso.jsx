@@ -1,18 +1,8 @@
-import { Texte } from "../components/texte";
+import Texte from "../components/texte";
 
 import { FaArrowsRotate } from "react-icons/fa6";
 
-export const CardRV = ({
-  titleRecto,
-  image,
-  descriptionImage,
-  date,
-  titreVerso,
-  descriptionVerso,
-  textLien,
-  lien,
-}) => {
-
+const CardRV = ({ titleRecto, image, descriptionImage, date, titreVerso, descriptionVerso, textLien, lien, }) => {
   return (
     <div className="group relative h-[340px] w-[250px] [perspective:1000px] m-7 z-0">
       <div className="absolute duration-1000 w-full h-full [transform-style:preserve-3d] group-hover:[transform:rotatey(180deg)]">
@@ -45,3 +35,5 @@ export const CardRV = ({
     </div>
   );
 };
+
+export default CardRV;

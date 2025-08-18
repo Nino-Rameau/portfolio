@@ -26,6 +26,7 @@ Ce projet est mon portfolio personnel, développé par Create React App avec Rea
 - **React icons** : icones
 - **emailJS** : Permet de faire fonctionner mon formulaire
 - **react google recaptcha** : Permet l'ajout d'un captcha dans le formulaire
+- **react head** : Permet un meilleurs SEO avec des balise unique par page
 
 ## Installation et lancement
 

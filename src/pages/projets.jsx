@@ -1,10 +1,18 @@
-import { Projet } from "../components/compoProjet";
-import { BtnHaut } from "../components/btnhautpage";
-import { Texte } from "../components/texte";
+import Projet from "../components/compoProjet";
+import BtnHaut from "../components/btnhautpage";
+import Texte from "../components/texte";
+import SEO from "../components/seo";
 
 function Projets() {
   return (
     <>
+      <SEO
+        title="Projets | Nino Rameau | Étudiant Développeur Web à la NWS de Rouen"
+        description={`Découvrez mes projets : sites web, logo, integration web...`}
+        keywords="Nino Rameau, développeur web, portfolio, front-end, back-end, projets, sites web, logo, intégration web, Rouen, Normandie Web School, NWS, étudiant"
+        canonical="https://nino-rameau.fr/projets"
+      />
+
       <Texte tag="h1" balise="h1" texte="Voici des projets que j'ai réalisé :" />
 
       <BtnHaut />

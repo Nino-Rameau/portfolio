@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { Darkmod } from "./darkmod";
-import { BtnHeader } from "./btnHeader";
+import Darkmod from "./darkmod";
+import BtnHeader from "./btnHeader";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
@@ -20,7 +20,7 @@ const Header = () => {
     <header className="flex items-center justify-around bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:bg-gradient-to-r dark:from-bleu_milieu dark:to-bleu_fonce h-20 sticky top-0 z-50">
 
       <Link to="/" onClick={() => { window.scrollTo(0, 0); FermerMenuBurger(); }} title="Retour à l'accueil">
-        <img src="img/logo/logo-verti-sans-nom.png" alt="Mon logo (renvoie à la page d'accueil)" className="w-16" />
+        <img src="img/logo.svg" alt="Logo bleu avec curseur de souris" title="Retour à l'accueil" className="w-16" />
       </Link>
 
       <button onClick={OuvrirFermerMenuBruger} className="lg:hidden z-50 text-black dark:text-white" title="Ouvrir / fermer le menu burger">

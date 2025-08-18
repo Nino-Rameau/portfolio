@@ -1,7 +1,8 @@
-import { Tag } from "./tags-projet";
-import { Texte } from "../components/texte";
+import Tag from "./tags-projet";
+import Texte from "../components/texte";
 import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
+import { IoLogoGithub } from "react-icons/io";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -9,20 +10,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { IoLogoGithub } from "react-icons/io";
-
-export const Projet = ({
-  id,
-  titleProjet,
-  description,
-  texteLienSiteWeb,
-  lienSiteWeb,
-  date,
-  tags,
-  image,
-  nomImg,
-  repoHref,
-}) => {
+const Projet = ({ id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, date, tags, image, nomImg, repoHref, }) => {
   const [photoOuverte, setphotoOuverte] = useState(false);
   const [indexAffiche, setindexAffiche] = useState(0); 
 
@@ -41,10 +29,7 @@ export const Projet = ({
   } else {
     triImage = (
       <Swiper
-        style={{
-          "--swiper-navigation-color": "#4269b1",
-          "--swiper-pagination-color": "#4269b1",
-        }}                      
+        style={{ "--swiper-navigation-color": "#4269b1", "--swiper-pagination-color": "#4269b1"}}                      
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={10}       
         slidesPerView={1}      
@@ -138,3 +123,5 @@ export const Projet = ({
     </>
   );
 };
+
+export default Projet;

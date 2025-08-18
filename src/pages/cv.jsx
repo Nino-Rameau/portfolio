@@ -1,10 +1,18 @@
-import { Texte } from "../components/texte";
-import { Liste } from "../components/liste-ul-li";
-import  BtnTelechargement  from "../components/btnTelechargement"; 
+import Texte from "../components/texte";
+import Liste from "../components/liste-ul-li";
+import BtnTelechargement from "../components/btnTelechargement"; 
+import SEO from "../components/seo"; 
 
 function Cv() {
   return (
     <>
+      <SEO
+        title="CV | Nino Rameau | Étudiant Développeur Web à la NWS de Rouen"
+        description={`Retrouvez mon CV : mon parcours, mes expériences et mes compétences en développement web.`}
+        keywords="Nino Rameau, développeur web, portfolio, CV, expériences, compétences, front-end, back-end, Rouen, Normandie Web School, NWS, étudiant, alternance"
+        canonical="https://nino-rameau.fr/cv"
+      />
+
       <Texte tag="h1" balise="h1" texte="Mon CV" />
       <div className="bg-white dark:bg-zinc-700 border-4 border-bleu_fonce rounded-[2rem] w-[90%] m-auto grid md:grid-cols-2 lg:grid-cols-[1fr_1fr]">
 

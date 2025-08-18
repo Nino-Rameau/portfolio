@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Texte } from "../components/texte";
+import Texte from "../components/texte";
 
 import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoGithub } from "react-icons/io";

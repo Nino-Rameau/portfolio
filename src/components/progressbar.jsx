@@ -1,4 +1,4 @@
-import { Texte } from "../components/texte";
+import Texte from "../components/texte";
 
 export const ProgressBar = ({ texte, valeur }) => {
   return (

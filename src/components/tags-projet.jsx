@@ -1,4 +1,4 @@
-export const Tag = ({ tag }) => {
+const Tag = ({ tag }) => {
   const couleurTag = {
     HTML: "bg-[#ff7415]",
     CSS: "bg-[#2694e4]",
@@ -25,3 +25,5 @@ export const Tag = ({ tag }) => {
     </p>
   );
 };
+
+export default Tag;

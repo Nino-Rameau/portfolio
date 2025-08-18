@@ -1,12 +1,20 @@
-import { CardRV } from "../components/cardrectoverso";
-import { Texte } from "../components/texte";
-import { BtnHaut } from "../components/btnhautpage";
-import { CardTerminal } from "../components/cardTerminal";
+import CardRV from "../components/cardrectoverso";
+import Texte from "../components/texte";
+import BtnHaut from "../components/btnhautpage";
+import CardTerminal from "../components/cardTerminal";
+import SEO from "../components/seo";
 
 
 function Competences() {
   return (
     <>
+      <SEO
+        title="Compétences | Nino Rameau | Étudiant Développeur Web à la NWS de Rouen"
+        description={`Découvrez mes compétences (front-end, back-end, ...) et mes certifications.`}
+        keywords="Nino Rameau, développeur web, portfolio, front-end, back-end, compétences, certifications, HTML, CSS, JavaScript, React, Tailwind CSS, Python, SQL, GitHub, Figma, Canva"
+        canonical="https://nino-rameau.fr/competences"
+      />
+
       <BtnHaut />
 
       <Texte tag="h1" balise="h1" texte="Mes compétences :" />

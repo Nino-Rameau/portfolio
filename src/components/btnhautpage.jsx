@@ -1,6 +1,6 @@
 import { LiaArrowUpSolid } from "react-icons/lia";
 
-export const BtnHaut = () => {
+const BtnHaut = () => {
   return (
     <button
       className="fixed bottom-4 right-4 px-1 py-3 bg-bleu_milieu rounded-full text-xl hover:scale-125 text-white z-50"
@@ -11,3 +11,5 @@ export const BtnHaut = () => {
     </button>
   );
 };
+
+export default BtnHaut;

@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 
-export const BtnHeader = ({ to, texte, onClick }) => {
+const BtnHeader = ({ to, texte, onClick }) => {
   const location = useLocation();
   const isActive = location.pathname === to;
 
@@ -22,3 +22,5 @@ export const BtnHeader = ({ to, texte, onClick }) => {
     </Link>
   ); 
 };
+
+export default BtnHeader;

@@ -1,8 +1,8 @@
-import { Texte } from "./texte";
-import { AffichageEtoile } from "./etoile";
+import Texte from "./texte";
+import AffichageEtoile from "./etoile";
 
 
-export const CardTerminal = ({titre, competence }) => (
+const CardTerminal = ({titre, competence }) => (
     <article className="bg-gray-900 w-[90%] md:w-[75%] rounded-2xl mb-10">
         <div className="p-2">
             <span className="bg-red-500 inline-block center w-3 h-3 rounded-full mr-2 cursor-pointer"></span>
@@ -30,3 +30,5 @@ export const CardTerminal = ({titre, competence }) => (
         </ul>
     </article>
 );
+
+export default CardTerminal;
