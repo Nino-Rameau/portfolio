@@ -31,7 +31,7 @@ function Competences() {
                   dureeExperience: "Découvert début 2024, utilisé régulièrement depuis." },
                 { 
                   Langage: "CSS", 
-                  Note: 5,
+                  Note: 4,
                   img: "img/logo-divers/css.png",
                   Description: "J’utilise CSS3 avec Flexbox, Grid et les media queries pour concevoir des sites web responsifs et esthétiques, adaptés à tous les types d’écrans.", 
                   dureeExperience: "Découvert début 2024, utilisé régulièrement depuis." },
@@ -43,7 +43,7 @@ function Competences() {
                   dureeExperience: "Découvert fin 2024, mais je l'apprends en priorité sur la partie native et la partie Puppeteer pour du scraping." },
                 { 
                   Langage: "React", 
-                  Note: 2,
+                  Note: 1,
                   img: "img/logo-divers/react.png",
                   Description: "Je suis en train de découvrir React et son écosystème. J’ai réalisé mon portfolio avec React 19, en intégrant par exemple React Router Dom pour la navigation et Tailwind CSS pour le design. J’apprends à structurer mes applications avec des composants.", 
                   dureeExperience: "Découvert début 2025, utilisé pour mon portfolio et en cours d’apprentissage." },
@@ -67,7 +67,7 @@ function Competences() {
                     dureeExperience: "Utilisé quotidiennement pendant deux ans au lycée (2022-2024)."},
                   { 
                     Langage: "SQL", 
-                    Note: 4,
+                    Note: 3,
                     img: "img/logo-divers/sql.png",
                     Description: "J’utilise les requêtes SQL avec un terminal MySQL ou PhpMyAdmin pour effectuer des opérations simples (sélections, insertions, jointures...).", 
                     dureeExperience: "Appris en 2024 et utilisé régulièrement depuis." },
@@ -108,7 +108,7 @@ function Competences() {
                 competence={[
                   { 
                     Langage: "Canva", 
-                    Note: 5,
+                    Note: 4.5,
                     img: "img/logo-divers/canva.png",
                     Description: "Je maîtrise Canva pour créer des visuels simples et efficaces. Je l’utilise surtout pour des présentations ou des mises en pages diverses.", 
                     dureeExperience: "Découvert au lycée et utilisé régulièrement au quotidien." },

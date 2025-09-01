@@ -22,6 +22,7 @@ const Projet = ({ id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, d
       <img
         src={image[0]}
         alt={nomImg[0]}
+        loading="lazy"
         className="max-w-[300px] md:max-w-[450px] w-auto mx-auto mt-5 rounded-[15px] cursor-pointer"
         onClick={() => { setindexAffiche(0); setphotoOuverte(true); }} 
       />
@@ -45,7 +46,7 @@ const Projet = ({ id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, d
               className="flex justify-center items-center w-full h-[300px] relative cursor-pointer"
               onClick={() => { setindexAffiche(index); setphotoOuverte(true); }}
             >
-              <img src={src} alt={nomImg[index]} className="max-h-full max-w-full rounded-[15px]" />
+              <img src={src} alt={nomImg[index]} loading="lazy" className="max-h-full max-w-full rounded-[15px]" />
             </div>
           </SwiperSlide>
         ))}
@@ -62,7 +63,7 @@ const Projet = ({ id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, d
           <Texte tag="p" balise="p" texte={description} marge="auto"/>
 
           {lienSiteWeb && (
-            <Texte tag="a" balise="a" texte={texteLienSiteWeb} lien={lienSiteWeb} className="mx-auto text-wrap" /> 
+            <Texte tag="a" balise="a" texte={texteLienSiteWeb} lien={lienSiteWeb} className="mx-auto text-wrap"/>
           )}
           
           <Texte tag="p" balise="p" texte={date} marge="auto"/>

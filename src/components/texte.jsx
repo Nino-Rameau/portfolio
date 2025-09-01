@@ -1,4 +1,5 @@
 import { tv } from "tailwind-variants";
+import { Link } from "react-router-dom";
 
 const texteTags = tv({
   variants: {
@@ -51,14 +52,27 @@ const Texte = ({
   className,
   children, // Pour le texte animé
 }) => {
-  return (
-    <Tag
-      className={texteTags({ balise, couleur, marge, padding, className })}
-      href={lien}
-    >
-      {children ? children : texte}   {/* on affiche children (utilisé pour texte animé) et si il y en a pas on affiche le props texte */}
-    </Tag>
-  );
+const classes = texteTags({ balise, couleur, marge, padding, className });
+
+  // Gestion spéciale pour les liens
+  if (balise === "a" && lien) {
+    if (lien.startsWith("/")) {
+      return (
+        <Link to={lien} className={classes}>
+          {children ?? texte}
+        </Link>
+      );
+    } else {
+      return (
+        <a href={lien} target="_blank" rel="noopener noreferrer" className={classes}>
+          {children ?? texte}
+        </a>
+      );
+    }
+  }
+
+  // Sinon balises classiques (h1, p, etc.)
+  return <Tag className={classes}>{children ?? texte}</Tag>;
 };
 
 export default Texte;

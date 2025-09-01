@@ -18,6 +18,15 @@ function Projets() {
       <BtnHaut />
 
       <Projet
+        id={15}
+        titleProjet="Interface de gestion de scraper"
+        description="J’ai développé une mini-interface permettant de scraper les prix d'un site web depuis un fichier Excel et de générer un nouveau tableau avec les résultats, affichant une erreur en cas de problème. Réalisé avec Node.js, Express, Puppeteer, ExcelJS et Multer, ce projet offre une solution simple et accessible à un utilisateur non technique."
+        date="Réalisé en juillet 2025"
+        tags={["JavaScript", "Travail individuel"]}
+        image={["img/scraper-ref-prix/interface-page.png"]}
+        nomImg={["Visuelle de l'interface"]}
+      />
+      <Projet
         id={14}
         titleProjet="Site e-commerce de vente de goodies de l'école"
         description="J'ai réalisé un wireframe, la maquette sur Figma et l'intégration web sur WordPress. J'ai également fait le SEO du site e-commerce qui permettrait la vente de goodies pour la Normandie Web School."
@@ -126,7 +135,7 @@ function Projets() {
         titleProjet="Ma charte graphique"
         description="Voila ma propre charte graphique, elle est composée de mon logo, ma palette de couleur et mes polices d'écritures."
         texteLienSiteWeb="Lien vers la charte graphique"
-        lienSiteWeb="https://nino-rameau.fr/charteGraphique"
+        lienSiteWeb="/charteGraphique"
         date="Réalisé en octobre 2024"
         tags={["Logo", "Charte graphique", "Travail individuel"]}
         image={["img/logo/logo-verti-sans-nom.png",]}
