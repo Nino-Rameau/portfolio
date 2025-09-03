@@ -17,7 +17,7 @@ const CardTerminal = ({titre, competence }) => (
                 <li key={index} className="pl-6 text-white mb-5" >
                     <div className="flex items-center flex-wrap space-x-2">
                         <span>➞</span> 
-                        <img src={info.img} alt="logo" className="h-[20px] w-auto" />
+                        <img src={info.img} alt={info.texteAlt} className="h-[20px] w-auto" />
                         <Texte tag="h3" balise="h3" couleur="white" className="text-left"> {info.Langage} : </Texte>
                         <span className="text-xs flex flex-row"><AffichageEtoile note={info.Note}/></span>
                     </div>

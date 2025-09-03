@@ -33,7 +33,7 @@ function Projets() {
         date="Réalisé en mars 2025"
         tags={["Figma", "WordPress", "Travail individuel"]}
         image={["img/site_e-commerce_nws/img-figma-sweat.png"]}
-        nomImg={["Image de la maquette de la page du produit"]}
+        nomImg={["Image de la maquette de la page du produit réalisée sur Figma"]}
       />
       <Projet
         id={13}
@@ -42,7 +42,7 @@ function Projets() {
         date="Réalisé de janvier à février 2025"
         tags={["Figma", "WordPress", "Travail en groupe"]}
         image={["img/handisup/page-accueil-site.png"]}
-        nomImg={["Image du site"]}
+        nomImg={["Image de la page d'accueil du site web intégrée sur WordPress"]}
       />
       <Projet
         id={12}
