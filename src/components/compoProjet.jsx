@@ -10,22 +10,25 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const Projet = ({ id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, date, tags, image, nomImg, repoHref, }) => {
+const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, date, tags, image, nomImg, repoHref, }) => {
   const [photoOuverte, setphotoOuverte] = useState(false);
   const [indexAffiche, setindexAffiche] = useState(0); 
 
-  let OrdreImage = id % 2 === 0 ? true : false; 
+  let OrdreImage = indexAffichage % 2 === 0 ? true : false; 
 
   let triImage;
   if (image.length === 1) {
     triImage = (
-      <img
-        src={image[0]}
-        alt={nomImg[0]}
-        loading="lazy"
-        className="max-w-[300px] md:max-w-[450px] w-auto mx-auto mt-5 rounded-[15px] cursor-pointer"
-        onClick={() => { setindexAffiche(0); setphotoOuverte(true); }} 
-      />
+      <div className="max-h-[400px] overflow-y-auto mx-auto mt-5 rounded-[15px]">
+    <img
+      src={image[0]}
+      alt={nomImg[0]}
+      loading="lazy"
+      className="max-w-[300px] md:max-w-[450px] w-auto rounded-[15px] cursor-pointer"
+      onClick={() => { setindexAffiche(0); setphotoOuverte(true); }}
+    />
+  </div>
+
     );
   } else {
     triImage = (
@@ -90,7 +93,7 @@ const Projet = ({ id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, d
       </article>
 
     {photoOuverte && (
-      <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50 cursor-pointer" onClick={() => setphotoOuverte(false)} >
+      <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50 cursor-pointer !mt-0" onClick={() => setphotoOuverte(false)} >
         
         <div className="flex justify-center items-center max-w-[90vw] max-h-[80vh] cursor-default" onClick={(e) => e.stopPropagation()} >
           <Swiper
@@ -110,7 +113,7 @@ const Projet = ({ id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, d
             {image.map((src, index) => (
               <SwiperSlide key={index}>
                   <div className="flex justify-center items-center h-[80vh]">
-                  <img src={src} alt={`Agrandie ${index}`} className="max-h-[80vh] max-w-[90vw] m-auto z-40" />
+                  <img src={src} alt={nomImg[index]} className="max-h-[80vh] max-w-[90vw] m-auto z-40" />
                   </div>
               </SwiperSlide>
             ))}
