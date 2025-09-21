@@ -66,14 +66,14 @@ function Competences() {
                 competence={[
                   { 
                     Langage: "Python", 
-                    Note: 4,
+                    Note: 3,
                     img: "img/logo-divers/python.png",
                     texteAlt: "Logo Python",
                     Description: "Je maîtrise Python pour créer des scripts et j’utilise des frameworks comme Flask pour développer des sites web avec une base de données.", 
                     dureeExperience: "Utilisé quotidiennement pendant deux ans au lycée (2022-2024)."},
                   { 
                     Langage: "SQL", 
-                    Note: 3,
+                    Note: 4,
                     img: "img/logo-divers/sql.png",
                     texteAlt: "Logo SQL",
                     Description: "J’utilise les requêtes SQL avec un terminal MySQL ou PhpMyAdmin pour effectuer des opérations simples (sélections, insertions, jointures...).", 
@@ -119,7 +119,7 @@ function Competences() {
                 competence={[
                   { 
                     Langage: "Canva", 
-                    Note: 4.5,
+                    Note: 4,
                     img: "img/logo-divers/canva.png",
                     texteAlt: "Logo Canva",
                     Description: "Je maîtrise Canva pour créer des visuels simples et efficaces. Je l’utilise surtout pour des présentations ou des mises en pages diverses.", 
@@ -183,6 +183,7 @@ function Competences() {
                     ]}
               />
 
+              {/* 
               <CardTerminal 
                 titre="Autre :"
                 competence={[
@@ -194,7 +195,8 @@ function Competences() {
                     Description: "J’organise mes tâches et mes projets grâce à Trello, en créant des tableaux collaboratifs pour suivre l’avancement et les priorités.", 
                     dureeExperience: "Découvert fin 2024, utilisé ponctuellement." },
                 ]}
-              />
+              /> 
+              */}
         </div>
 
       <Texte tag="h1" balise="h1" texte="Mes certifications :" className="mt-30" />
