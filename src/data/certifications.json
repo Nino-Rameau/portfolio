@@ -1,0 +1,194 @@
+[
+    {
+        "id":13,
+        "titreRecto":"Apprendre le PHP",
+        "image":"../../img/logo-divers/grafikart.png",
+        "descriptionImage":"logo Grafikart",
+        "date":"En cours",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Base du PHP",
+            "Principes de programmation objets en PHP",
+            "Réalisation d’un site complet avec du PHP"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://grafikart.fr/formations/php"
+    },
+    {
+        "id":12,
+        "titreRecto":"Apprendre le JavaScript",
+        "image":"../../img/logo-divers/grafikart.png",
+        "descriptionImage":"logo Grafikart",
+        "date":"En cours",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Base du JavaScript",
+            "Principes de programmation en JS"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://grafikart.fr/formations/formation-javascript"
+    },
+    {
+        "id":11,
+        "titreRecto":"Débutez avec React",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"4 avril 2025",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Comprendre le fonctionnement de React",
+            "Créer une application React complète avec Create React App",
+            "Stocker et récupérer des données avec le state et les effets"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/7008001-debutez-avec-react"
+    },
+    {
+        "id":10,
+        "titreRecto":"Apprenez les bases du langage Python",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"13 février 2025",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Créer des données avec Python",
+            "Gérer la logique d'un programme dans Python",
+            "Extraire des données du web avec les packages Python"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python"
+    },
+    {
+        "id":9,
+        "titreRecto":"Créez et appliquez une charte graphique",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"31 janvier 2025",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Comprendre l'utilité d'une charte graphique",
+            "Créer une charte graphique",
+            "Appliquer une charte graphique existante"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/5454886-creez-et-appliquez-une-charte-graphique"
+    },
+    {
+        "id":8,
+        "titreRecto":"Apprenez à utiliser la ligne de commande dans un terminal",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"24 janvier 2025",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Découvrir les bases du Terminal",
+            "Manipulez des fichiers avec un terminal"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/6173491-apprenez-a-utiliser-la-ligne-de-commande-dans-un-terminal"
+    },
+    {
+        "id":7,
+        "titreRecto":"Utilisez ChatGPT pour améliorer votre productivité",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"23 janvier 2025",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Faire ses premiers pas avec ChatGPT",
+            "Utiliser ChatGPT au quotidien",
+            "Exploiter les fonctionnalités avancées de ChatGPT"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/8204091-utilisez-chatgpt-pour-ameliorer-votre-productivite"
+    },
+    {
+        "id":6,
+        "titreRecto":"Codez un site web accessible avec HTML & CSS",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"19 décembre 2024",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Coder une page HTML respectant les règles d'accessibilité WCAG avec ARIA",
+            "Implémenter des éléments interactifs respectant les règles WCAG avec CSS et ARIA"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/6691451-codez-un-site-web-accessible-avec-html-css"
+    },
+    {
+        "id":5,
+        "titreRecto":"Concevez un contenu web accessible",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"18 décembre 2024",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Comprendre ce qu'est l'inclusion numérique",
+            "Evaluer les obstacles à l'accessibilité sur le Web",
+            "Concevoir des contenus web accessibles"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/6691346-concevez-un-contenu-web-accessible"
+    },
+    {
+        "id":4,
+        "titreRecto":"Créez une maquette web avec Figma",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"10 décembre 2024",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Structurer un wireframe sur papier",
+            "Construire un wireframe avec Figma",
+            "Créer une maquette avec Figma"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/7342806-creez-une-maquette-web-avec-figma"
+    },
+    {
+        "id":3,
+        "titreRecto":"Apprenez à programmer avec JavaScript",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"9 décembre 2024",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Manipuler des données avec JavaScript",
+            "Ecrire un fichier JavaScript",
+            "Faire interagir JavaScript avec votre page web",
+            "Créer un formulaire de saisie de données"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/7696886-apprenez-a-programmer-avec-javascript"
+    },
+    {
+        "id":2,
+        "titreRecto":"Créez votre site web avec HTML5 et CSS3",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"15 novembre 2024",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Maîtriser les bases de HTML5",
+            "Faire de la mise en forme avec CSS3",
+            "Agencer le contenu des pages",
+            "Utiliser des fonctionnalités avancées de HTML et CSS"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3"
+    },
+    {
+        "id":1,
+        "titreRecto":"Pix",
+        "image":"../../img/logo-divers/pix.png",
+        "descriptionImage":"Logo de pix",
+        "date":"18 mars 2024",
+        "titreVerso":"Description :",
+        "descriptionVerso":[
+            "Pix est le service public en ligne pour évaluer, développer, et certifier ses compétences numériques."
+        ],
+        "textLien":"Consulter le site",
+        "lien":"https://pix.fr/"
+    }
+]
