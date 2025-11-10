@@ -22,7 +22,8 @@ function Competences() {
       <Texte tag="h1" balise="h1" texte="Mes compétences :" />
       
             <div className="flex justify-center items-center flex-wrap mt-4">
-              {DataCompetences.map((competence) => (
+              {DataCompetences
+              .map((competence) => (
                 <CardTerminal 
                   titre = {competence.titre}
                   competence={competence.competence}
@@ -33,16 +34,18 @@ function Competences() {
       <Texte tag="h1" balise="h1" texte="Mes certifications :" className="mt-30" />
 
       <div className=" m-auto flex flex-row flex-wrap justify-around">
-        {DataCertifications.map((competence) => (
+        {DataCertifications
+        .filter((certification) => certification.visible)
+        .map((certification) => (
           <CardRV
-            titleRecto = {competence.titreRecto}
-            image = {competence.image}
-            descriptionImage = {competence.descriptionImage}
-            date = {competence.date}
-            titreVerso = {competence.titreVerso}
-            descriptionVerso={competence.descriptionVerso}
-            textLien = {competence.textLien}
-            lien = {competence.lien}
+            titleRecto = {certification.titreRecto}
+            image = {certification.image}
+            descriptionImage = {certification.descriptionImage}
+            date = {certification.date}
+            titreVerso = {certification.titreVerso}
+            descriptionVerso={certification.descriptionVerso}
+            textLien = {certification.textLien}
+            lien = {certification.lien}
           />
         ))}
       </div>

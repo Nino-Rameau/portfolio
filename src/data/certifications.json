@@ -1,6 +1,6 @@
 [
     {
-        "id":13,
+        "id":14,
         "titreRecto":"Apprendre le PHP",
         "image":"../../img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
@@ -12,10 +12,11 @@
             "Réalisation d’un site complet avec du PHP"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://grafikart.fr/formations/php"
+        "lien":"https://grafikart.fr/formations/php",
+        "visible": false
     },
     {
-        "id":12,
+        "id":13,
         "titreRecto":"Apprendre le JavaScript",
         "image":"../../img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
@@ -26,7 +27,41 @@
             "Principes de programmation en JS"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://grafikart.fr/formations/formation-javascript"
+        "lien":"https://grafikart.fr/formations/formation-javascript",
+        "visible": true
+    },
+    {
+        "id":13,
+        "titreRecto":"Augmentez votre trafic grâce au référencement naturel (SEO)",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"... novembre 2025",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Optimiser votre site web",
+            "Choisir les bons mots ou expressions-clés",
+            "Mesurer l'impact de vos actions SEO",
+            "Accélérer la remontée de votre site dans les résultats grâce aux backlinks"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/5561431-les-bases-du-referencement-naturel-seo",
+        "visible": false
+    },
+    {
+        "id":12,
+        "titreRecto":"Apprendre et maitriser SQL",
+        "image":"../../img/logo-divers/grafikart.png",
+        "descriptionImage":"logo Grafikart",
+        "date":"14 octobre 2025",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Bases du SQL",
+            "Gestion et interrogation de bases de données",
+            "Utilisation pour générer des contenus dynamiques"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://grafikart.fr/formations/apprendre-sql",
+        "visible": true
     },
     {
         "id":11,
@@ -41,7 +76,8 @@
             "Stocker et récupérer des données avec le state et les effets"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/7008001-debutez-avec-react"
+        "lien":"https://openclassrooms.com/fr/courses/7008001-debutez-avec-react",
+        "visible": true
     },
     {
         "id":10,
@@ -56,7 +92,8 @@
             "Extraire des données du web avec les packages Python"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python"
+        "lien":"https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python",
+        "visible": true
     },
     {
         "id":9,
@@ -71,7 +108,8 @@
             "Appliquer une charte graphique existante"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/5454886-creez-et-appliquez-une-charte-graphique"
+        "lien":"https://openclassrooms.com/fr/courses/5454886-creez-et-appliquez-une-charte-graphique",
+        "visible": true
     },
     {
         "id":8,
@@ -85,7 +123,8 @@
             "Manipulez des fichiers avec un terminal"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/6173491-apprenez-a-utiliser-la-ligne-de-commande-dans-un-terminal"
+        "lien":"https://openclassrooms.com/fr/courses/6173491-apprenez-a-utiliser-la-ligne-de-commande-dans-un-terminal",
+        "visible": true
     },
     {
         "id":7,
@@ -100,7 +139,8 @@
             "Exploiter les fonctionnalités avancées de ChatGPT"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/8204091-utilisez-chatgpt-pour-ameliorer-votre-productivite"
+        "lien":"https://openclassrooms.com/fr/courses/8204091-utilisez-chatgpt-pour-ameliorer-votre-productivite",
+        "visible": true
     },
     {
         "id":6,
@@ -114,7 +154,8 @@
             "Implémenter des éléments interactifs respectant les règles WCAG avec CSS et ARIA"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/6691451-codez-un-site-web-accessible-avec-html-css"
+        "lien":"https://openclassrooms.com/fr/courses/6691451-codez-un-site-web-accessible-avec-html-css",
+        "visible": true
     },
     {
         "id":5,
@@ -129,7 +170,8 @@
             "Concevoir des contenus web accessibles"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/6691346-concevez-un-contenu-web-accessible"
+        "lien":"https://openclassrooms.com/fr/courses/6691346-concevez-un-contenu-web-accessible",
+        "visible": true
     },
     {
         "id":4,
@@ -144,7 +186,8 @@
             "Créer une maquette avec Figma"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/7342806-creez-une-maquette-web-avec-figma"
+        "lien":"https://openclassrooms.com/fr/courses/7342806-creez-une-maquette-web-avec-figma",
+        "visible": true
     },
     {
         "id":3,
@@ -160,7 +203,8 @@
             "Créer un formulaire de saisie de données"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/7696886-apprenez-a-programmer-avec-javascript"
+        "lien":"https://openclassrooms.com/fr/courses/7696886-apprenez-a-programmer-avec-javascript",
+        "visible": true
     },
     {
         "id":2,
@@ -176,7 +220,8 @@
             "Utiliser des fonctionnalités avancées de HTML et CSS"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3"
+        "lien":"https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3",
+        "visible": true
     },
     {
         "id":1,
@@ -189,6 +234,7 @@
             "Pix est le service public en ligne pour évaluer, développer, et certifier ses compétences numériques."
         ],
         "textLien":"Consulter le site",
-        "lien":"https://pix.fr/"
+        "lien":"https://pix.fr/",
+        "visible": true
     }
 ]

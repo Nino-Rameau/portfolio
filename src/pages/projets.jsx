@@ -65,7 +65,10 @@ function Projets() {
       </section>
 
       <section className="space-y-8">
-        {data.filter(ProjetAfficher).map((projet, index) => (
+        {data
+        .filter((projet) => projet.visible)
+        .filter(ProjetAfficher)
+        .map((projet, index) => (
           ProjetAfficher(projet) ? 
             <Projet 
               indexAffichage={index}

@@ -13,7 +13,7 @@ const CardTerminal = ({titre, competence }) => (
         <Texte tag="h2" balise="h2" texte={titre} couleur="white" className="text-center text-2xl font-bold mt-4 mb-2"/>
 
         <ul className="text-black dark:text-white px-6 pb-4 mt-3">
-            {competence.map((info, index) => (
+            {competence.filter((info) => info.visible).map((info, index) => (
                 <li key={index} className="pl-6 text-white mb-5" >
                     <div className="flex items-center flex-wrap space-x-2">
                         <span>➞</span> 

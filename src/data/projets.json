@@ -7,7 +7,8 @@
     "tags": ["React", "CSS", "Figma", "Travail individuel", "Projet scolaire"],
     "image": ["img/031025-integration-maquette/maquette.webp"],
     "nomImg": ["Visuel de la page relocation"],
-    "repoHref": "https://github.com/Nino-Rameau/integration-maquette-lodge-relocation"
+    "repoHref": "https://github.com/Nino-Rameau/integration-maquette-lodge-relocation",
+    "visible": true
   },
   {
     "id": 18,
@@ -19,7 +20,8 @@
     "tags": ["HTML", "CSS", "JavaScript", "Figma", "Travail individuel", "Projet scolaire"],
     "image": ["img/120925-integration-maquette/maquette.webp"],
     "nomImg": ["Visuel de la page d'accueil en mode clair"],
-    "repoHref": "https://github.com/Nino-Rameau/integration-maquette-copywriting"
+    "repoHref": "https://github.com/Nino-Rameau/integration-maquette-copywriting",
+    "visible": true
   },
   {
     "id": 17,
@@ -40,7 +42,8 @@
       "Visuel de la page étudiant avec le tableau",
       "Wireframe réalisé sur figma"
     ],
-    "repoHref": "https://github.com/Nino-Rameau/integration-dashboard-stripe"
+    "repoHref": "https://github.com/Nino-Rameau/integration-dashboard-stripe",
+    "visible": true
   },
   {
     "id": 16,
@@ -50,7 +53,8 @@
     "date": "Réalisé en Septembre 2025",
     "tags": ["Figma", "Travail individuel", "Projet scolaire"],
     "image": ["img/050925-creation-maquette-figma/maquette.webp"],
-    "nomImg": ["Visuel de ma maquette"]
+    "nomImg": ["Visuel de ma maquette"],
+    "visible": true
   },
   {
     "id": 15,
@@ -60,7 +64,8 @@
     "date": "Réalisé en juillet 2025",
     "tags": ["Node.js", "Puppeteer", "Travail individuel", "Projet personnel"],
     "image": ["img/scraper-ref-prix/interface-page.png"],
-    "nomImg": ["Visuelle de l'interface"]
+    "nomImg": ["Visuelle de l'interface"],
+    "visible": true
   },
   {
     "id": 14,
@@ -70,7 +75,8 @@
     "date": "Réalisé en mars 2025",
     "tags": ["Figma", "WordPress", "Travail individuel", "Projet scolaire"],
     "image": ["img/site_e-commerce_nws/img-figma-sweat.png"],
-    "nomImg": ["image de la maquette de la page du produit réalisée sur Figma"]
+    "nomImg": ["image de la maquette de la page du produit réalisée sur Figma"],
+    "visible": true
   },
   {
     "id": 13,
@@ -80,7 +86,8 @@
     "date": "Réalisé de janvier à février 2025",
     "tags": ["Figma", "WordPress", "Travail en groupe", "Projet scolaire"],
     "image": ["img/handisup/page-accueil-site.png"],
-    "nomImg": ["image de la page d'accueil du site web intégrée sur WordPress"]
+    "nomImg": ["image de la page d'accueil du site web intégrée sur WordPress"],
+    "visible": true
   },
   {
     "id": 12,
@@ -96,7 +103,8 @@
       "img/la-grange-aux-peintures/site-web.png"
     ],
     "nomImg": ["Le logo que j'ai réalisé", "image du site web"],
-    "repoHref": "https://github.com/Nino-Rameau/grange-aux-peintures"
+    "repoHref": "https://github.com/Nino-Rameau/grange-aux-peintures",
+    "visible": true
   },
   {
     "id": 11,
@@ -106,7 +114,8 @@
     "tags": ["HTML", "CSS", "JavaScript", "Figma", "Travail individuel", "Projet scolaire"],
     "image": ["img/partiel-html-css-maquette-nexcent/maquette.png"],
     "nomImg": ["image de la maquette a integrer"],
-    "repoHref": "https://nino-rameau.github.io/partiel-html-css/"
+    "repoHref": "https://nino-rameau.github.io/partiel-html-css/",
+    "visible": true
   },
   {
     "id": 10,
@@ -119,7 +128,8 @@
     "tags": ["HTML", "CSS", "Logo", "Travail en groupe", "Projet scolaire"],
     "image": ["img/Normandie_Blog_School/logo.png"],
     "nomImg": ["logo du Normandie Blog School"],
-    "repoHref": "https://github.com/Nino-Rameau/normandie-blog-school"
+    "repoHref": "https://github.com/Nino-Rameau/normandie-blog-school",
+    "visible": true
   },
   {
     "id": 9,
@@ -132,7 +142,8 @@
     "tags": ["HTML", "CSS", "JavaScript", "Travail individuel", "Projet scolaire"],
     "image": ["img/img-portfolio-v1-html-css.png"],
     "nomImg": ["Aperçu de la page d'accueil"],
-    "repoHref": "https://github.com/Nino-Rameau/portfolio-nino-rameau"
+    "repoHref": "https://github.com/Nino-Rameau/portfolio-nino-rameau",
+    "visible": true
   },
   {
     "id": 8,
@@ -151,7 +162,8 @@
       "img/projet-cess/mockup.png"
     ],
     "nomImg": ["Le logo", "Le moodboard", "Extrait de la charte graphique", "Les mockup"],
-    "repoHref": "https://github.com/Nino-Rameau/integration-maquette-figma-projet-club-eco-saint-sever"
+    "repoHref": "https://github.com/Nino-Rameau/integration-maquette-figma-projet-club-eco-saint-sever",
+    "visible": true
   },
   {
     "id": 7,
@@ -164,7 +176,8 @@
     "tags": ["Logo", "Charte graphique", "Travail individuel", "Projet scolaire"],
     "image": ["img/logo/logo-verti-sans-nom.png"],
     "nomImg": ["image de mon logo"],
-    "className": "w-[80%] m-auto"
+    "className": "w-[80%] m-auto",
+    "visible": true
   },
   {
     "id": 6,
@@ -175,7 +188,8 @@
     "date": "Réalisé en octobre 2024",
     "tags": ["Logo", "Charte graphique", "Travail en groupe", "Projet scolaire"],
     "image": ["img/projet_BDE_NW5/AfficheNW5.jpg", "img/projet_BDE_NW5/logoNW5.jpg"],
-    "nomImg": ["Affiche Normandie Web Five", "Logo Normandie Web Five"]
+    "nomImg": ["Affiche Normandie Web Five", "Logo Normandie Web Five"],
+    "visible": true
   },
   {
     "id": 5,
@@ -203,7 +217,8 @@
       "image 6 de l'interview",
       "image 7 de l'interview",
       "image 8 de l'interview"
-    ]
+    ],
+    "visible": true
   },
   {
     "id": 4,
@@ -219,7 +234,8 @@
       "img/mini-jeux/classement.png"
     ],
     "nomImg": ["Page d'accueil", "Jeu du morpion", "Jeu du snake", "Page de score"],
-    "repoHref": "https://github.com/Nino-Rameau/mini_jeux"
+    "repoHref": "https://github.com/Nino-Rameau/mini_jeux",
+    "visible": true
   },
   {
     "id": 3,
@@ -230,7 +246,8 @@
     "tags": ["Python", "MySQL", "Travail individuel", "Projet scolaire"],
     "image": ["img/badge_RFID/img1.png"],
     "nomImg": ["image du programme"],
-    "repoHref": "https://github.com/Nino-Rameau/Gestion_badge_RFID"
+    "repoHref": "https://github.com/Nino-Rameau/Gestion_badge_RFID",
+    "visible": true
   },
   {
     "id": 2,
@@ -241,7 +258,8 @@
     "tags": ["Python", "HTML", "CSS", "Travail individuel", "Projet scolaire"],
     "image": ["img/quiz_guyane/1.png", "img/quiz_guyane/2.png", "img/quiz_guyane/3.png"],
     "nomImg": ["Page de connexion", "Page d'accueil", "Page du quiz"],
-    "repoHref": "https://github.com/Nino-Rameau/Quiz_Guyane"
+    "repoHref": "https://github.com/Nino-Rameau/Quiz_Guyane",
+    "visible": true
   },
   {
     "id": 1,
@@ -253,6 +271,7 @@
     "tags": ["Python", "Travail en groupe", "Projet scolaire"],
     "image": ["img/ville_turtle/ville.png"],
     "nomImg": ["image du résultat du programme"],
-    "repoHref": "https://github.com/Nino-Rameau/Architecture_urbaine_sur_turtle"
+    "repoHref": "https://github.com/Nino-Rameau/Architecture_urbaine_sur_turtle",
+    "visible": true
   }
 ]
