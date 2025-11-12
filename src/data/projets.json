@@ -28,6 +28,8 @@
     "titleProjet": "Création d'un dashboard",
     "description":
       "J'ai réalisé un wireframe puis réalisé un dashboard avec Vite, React, Tailwind CSS et des bibliothèques. Le dashboard est pour la Normandie Web School.",
+    "texteLienSiteWeb": "Lien vers le site web",
+    "lienSiteWeb": "https://dashboard-nws.nino-rameau.fr/",
     "date": "Réalisé en Septembre 2025",
     "tags": ["React", "Tailwind CSS", "Figma", "Travail individuel", "Projet scolaire"],
     "image": [
