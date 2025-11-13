@@ -58,7 +58,7 @@ const classes = texteTags({ balise, couleur, marge, padding, className });
   if (balise === "a" && lien) {
     if (lien.startsWith("/")) {
       return (
-        <Link to={lien} className={classes}>
+        <Link to={lien} className={classes} onClick={(e) => { window.scrollTo(0, 0); }}>
           {children ?? texte}
         </Link>
       );
