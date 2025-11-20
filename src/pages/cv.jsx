@@ -14,7 +14,7 @@ function Cv() {
       />
 
       <Texte tag="h1" balise="h1" texte="Mon CV" />
-      <div className="bg-white dark:bg-zinc-700 border-4 border-bleu_fonce rounded-[2rem] w-[90%] m-auto grid md:grid-cols-2 lg:grid-cols-[1fr_1fr]">
+      <div className="bg-white dark:bg-zinc-700 border-4 border-bleu_fonce rounded-[2rem] w-[90%] m-auto grid md:grid-cols-2 lg:grid-cols-[1fr_1fr] lg:max-w-[2000px]">
 
         {/* photo / Contact */}
         <div className="sm:p-4 flex flex-col items-center text-center py-4">

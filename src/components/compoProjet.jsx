@@ -10,16 +10,22 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, date, tags, image, nomImg, repoHref, }) => {
+const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, date, tags, image, nomImg, StyleImg, repoHref, }) => {
   const [photoOuverte, setphotoOuverte] = useState(false);
   const [indexAffiche, setindexAffiche] = useState(0); 
 
   let OrdreImage = indexAffichage % 2 === 0 ? true : false; 
 
+  let styleImg = "";
+
+  if (StyleImg === "encadreLightDark") {
+    styleImg = "border-2 border-black dark:border-white rounded-[15px]";
+  }
+
   let triImage;
   if (image.length === 1) {
     triImage = (
-      <div className="max-h-[400px] overflow-y-auto mx-auto mt-5 rounded-[15px]">
+      <div className={`max-h-[450px] overflow-y-auto mx-auto mt-5 rounded-[15px] ${styleImg}`}>
     <img
       src={image[0]}
       alt={nomImg[0]}
@@ -41,12 +47,12 @@ const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop={true}       
-        className="w-[90%] max-w-[300px] md:max-w-[450px] lg:max-w-[600px] mx-auto mt-5"
+        className={`w-[90%] max-w-[300px] md:max-w-[450px] lg:max-w-[600px] mx-auto mt-5`}
       >
         {image.map((src, index) => (
           <SwiperSlide key={index}>
             <div
-              className="flex justify-center items-center w-full h-[300px] relative cursor-pointer"
+              className={`flex justify-center items-center w-full h-[300px] relative cursor-pointer ${styleImg}`}
               onClick={() => { setindexAffiche(index); setphotoOuverte(true); }}
             >
               <img src={src} alt={nomImg[index]} loading="lazy" className="max-h-full max-w-full rounded-[15px]" />
@@ -59,7 +65,7 @@ const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb
 
   return (
     <>
-      <article className={`lg:flex justify-center items-center mt-8 lg:bg-bleu_clair lg:dark:bg-bleu_fonce w-full pb-6 lg:w-11/12 lg:rounded-2xl border-b-2 border-black dark:border-white lg:border-none lg:m-auto lg:mb-20 p-5 ${OrdreImage ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
+      <article className={`flex flex-col gap-5 justify-center items-center mt-8 lg:bg-bleu_clair lg:dark:bg-bleu_fonce w-full pb-6 lg:w-10/12 lg:rounded-2xl border-b-2 border-black dark:border-white lg:border-none lg:m-auto lg:mb-20 lg:max-w-[2200px] p-5 ${OrdreImage ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
 
         <div className="flex flex-col space-y-5 lg:w-1/2 pb-3 lg:pb-0">
           <Texte tag="h2" balise="h2" texte={titleProjet} marge="auto"/>
@@ -84,7 +90,7 @@ const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb
           {repoHref && (
             <>
               <Texte tag="p" balise="p" texte="Pour plus d’informations sur le codage, cliquez sur l’icône GitHub :" className="text-center" />
-              <a href={repoHref} title="Lien vers le repository GitHub">
+              <a href={repoHref} title="Lien vers le repository GitHub" target="__blank">
                 <IoLogoGithub className="text-black dark:text-white m-auto w-10 md:w-20 h-auto"/>
               </a>
             </>

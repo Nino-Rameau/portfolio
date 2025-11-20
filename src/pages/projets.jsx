@@ -54,7 +54,7 @@ function Projets() {
         
         <Texte tag="h2" balise="h2" texte="Tags" className="text-2xl font-bold text-center mb-4" />
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:max-w-[1800px] mx-auto">
           <TagCategorie title="Technologies front-end" options={["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="Technologies back-end" options={["Python", "MySQL", "Node.js", "Puppeteer"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="CMS" options={["WordPress"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
@@ -82,8 +82,8 @@ function Projets() {
               tags={projet.tags}
               image={projet.image}
               nomImg={projet.nomImg}
+              StyleImg={projet.StyleImg}
               repoHref={projet.repoHref}
-              className={projet.className}
             />
           : null
         ))}

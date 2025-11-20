@@ -1,5 +1,19 @@
 [
   {
+    "id": 20,
+    "titleProjet": "Cours JavaScript - To-do list, édition photo et musique",
+    "description": "Dans ce projet, j'ai réalisé une to-do list avec ajout, suppression et édition de tâches. J'ai également créé une page d'édition photo avec des filtres et une page d'écoute de musique.",
+    "texteLienSiteWeb": "Lien vers le site web",
+    "lienSiteWeb": "https://nino-rameau.github.io/cours-javascript/index.html",
+    "date": "Réalisé en novembre 2025",
+    "tags": ["HTML", "Tailwind CSS", "JavaScript", "Travail individuel", "Projet scolaire"],
+    "image": ["img/181125-cours-javascript/todo.webp"],
+    "nomImg": ["Visuel de la page to-do list"],
+    "StyleImg": "encadreLightDark",
+    "repoHref": "https://github.com/Nino-Rameau/cours-javascript",
+    "visible": true
+  },
+  {
     "id": 19,
     "titleProjet": "Intégration d'une maquette avec React",
     "description": "J'ai réalisé l'intégration web d'une maquette Figma. Il y a 4 pages : page d'accueil, page de contact avec formulaire, page relocation (2 versions). Le site a un carrousel entièrement fonctionnel et n'utilise pas de bibliothèques React.",

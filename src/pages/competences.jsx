@@ -33,7 +33,7 @@ function Competences() {
 
       <Texte tag="h1" balise="h1" texte="Mes certifications :" className="mt-30" />
 
-      <div className=" m-auto flex flex-row flex-wrap justify-around">
+      <div className=" m-auto flex flex-row flex-wrap justify-around lg:max-w-[2000px]">
         {DataCertifications
         .filter((certification) => certification.visible)
         .map((certification) => (
