@@ -1,9 +1,9 @@
-import Texte from "../components/texte";
-import Liste from "../components/liste-ul-li";
-import BtnHaut from "../components/btnhautpage";
-import SEO from "../components/seo";
+import Texte from "../../components/texte";
+import Liste from "../../components/liste-ul-li";
+import BtnHaut from "../../components/btnhautpage";
+import SEO from "../../components/seo";
 
-import  BtnTelechargement  from "../components/btnTelechargement"; 
+import  BtnTelechargement  from "../../components/btnTelechargement"; 
 
 function CharteGraphique() {
   return (

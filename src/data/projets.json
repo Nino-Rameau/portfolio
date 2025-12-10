@@ -187,7 +187,7 @@
     "description":
       "Voila ma propre charte graphique, elle est composée de mon logo, ma palette de couleur et mes polices d'écritures.",
     "texteLienSiteWeb": "Lien vers la charte graphique",
-    "lienSiteWeb": "/charteGraphique",
+    "lienSiteWeb": "/projets/charteGraphique",
     "date": "Réalisé en octobre 2024",
     "tags": ["Logo", "Charte graphique", "Travail individuel", "Projet scolaire"],
     "image": ["img/logo/logo-verti-sans-nom.png"],
