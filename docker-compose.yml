@@ -12,6 +12,10 @@ services:
       - "traefik.http.routers.portfolio.tls.certresolver=letsencrypt"
       - "traefik.http.services.portfolio.loadbalancer.server.port=8080"
 
+      - "traefik.http.middlewares.no-www.redirectregex.regex=^https?://www\\.nino-rameau\\.fr/(.*)"
+      - "traefik.http.middlewares.no-www.redirectregex.replacement=https://nino-rameau.fr/$${1}"
+      - "traefik.http.middlewares.no-www.redirectregex.permanent=true"
+
       - "traefik.http.middlewares.modif-charte.redirectregex.regex=(.*)/charteGraphique$$"
       - "traefik.http.middlewares.modif-charte.redirectregex.replacement=https://nino-rameau.fr/projets/charteGraphique"
       - "traefik.http.middlewares.modif-charte.redirectregex.permanent=true"
