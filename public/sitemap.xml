@@ -14,13 +14,13 @@
     </url>
     <url>
         <loc>https://nino-rameau.fr/projets</loc>
-        <lastmod>2025-11-19</lastmod>
+        <lastmod>2025-12-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://nino-rameau.fr/charteGraphique</loc>
-        <lastmod>2025-05-18</lastmod>
+        <loc>https://nino-rameau.fr/projets/charteGraphique</loc>
+        <lastmod>2025-12-10</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.2</priority>
     </url>
