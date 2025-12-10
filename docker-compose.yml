@@ -1,0 +1,18 @@
+services:
+  portfolio:
+    build: .
+    container_name: portfolio
+    networks:
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.portfolio.rule=Host(`nino-rameau.fr`)"
+      - "traefik.http.routers.portfolio.entrypoints=websecure"
+      - "traefik.http.routers.portfolio.tls.certresolver=letsencrypt"
+      
+      - "traefik.http.services.portfolio.loadbalancer.server.port=8080"
+    restart: always
+
+networks:
+  traefik:
+    external: true
