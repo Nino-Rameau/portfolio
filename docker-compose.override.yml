@@ -1,4 +1,0 @@
-services:
-  portfolio:
-    ports:
-      - "8080:8080"
