@@ -2,18 +2,18 @@
 
 Ce projet est mon portfolio personnel, développé par Create React App avec React 19 et Tailwind CSS 3. Il présente mon parcours, mes compétences et mes réalisations dans le domaine du développement web.
 
+Le projet est conteneurisé avec Docker et est déployé sur un VPS via un reverse proxy avec Traefik.
+
 ## Sommaire
 
 1. [Technologies utilisées](#technologies-utilisées)
-2. [Installation et lancement](#installation-et-lancement)
+2. [Architecture & Déploiement Docker](#architecture--déploiement-docker)
    - [Prérequis](#prérequis)
-   - [Installation](#installation)
-   - [Démarrage du projet](#démarrage-du-projet)
-   - [Build pour la production](#build-pour-la-production)
+   - [Lancement en Local](#lancement-en-local)
+   - [Déploiement en Production (VPS)](#déploiement-en-production-vps)
 3. [Pages](#pages)
-4. [Déploiement](#déploiement)
-5. [Auteur](#auteur)
-6. [Licence](#Licence)
+4. [Auteur](#auteur)
+5. [Licence](#Licence)
 
 ## Technologies utilisées
 
@@ -27,41 +27,62 @@ Ce projet est mon portfolio personnel, développé par Create React App avec Rea
 - **emailJS** : Permet de faire fonctionner mon formulaire
 - **react google recaptcha** : Permet l'ajout d'un captcha dans le formulaire
 - **react head** : Permet un meilleurs SEO avec des balise unique par page
+- **[Docker](https://www.docker.com/)** : Conteneurisation de l'application
+- **[Traefik](https://doc.traefik.io/traefik/)** : Reverse Proxy et gestion SSL
 
-## Installation et lancement
+## Architecture & Déploiement Docker
 
 ### Prérequis
 
-- Node.js
-- npm
+Pour lancer ce projet, vous avez besoin de :
+- **Docker**
+- **Git**
 
-### Installation
+### Lancement en Local
 
-Cloner le repository et installer les dépendances :
+Pour tester le projet en local :
 
-```sh
-git clone https://github.com/Nino-Rameau/portfolio.git
-cd portfolio
-npm install
-```
+1. Cloner le repository dans un dossier :
+   ```bash
+      git clone https://github.com/Nino-Rameau/portfolio.git .
+   ```
 
-### Démarrage du projet
+2. Modifier le fichier `docker-compose.yml` pour ajouter les lignes suivantes entre `networks:` et `labels:` dans la section `services: portfolio:` (Ce n'est pas mis de base pour des raisons de sécurité en production) :
 
-En mode développement :
+   ```yaml
+      ports:
+         - "8080:8080"
+   ```
 
-```sh
-npm run start
-```
+2. Lancer le conteneur via Docker Compose (-d pour lancer en arrière-plan et donc ne pas afficher les logs en continu et --build pour forcer la reconstruction de l'image) :
 
-Ouvrir [http://localhost:3000](http://localhost:3000) dans un navigateur.
+   ```bash
+      docker compose up -d --build   
+   ```
 
-### Build pour la production
+3. L'application est maintenant accessible sur : [http://localhost:8080/](http://localhost:8080/)
 
-```sh
-npm run build
-```
+### Déploiement en Production (VPS)
 
-Les fichiers optimisés seront dans le dossier `build/`.
+Sur le serveur de production, l'application fonctionne derrière un reverse proxy Traefik.
+
+1. Cloner le repository sur le VPS dans un dossier de votre choix :
+   ``` bash
+      git clone https://github.com/Nino-Rameau/portfolio.git .
+   ```
+
+2. Réseau Docker : Assurez-vous que le réseau externe pour Traefik existe :
+
+   ```bash
+      docker network create traefik
+   ```
+
+3. Mise en ligne :
+   ``` bash
+      docker compose up -d --build
+   ```
+
+L'application est alors accessible sur : [nino-rameau.fr](https://nino-rameau.fr)
 
 ## Pages
 
@@ -73,14 +94,9 @@ Les fichiers optimisés seront dans le dossier `build/`.
 - **Page de contact**
 - **Page de mentions légales**
 
-## Déploiement
-
-Le site est déployé sur mon nom de domaine : [nino-rameau.fr](https://nino-rameau.fr).
-
-
 ## Auteur
 
-**Nino Rameau** - [LinkedIn](https://www.linkedin.com/in/nino-rameau-1a0636332/) - [GitHub](https://github.com/Nino-Rameau)
+**[Nino Rameau](https://nino-rameau.fr)** - [LinkedIn](https://www.linkedin.com/in/nino-rameau-1a0636332/) - [GitHub](https://github.com/Nino-Rameau)
 
 ## Licence
 

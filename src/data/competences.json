@@ -103,6 +103,15 @@
                 "visible": true
             },
             {
+                "Langage": "Docker",
+                "Note": 2,
+                "img": "img/logo-divers/docker.png",
+                "texteAlt": "Logo Docker",
+                "Description": "Je connais les principes de Docker et je sais créer des conteneurs pour des applications.",
+                "dureeExperience": "Découvert fin 2025, utilisé régulièrement.",
+                "visible": true
+            },
+            {
                 "Langage": "Figma",
                 "Note": 4,
                 "img": "img/logo-divers/figma.png",

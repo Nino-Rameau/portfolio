@@ -1,1 +1,10 @@
 node_modules
+
+# Git 
+.git
+.gitignore
+
+# Configuration Docker
+docker-compose.yml
+docker-compose.override.yml
+Dockerfile

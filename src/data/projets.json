@@ -45,7 +45,7 @@
     "texteLienSiteWeb": "Lien vers le site web",
     "lienSiteWeb": "https://dashboard-nws.nino-rameau.fr/",
     "date": "Réalisé en Septembre 2025",
-    "tags": ["React", "Tailwind CSS", "Figma", "Travail individuel", "Projet scolaire"],
+    "tags": ["React", "Tailwind CSS","Docker", "Figma", "Travail individuel", "Projet scolaire"],
     "image": [
       "img/110925-dashboard/accueil.webp",
       "img/110925-dashboard/A2.webp",

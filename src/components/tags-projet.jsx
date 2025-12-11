@@ -5,6 +5,7 @@ const Tag = ({ tag }) => {
     JavaScript: "bg-[#f7e018]",
     React: "bg-[#00d8ff]",
     "Tailwind CSS": "bg-[#45aab5]",
+    Docker: "bg-[#1D63ED]",
     Python: "bg-[#4d9dda]",
     PHP: "bg-[#777cb4]",
     MySQL: "bg-[#929394]",
