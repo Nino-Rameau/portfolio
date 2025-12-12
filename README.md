@@ -17,16 +17,16 @@ Le projet est conteneurisé avec Docker et est déployé sur un VPS via un rever
 
 ## Technologies utilisées
 
-- **React** : Bibliothèque JavaScript pour construire l'interface utilisateur
-- **Tailwind CSS** : Framework CSS pour le design
-- **Tailwind Variant** : Création de variants dans certains composants comme les boutons
-- **React Router DOM** : Gestion de la navigation entre les pages
-- **Swiper** : carrousel de la page projet
-- **simple typewriter** : texte animé sur la page d'accueil
-- **React icons** : icones
-- **emailJS** : Permet de faire fonctionner mon formulaire
-- **react google recaptcha** : Permet l'ajout d'un captcha dans le formulaire
-- **react head** : Permet un meilleurs SEO avec des balise unique par page
+- **[React](https://react.dev/)** : Bibliothèque JavaScript pour construire l'interface utilisateur
+- **[Tailwind CSS](https://tailwindcss.com/)** : Framework CSS pour le design
+- **[Tailwind Variant](https://www.tailwind-variants.org/docs/introduction)** : Création de variants dans certains composants comme les boutons
+- **[React Router DOM](https://reactrouter.com/home)** : Gestion de la navigation entre les pages
+- **[Swiper](https://swiperjs.com/react)** : carrousel de la page projet
+- **[simple typewriter](https://react-simple-typewriter.vercel.app/?path=/story/introduction--page)** : texte animé sur la page d'accueil
+- **[React icons](https://react-icons.github.io/react-icons/)** : icones
+- **[emailJS](https://www.emailjs.com/docs/tutorial/overview/)** : Permet de faire fonctionner mon formulaire
+- **[react google recaptcha](https://github.com/dozoisch/react-google-recaptcha)** : Permet l'ajout d'un captcha dans le formulaire
+- **[react head](https://github.com/tizmagik/react-head)** : Permet un meilleurs SEO avec des balise unique par page
 - **[Docker](https://www.docker.com/)** : Conteneurisation de l'application
 - **[Traefik](https://doc.traefik.io/traefik/)** : Reverse Proxy et gestion SSL
 
@@ -89,7 +89,7 @@ L'application est alors accessible sur : [nino-rameau.fr](https://nino-rameau.fr
 - **Page d'accueil**
 - **Page de compétence et certification**
 - **Page de présentation de mes projets**
-- **Page de présentation de ma charte graphique**
+- **Page par projet**
 - **Page avec mon CV**
 - **Page de contact**
 - **Page de mentions légales**
