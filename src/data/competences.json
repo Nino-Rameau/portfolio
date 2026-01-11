@@ -31,7 +31,7 @@
             },
             {
                 "Langage": "React",
-                "Note": 1,
+                "Note": 2.5,
                 "img": "img/logo-divers/react.png",
                 "texteAlt": "Logo React",
                 "Description": "Je suis en train de découvrir React et son écosystème. J’ai réalisé mon portfolio avec React 19, en intégrant par exemple React Router Dom pour la navigation et Tailwind CSS pour le design. J’apprends à structurer mes applications avec des composants.",
@@ -107,7 +107,7 @@
                 "Note": 2,
                 "img": "img/logo-divers/docker.png",
                 "texteAlt": "Logo Docker",
-                "Description": "Je connais les principes de Docker et je sais créer des conteneurs pour des applications.",
+                "Description": "Je connais les principes de Docker et je sais créer des containers pour des sites web.",
                 "dureeExperience": "Découvert fin 2025, utilisé régulièrement.",
                 "visible": true
             },
@@ -135,6 +135,24 @@
                 "visible": true
             },
             {
+                "Langage": "CapCut",
+                "Note": 2,
+                "img": "img/logo-divers/capcut.webp",
+                "texteAlt": "Logo CapCut",
+                "Description": "Je connais les bases de CapCut pour le montage vidéo et le motion design.",
+                "dureeExperience": "Découvert fin 2025, utilisé rarement.",
+                "visible": true
+            },
+            {
+                "Langage": "LightRoom",
+                "Note": 1.5,
+                "img": "img/logo-divers/lightroom.png",
+                "texteAlt": "Logo LightRoom",
+                "Description": "Je connais les fonctions de base de Lightroom pour la retouche photo.",
+                "dureeExperience": "Découvert fin 2024, utilisé très rarement.",
+                "visible": true
+            },
+            {
                 "Langage": "PhotoShop",
                 "Note": 1,
                 "img": "img/logo-divers/photoshop.png",
@@ -158,15 +176,6 @@
                 "img": "img/logo-divers/indesign.png",
                 "texteAlt": "Logo InDesign",
                 "Description": "Je connais les notions fondamentales d’InDesign pour la mise en page.",
-                "dureeExperience": "Découvert fin 2024, utilisé très rarement.",
-                "visible": true
-            },
-            {
-                "Langage": "LightRoom",
-                "Note": 1,
-                "img": "img/logo-divers/lightroom.png",
-                "texteAlt": "Logo LightRoom",
-                "Description": "Je connais les fonctions de base de Lightroom pour la retouche photo.",
                 "dureeExperience": "Découvert fin 2024, utilisé très rarement.",
                 "visible": true
             }

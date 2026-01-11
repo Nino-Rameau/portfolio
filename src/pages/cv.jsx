@@ -4,6 +4,19 @@ import BtnTelechargement from "../components/btnTelechargement";
 import SEO from "../components/seo"; 
 
 function Cv() {
+
+  const naissance = new Date(2007, 0, 10); //  date aux format AAAA, MM, JJ
+  const date = new Date();
+
+  let age = date.getFullYear() - naissance.getFullYear();
+  const mois = date.getMonth() - naissance.getMonth();
+  const jour = date.getDate() - naissance.getDate();
+
+  // Si l'anniversaire n'est pas encore passé cette année
+  if (mois < 0 || (mois === 0 && jour < 0)) {
+    age--;
+  }
+
   return (
     <>
       <SEO
@@ -26,7 +39,7 @@ function Cv() {
           <Texte tag="h2" balise="h2" texte="Rameau Nino" className="m-4 lg:m-10"/>
           <Liste
             items={[
-              "18 ans",
+              age + " ans",
               "nrameau@normandiewebschool.fr",
               "+33 6 66 70 05 91",
               "Rouen (76) / Evreux (27)",
