@@ -12,7 +12,7 @@ function CharteGraphique() {
         title="Charte Graphique | Nino Rameau | Étudiant Développeur Web à la NWS de Rouen"
         description={`Voici ma charte graphique : les couleurs, les polices et l’identité visuelle que j’ai choisies pour mon portfolio.`}
         keywords="Nino Rameau, développeur web, portfolio, Rouen, Normandie Web School, NWS, étudiant, charte graphique, logo, typographie, couleurs"
-        canonical="https://nino-rameau.fr/charteGraphique"
+        canonical="https://nino-rameau.fr/projets/charteGraphique"
       />
 
       <Texte tag="h1" balise="h1" texte="Ma Charte Graphique" />
