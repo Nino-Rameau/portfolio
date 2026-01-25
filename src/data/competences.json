@@ -26,7 +26,7 @@
                 "img": "img/logo-divers/js.png",
                 "texteAlt": "Logo JavaScript",
                 "Description": "J’ai acquis les bases de JavaScript pour rendre les sites web interactifs et dynamiques. J'apprends à manipuler le DOM, gérer des événements, et j’ai aussi découvert l’automatisation avec Puppeteer, que j’ai utilisé pour réaliser des scripts de scraping de données.",
-                "dureeExperience": "Découvert fin 2024, mais je l'apprends en priorité sur la partie native et la partie Puppeteer pour du scraping.",
+                "dureeExperience": "Découvert fin 2024, utilisé quotidiennement depuis.",
                 "visible": true
             },
             {
@@ -53,8 +53,26 @@
         "titre": "Back-end :",
         "competence": [
             {
+                "Langage": "Node.js",
+                "Note": 2,
+                "img": "img/logo-divers/nodejs.png",
+                "texteAlt": "Logo Node.js",
+                "Description": "Je découvre Node.js pour le développement back-end. J’ai appris à créer des serveurs avec Express.js et à gérer des bases de données avec SQLite.",
+                "dureeExperience": "Découvert début 2026, utilisé pour des API.",
+                "visible": true
+            },
+            {
+                "Langage": "PHP",
+                "Note": 1,
+                "img": "img/logo-divers/php.png",
+                "texteAlt": "Logo PHP",
+                "Description": "Je possède les bases du langage.",
+                "dureeExperience": "Initiation en mai 2025.",
+                "visible": true
+            },
+            {
                 "Langage": "Python",
-                "Note": 3,
+                "Note": 2,
                 "img": "img/logo-divers/python.png",
                 "texteAlt": "Logo Python",
                 "Description": "Je maîtrise Python pour créer des scripts et j’utilise des frameworks comme Flask pour développer des sites web avec une base de données.",
@@ -69,15 +87,6 @@
                 "Description": "J’utilise les requêtes SQL avec un terminal MySQL ou PhpMyAdmin pour effectuer des opérations simples (sélections, insertions, jointures...).",
                 "dureeExperience": "Appris en 2024 et utilisé régulièrement depuis.",
                 "visible": true
-            },
-            {
-                "Langage": "PHP",
-                "Note": 1,
-                "img": "img/logo-divers/php.png",
-                "texteAlt": "Logo PHP",
-                "Description": "Je possède les bases du langage.",
-                "dureeExperience": "Initiation en mai 2025.",
-                "visible": true
             }
         ]
     },
@@ -86,7 +95,7 @@
         "competence": [
             {
                 "Langage": "WordPress & Elementor",
-                "Note": 2,
+                "Note": 1.5,
                 "img": "img/logo-divers/wordpress.png",
                 "texteAlt": "Logo Wordpress",
                 "Description": "J'ai les bases avec Elementor et je sais utiliser des extensions pour créer des pages simples.",
@@ -95,7 +104,7 @@
             },
             {
                 "Langage": "Git & GitHub",
-                "Note": 3,
+                "Note": 3.5,
                 "img": "img/logo-divers/github.png",
                 "texteAlt": "Logo GitHub",
                 "Description": "Je connais les principes de Git et GitHub. Je connais les commandes de base pour Git.",

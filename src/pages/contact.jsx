@@ -5,7 +5,6 @@ import emailjs from "emailjs-com";
 import ReCAPTCHA from "react-google-recaptcha";
 
 import { MdOutlineMailOutline } from "react-icons/md";
-import { FaPhone } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
 
 const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
@@ -111,11 +110,6 @@ const Contact = () => {
           <div className="flex items-center p-5 gap-4 pt-10 md:pt-0">
             <MdOutlineMailOutline className="text-bleu_fonce dark:text-bleu_clair w-8 h-auto" />
             <Texte tag="a" balise="a" texte="nrameau@normandiewebschool.fr" couleur="couleur" className="text-nowrap" lien="mailto:nrameau@normandiewebschool.fr" />
-          </div>
-
-          <div className="flex items-center p-5 gap-4">
-            <FaPhone className="text-bleu_fonce dark:text-bleu_clair w-6 h-auto" />
-            <Texte tag="p" balise="p" couleur="couleur" texte="+33 6 66 70 05 91" className="text-nowrap" />
           </div>
 
           <div className="flex items-center p-5 gap-4">

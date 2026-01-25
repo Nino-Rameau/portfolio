@@ -1,5 +1,27 @@
 [
   {
+    "id": 22,
+    "titleProjet": "API de gestion de stock",
+    "description": "J'ai réalisé une API de gestion de stock avec Node.js, Express et une base de données SQLite. L'API permet de gérer les produits en effectuant des opérations CRUD, connexion avec JWT.",
+    "date": "Réalisé en Janvier 2026",
+    "tags": ["Node.js", "Projet scolaire"],
+    "image": ["img/230126-api-stock/API-stock.png"],
+    "nomImg": ["Visuel de l'API"],
+    "repoHref": "https://github.com/Nino-Rameau/API-Gestion-stock",
+    "visible": true
+  },
+  {
+    "id": 21,
+    "titleProjet": "Cours API de gestion de projet",
+    "description": "J'ai réalisé une API de gestion de projet avec Node.js, Express et une base de données SQLite. L'API permet de gérer les projets en effectuant des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer). Elle inclut également une gestion des utilisateurs avec authentification par JWT et est sécurisée avec des middlewares.",
+    "date": "Réalisé en Janvier 2026",
+    "tags": ["Node.js", "Projet scolaire"],
+    "image": ["img/220126-api-projet/API-projet.png"],
+    "nomImg": ["Visuel de l'API"],
+    "repoHref": "https://github.com/Nino-Rameau/cours-nodejs",
+    "visible": true
+  },
+  {
     "id": 20,
     "titleProjet": "Cours JavaScript - To-do list, édition photo et musique",
     "description": "Dans ce projet, j'ai réalisé une to-do list avec ajout, suppression et édition de tâches. J'ai également créé une page d'édition photo avec des filtres et une page d'écoute de musique.",
@@ -78,7 +100,7 @@
     "description":
       "J’ai développé une mini-interface permettant de scraper les prix d'un site web depuis un fichier Excel et de générer un nouveau tableau avec les résultats, affichant une erreur en cas de problème. Réalisé avec Node.js, Express, Puppeteer, ExcelJS et Multer, ce projet offre une solution simple et accessible à un utilisateur non technique.",
     "date": "Réalisé en juillet 2025",
-    "tags": ["Node.js", "Puppeteer", "Travail individuel", "Projet personnel"],
+    "tags": ["Node.js", "Travail individuel", "Projet personnel"],
     "image": ["img/scraper-ref-prix/interface-page.png"],
     "nomImg": ["Visuelle de l'interface"],
     "visible": true
@@ -126,11 +148,13 @@
     "id": 11,
     "titleProjet": "Intégration d'une maquette figma",
     "description": "J'ai réalisé l'intégration web d'une maquette figma fictive.",
+    "texteLienSiteWeb": "Le site web",
+    "lienSiteWeb": "https://nino-rameau.github.io/partiel-html-css/",
     "date": "Réalisé en décembre 2024",
     "tags": ["HTML", "CSS", "JavaScript", "Figma", "Travail individuel", "Projet scolaire"],
     "image": ["img/partiel-html-css-maquette-nexcent/maquette.png"],
-    "nomImg": ["image de la maquette a integrer"],
-    "repoHref": "https://nino-rameau.github.io/partiel-html-css/",
+    "nomImg": ["image de la maquette à intégrer"],
+    "repoHref": "https://github.com/Nino-Rameau/partiel-html-css",
     "visible": true
   },
   {
@@ -257,7 +281,7 @@
     "id": 3,
     "titleProjet": "Gestion de badges RFID en Python et MySQL",
     "description":
-      "Le programme permet de gérer les données des badges RFID via une interface en ligne de commande. Il est développé en Python et est connecté à une base de données MySQL, il permet d’afficher, de modifier, de supprimer des informations de manière organisée.",
+      "Le programme permet de gérer les données des badges RFID via une interface en ligne de commande. Il est développé en Python et est connecté à une base de données MySQL, il permet d’afficher, de modifier, de supprimer des informations de manière organisée. (CRUD)",
     "date": "Réalisé en novembre 2023",
     "tags": ["Python", "MySQL", "Travail individuel", "Projet scolaire"],
     "image": ["img/badge_RFID/img1.png"],

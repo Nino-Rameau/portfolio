@@ -41,7 +41,6 @@ function Cv() {
             items={[
               age + " ans",
               "nrameau@normandiewebschool.fr",
-              "+33 6 66 70 05 91",
               "Rouen (76) / Evreux (27)",
               "Permis B et voiture",
             ]}

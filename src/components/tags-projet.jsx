@@ -10,7 +10,6 @@ const Tag = ({ tag }) => {
     PHP: "bg-[#777cb4]",
     MySQL: "bg-[#929394]",
     "Node.js": "bg-[#55a445]",
-    Puppeteer: "bg-[#1ad7a3]",
     WordPress: "bg-[#14aecc]",
     Logo: "bg-[#12ca12]",
     "Charte graphique": "bg-[#64f564]",
