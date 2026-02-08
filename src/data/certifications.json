@@ -1,6 +1,6 @@
 [
     {
-        "id":14,
+        "id":16,
         "titreRecto":"Apprendre le PHP",
         "image":"../../img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
@@ -16,7 +16,7 @@
         "visible": false
     },
     {
-        "id":13,
+        "id":15,
         "titreRecto":"Apprendre le JavaScript",
         "image":"../../img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
@@ -31,21 +31,35 @@
         "visible": true
     },
     {
-        "id":13,
-        "titreRecto":"Augmenter votre trafic grâce au référencement naturel (SEO)",
+        "id":14,
+        "titreRecto":"Écrivez la documentation technique de votre projet",
         "image":"../../img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
-        "date":"... décembre 2025",
+        "date":"2 février 2026",
         "titreVerso":"Objectifs :",
         "descriptionVerso":[
-            "Optimiser votre site web",
-            "Choisir les bons mots ou expressions-clés",
-            "Mesurer l'impact de vos actions SEO",
-            "Accélérer la remontée de votre site dans les résultats grâce aux backlinks"
+            "Documenter son code pour le rendre maintenable et réutilisable",
+            "Créer de la documentation pour une architecture"
         ],
         "textLien":"Consulter la formation",
-        "lien":"https://openclassrooms.com/fr/courses/5561431-les-bases-du-referencement-naturel-seo",
-        "visible": false
+        "lien":"https://openclassrooms.com/fr/courses/6398056-ecrivez-la-documentation-technique-de-votre-projet",
+        "visible": true
+    },
+    {
+        "id":13,
+        "titreRecto":"Augmentez votre trafic grâce au référencement naturel (SEO)",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"31 janvier 2026",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Choisissez les bons mots ou expressions-clés",
+            "Optimisez votre site web",
+            "Mesurez l'impact de vos actions SEO"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/5561431-augmentez-votre-trafic-grace-au-referencement-naturel-seo",
+        "visible": true
     },
     {
         "id":12,
