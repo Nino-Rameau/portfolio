@@ -56,7 +56,7 @@ function Projets() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:max-w-[1800px] mx-auto">
           <TagCategorie title="Technologies front-end" options={["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
-          <TagCategorie title="Technologies back-end" options={["Python", "MySQL", "Node.js", "Docker"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
+          <TagCategorie title="Technologies back-end" options={["Python", "MySQL", "Node.js", "PHP", "Docker"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="CMS" options={["WordPress"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="Design & Graphisme" options={["Logo", "Charte graphique", "Canva", "Figma"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="Type de travail" options={["Travail individuel", "Travail en groupe"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />

@@ -1,5 +1,21 @@
 [
     {
+        "id":17,
+        "titreRecto":"Apprendre React",
+        "image":"../../img/logo-divers/grafikart.png",
+        "descriptionImage":"logo Grafikart",
+        "date":"En cours",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Base du React",
+            "hooks de React",
+            "Découverte des librairies de l'écosystème React"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://grafikart.fr/formations/react",
+        "visible": true
+    },
+    {
         "id":16,
         "titreRecto":"Apprendre le PHP",
         "image":"../../img/logo-divers/grafikart.png",
@@ -20,7 +36,7 @@
         "titreRecto":"Apprendre le JavaScript",
         "image":"../../img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
-        "date":"En cours",
+        "date":"16 mars 2026",
         "titreVerso":"Objectifs :",
         "descriptionVerso":[
             "Base du JavaScript",
