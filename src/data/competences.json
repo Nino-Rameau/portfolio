@@ -9,7 +9,7 @@
                 "texteAlt": "Logo Next.js",
                 "Description": "Je sais structurer des applications Fullstack modernes avec Next.js et le framework React. Je sais aussi implémenter des systèmes d'authentification sécurisés avec Auth.js pour protéger les données utilisateur.",
                 "dureeExperience": "Découvert début 2026, utilisé dans des projets comme le site de tutoriels.",
-                "visible": true
+                "visible": false
             },
             {
                 "Langage": "TypeScript",
@@ -18,7 +18,7 @@
                 "texteAlt": "Logo TypeScript",
                 "Description": "J'utilise le typage pour rendre mon code plus robuste et maintenable.",
                 "dureeExperience": "Utilisé régulièrement depuis début 2026 pour améliorer la qualité de mes projets JavaScript.",
-                "visible": true
+                "visible": false
             },
             {
                 "Langage": "React et Vite",
@@ -36,7 +36,7 @@
                 "texteAlt": "Logo Prisma",
                 "Description": "Je sais modéliser des schémas de données et effectuer des requêtes sécurisées en base de données sans écrire de SQL brut.",
                 "dureeExperience": "Utilisé depuis début 2026 pour mes projets Next.js.",
-                "visible": true
+                "visible": false
             },
             {
                 "Langage": "Node.js",

@@ -1,5 +1,20 @@
 [
     {
+        "id":18,
+        "titreRecto":"Apprendre TypeScript",
+        "image":"../../img/logo-divers/grafikart.png",
+        "descriptionImage":"logo Grafikart",
+        "date":"En cours",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Base du TypeScript",
+            "Principes de programmation en TypeScript"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://grafikart.fr/formations/typescript",
+        "visible": true
+    },
+    {
         "id":17,
         "titreRecto":"Apprendre React",
         "image":"../../img/logo-divers/grafikart.png",
