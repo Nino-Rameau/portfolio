@@ -1,60 +1,46 @@
 [
     {
-        "titre": "Front-end :",
+        "titre": "Ma stack principale : JavaScript",
         "competence": [
             {
-                "Langage": "HTML",
-                "Note": 4.5,
-                "img": "img/logo-divers/html.png",
-                "texteAlt": "Logo HTML5",
-                "Description": "Je sais réaliser des pages web bien structurées et optimisées en HTML5, en respectant les standards du web et en utilisant des balises sémantiques pour améliorer l’accessibilité et le référencement naturel (SEO).",
-                "dureeExperience": "Découvert début 2024, utilisé régulièrement depuis.",
+                "Langage": "Next.js et Auth.js",
+                "Note": 2,
+                "img": "img/logo-divers/nextjs.webp",
+                "texteAlt": "Logo Next.js",
+                "Description": "Je sais structurer des applications Fullstack modernes avec Next.js et le framework React. Je sais aussi implémenter des systèmes d'authentification sécurisés avec Auth.js pour protéger les données utilisateur.",
+                "dureeExperience": "Découvert début 2026, utilisé dans des projets comme le site de tutoriels.",
                 "visible": true
             },
             {
-                "Langage": "CSS",
-                "Note": 4,
-                "img": "img/logo-divers/css.png",
-                "texteAlt": "Logo CSS3",
-                "Description": "J’utilise CSS3 avec Flexbox, Grid et les media queries pour concevoir des sites web responsifs et esthétiques, adaptés à tous les types d’écrans.",
-                "dureeExperience": "Découvert début 2024, utilisé régulièrement depuis.",
-                "visible": true
-            },
-            {
-                "Langage": "JavaScript",
+                "Langage": "TypeScript",
                 "Note": 3,
-                "img": "img/logo-divers/js.png",
-                "texteAlt": "Logo JavaScript",
-                "Description": "J’ai acquis les bases de JavaScript pour rendre les sites web interactifs et dynamiques. J'apprends à manipuler le DOM, gérer des événements, et j’ai aussi découvert l’automatisation avec Puppeteer, que j’ai utilisé pour réaliser des scripts de scraping de données.",
-                "dureeExperience": "Découvert fin 2024, utilisé quotidiennement depuis.",
+                "img": "img/logo-divers/typescript.png",
+                "texteAlt": "Logo TypeScript",
+                "Description": "J'utilise le typage pour rendre mon code plus robuste et maintenable.",
+                "dureeExperience": "Utilisé régulièrement depuis début 2026 pour améliorer la qualité de mes projets JavaScript.",
                 "visible": true
             },
             {
-                "Langage": "React",
-                "Note": 2.5,
+                "Langage": "React et Vite",
+                "Note": 3,
                 "img": "img/logo-divers/react.png",
                 "texteAlt": "Logo React",
-                "Description": "Je suis en train de découvrir React et son écosystème. J’ai réalisé mon portfolio avec React 19, en intégrant par exemple React Router Dom pour la navigation et Tailwind CSS pour le design. J’apprends à structurer mes applications avec des composants.",
+                "Description": "Je suis en train d'apprendre React et son écosystème. J’ai réalisé mon portfolio avec React 19, en intégrant par exemple React Router Dom pour la navigation et Tailwind CSS pour le design. J’apprends à structurer mes applications avec des composants.",
                 "dureeExperience": "Découvert début 2025, utilisé pour mon portfolio et en cours d’apprentissage.",
                 "visible": true
             },
             {
-                "Langage": "Tailwind CSS",
-                "Note":3.5,
-                "img": "img/logo-divers/tailwindcss.png",
-                "texteAlt": "Logo Tailwind CSS",
-                "Description": "J’utilise Tailwind CSS pour construire mes interfaces rapidement et efficacement. Grâce à sa syntaxe, je peux créer des designs responsifs et cohérents sans passer par des fichiers CSS classiques et beaucoup plus rapidement.",
-                "dureeExperience": "Découvert début 2025, utilisé régulièrement dans mes projets, notamment sur mon portfolio.",
+                "Langage": "Prisma",
+                "Note": 3,
+                "img": "img/logo-divers/prisma.png",
+                "texteAlt": "Logo Prisma",
+                "Description": "Je sais modéliser des schémas de données et effectuer des requêtes sécurisées en base de données sans écrire de SQL brut.",
+                "dureeExperience": "Utilisé depuis début 2026 pour mes projets Next.js.",
                 "visible": true
-            }
-        ]
-    },
-    {
-        "titre": "Back-end :",
-        "competence": [
+            },
             {
                 "Langage": "Node.js",
-                "Note": 2,
+                "Note": 3,
                 "img": "img/logo-divers/nodejs.png",
                 "texteAlt": "Logo Node.js",
                 "Description": "Je découvre Node.js pour le développement back-end. J’ai appris à créer des serveurs avec Express.js et à gérer des bases de données avec SQLite.",
@@ -62,30 +48,80 @@
                 "visible": true
             },
             {
-                "Langage": "PHP",
-                "Note": 1,
-                "img": "img/logo-divers/php.png",
-                "texteAlt": "Logo PHP",
-                "Description": "Je possède les bases du langage.",
-                "dureeExperience": "Initiation en mai 2025.",
+                "Langage": "Puppeteer",
+                "Note": 3,
+                "img": "img/logo-divers/puppeteer.png",
+                "texteAlt": "Logo Puppeteer",
+                "Description": "Je sais automatiser un navigateur pour réaliser du scraping de sites web, extraire des données ou simuler des actions utilisateur répétitives.",
+                "dureeExperience": "Utilisé régulièrement depuis 2025 pour divers scripts d'automatisation personel ou professionnel.",
+                "visible": true
+            },
+            {
+                "Langage": "JavaScript",
+                "Note": 3.5,
+                "img": "img/logo-divers/js.png",
+                "texteAlt": "Logo JavaScript",
+                "Description": "J’ai acquis les bases de JavaScript pour rendre les sites web interactifs et dynamiques. J'apprends à manipuler le DOM, gérer des événements. Je maîtrise les concepts de programmation asynchrone avec les promesses et async/await.",
+                "dureeExperience": "Découvert fin 2024, utilisé quotidiennement depuis.",
+                "visible": true
+            }
+        ]
+    },
+    {
+        "titre": "Mes autres stacks :",
+        "competence": [
+            {
+                "Langage": "Tailwind CSS",
+                "Note": 4.5,
+                "img": "img/logo-divers/tailwindcss.png",
+                "texteAlt": "Logo Tailwind CSS",
+                "Description": "J’utilise Tailwind CSS pour construire mes interfaces rapidement et efficacement. Grâce à sa syntaxe, je peux créer des designs responsifs et cohérents sans passer par des fichiers CSS classiques et beaucoup plus rapidement.",
+                "dureeExperience": "Découvert début 2025, utilisé régulièrement dans mes projets, notamment sur mon portfolio.",
+                "visible": true
+            },
+            {
+                "Langage": "HTML / CSS",
+                "Note": 4.5,
+                "img": "img/logo-divers/html-css.png",
+                "texteAlt": "Logo HTML / CSS",
+                "Description": "Je construis des structures sémantiques propres. Je maîtrise Flexbox et Grid pour réaliser des mises en page complexes et adaptées à tous les écrans.",
+                "dureeExperience": "Fondamentaux acquis en 2024, utilisés quotidiennement depuis.",
                 "visible": true
             },
             {
                 "Langage": "Python",
-                "Note": 2,
+                "Note": 3,
                 "img": "img/logo-divers/python.png",
                 "texteAlt": "Logo Python",
-                "Description": "Je maîtrise Python pour créer des scripts et j’utilise des frameworks comme Flask pour développer des sites web avec une base de données.",
+                "Description": "Je maîtrise Python pour créer des scripts et j'ai utilisé des frameworks comme Flask pour développer des sites web avec une base de données.",
                 "dureeExperience": "Utilisé quotidiennement pendant deux ans au lycée (2022-2024).",
                 "visible": true
             },
             {
-                "Langage": "SQL",
+                "Langage": "PHP",
+                "Note": 1.5,
+                "img": "img/logo-divers/php.png",
+                "texteAlt": "Logo PHP",
+                "Description": "Je connais les bases du langage. Je sais modifier des scripts existants ou intervenir sur des fonctions serveur simples.",
+                "dureeExperience": "Utilisé en cours en 2025 et 2026.",
+                "visible": true
+            },
+            {
+                "Langage": "SQL (MySQL, PhpMyAdmin, SQLite)",
                 "Note": 4,
                 "img": "img/logo-divers/sql.png",
                 "texteAlt": "Logo SQL",
-                "Description": "J’utilise les requêtes SQL avec un terminal MySQL ou PhpMyAdmin pour effectuer des opérations simples (sélections, insertions, jointures...).",
+                "Description": "Je suis capable de concevoir des bases de données relationnelles. Je maîtrise les requêtes SQL pour manipuler les données efficacement et je sais utiliser des outils comme PhpMyAdmin pour gérer mes bases de données.",
                 "dureeExperience": "Appris en 2024 et utilisé régulièrement depuis.",
+                "visible": true
+            },
+            {
+                "Langage": "Markdown",
+                "Note": 4,
+                "img": "img/logo-divers/markdown.webp",
+                "texteAlt": "Logo Markdown",
+                "Description": "Je rédige des documentations techniques claires et structurées pour rendre mes projets GitHub lisibles et faciles à comprendre.",
+                "dureeExperience": "Utilisé systématiquement pour documenter mes dépôts de code.",
                 "visible": true
             }
         ]
@@ -94,17 +130,17 @@
         "titre": "Développement web :",
         "competence": [
             {
-                "Langage": "WordPress & Elementor",
-                "Note": 1.5,
-                "img": "img/logo-divers/wordpress.png",
-                "texteAlt": "Logo Wordpress",
-                "Description": "J'ai les bases avec Elementor et je sais utiliser des extensions pour créer des pages simples.",
-                "dureeExperience": "Découvert fin 2024, utilisé très rarement.",
+                "Langage": "Déploiement (VPS, DNS, SSL...)",
+                "Note": 3,
+                "img": "img/logo-divers/deploiement.png",
+                "texteAlt": "Logo Déploiement",
+                "Description": "Je sais mettre mes projets en ligne. Je configure des noms de domaine, des certificats SSL et je gère le déploiement sur des VPS (serveurs virtuels privés).",
+                "dureeExperience": "Utilisé lors de la mise en ligne de mes projets.",
                 "visible": true
             },
             {
                 "Langage": "Git & GitHub",
-                "Note": 3.5,
+                "Note": 4,
                 "img": "img/logo-divers/github.png",
                 "texteAlt": "Logo GitHub",
                 "Description": "Je connais les principes de Git et GitHub. Je connais les commandes de base pour Git.",
@@ -113,114 +149,99 @@
             },
             {
                 "Langage": "Docker",
-                "Note": 2,
+                "Note": 2.5,
                 "img": "img/logo-divers/docker.png",
                 "texteAlt": "Logo Docker",
                 "Description": "Je connais les principes de Docker et je sais créer des containers pour des sites web.",
-                "dureeExperience": "Découvert fin 2025, utilisé régulièrement.",
+                "dureeExperience": "Découvert fin 2025, utilisé ponctuellement.",
                 "visible": true
             },
             {
-                "Langage": "Figma",
-                "Note": 4,
-                "img": "img/logo-divers/figma.png",
-                "texteAlt": "Logo Figma",
-                "Description": "J’utilise Figma pour créer des maquettes simples de sites web, comme mon portfolio.",
-                "dureeExperience": "Découvert fin 2024, utilisé ponctuellement.",
+                "Langage": "Postman",
+                "Note": 3,
+                "img": "img/logo-divers/postman.png",
+                "texteAlt": "Logo Postman",
+                "Description": "Je teste et valide mes routes d'API. Je m'assure que les données envoyées et reçues sont correctes avant l'intégration front-end.",
+                "dureeExperience": "Utilisé ponctuellent pour tester mes API lors de leur développement.",
+                "visible": true
+            },
+            {
+                "Langage": "WordPress & Elementor",
+                "Note": 2,
+                "img": "img/logo-divers/wordpress.png",
+                "texteAlt": "Logo Wordpress",
+                "Description": "J'ai les bases avec Elementor et je sais utiliser des extensions pour créer des pages simples.",
+                "dureeExperience": "Découvert fin 2024, utilisé très rarement.",
                 "visible": true
             }
         ]
     },
     {
-        "titre": "Graphisme :",
+        "titre": "Mes autres compétences :",
         "competence": [
+            {
+                "Langage": "SEO et référencement naturel",
+                "Note": 3.5,
+                "img": "img/logo-divers/seo.png",
+                "texteAlt": "Logo SEO",
+                "Description": "Je sais optimiser la visibilité de mes sites. Je gère les balises meta, la sémantique, le maillage interne et les performances pour améliorer le référencement naturel.",
+                "dureeExperience": "Intégré dans mes projets web et pratiqué régulièrement en alternance.",
+                "visible": true
+            },
+            {
+                "Langage": "Notion",
+                "Note": 4,
+                "img": "img/logo-divers/notion.png",
+                "texteAlt": "Logo Notion",
+                "Description": "J'organise mes projets en utilisant des tableaux, To-do list... pour suivre mes tâches et je centralise ma documentation technique sur des espaces dédiés.",
+                "dureeExperience": "Utilisé quotidiennement pour organiser mes tâches en entreprise.",
+                "visible": true
+            },
+            {
+                "Langage": "Figma",
+                "Note": 3.5,
+                "img": "img/logo-divers/figma.png",
+                "texteAlt": "Logo Figma",
+                "Description": "Je sais concevoir des interfaces UX/UI. Je sais réaliser des maquettes et des prototypes interactifs avant de passer au développement.",
+                "dureeExperience": "Utilisé pour le design de mon portfolio et d'autres projets.",
+                "visible": true
+            },
             {
                 "Langage": "Canva",
                 "Note": 4,
                 "img": "img/logo-divers/canva.png",
                 "texteAlt": "Logo Canva",
-                "Description": "Je maîtrise Canva pour créer des visuels simples et efficaces. Je l’utilise surtout pour des présentations ou des mises en pages diverses.",
-                "dureeExperience": "Découvert au lycée et utilisé régulièrement au quotidien.",
+                "Description": "Je crée des supports visuels. Je réalise des présentations, et des visuels rapidement.",
+                "dureeExperience": "Utilisé régulièrement au quotidien.",
                 "visible": true
             },
             {
                 "Langage": "CapCut",
-                "Note": 2,
+                "Note": 2.5,
                 "img": "img/logo-divers/capcut.webp",
                 "texteAlt": "Logo CapCut",
-                "Description": "Je connais les bases de CapCut pour le montage vidéo et le motion design.",
+                "Description": "Je réalise des montages vidéo. avec transitions, rythme... et du motion design simple.",
                 "dureeExperience": "Découvert fin 2025, utilisé rarement.",
                 "visible": true
             },
             {
-                "Langage": "LightRoom",
+                "Langage": "Suite adobe (Photoshop, Lightroom, Illustrator, InDesign)",
                 "Note": 1.5,
-                "img": "img/logo-divers/lightroom.png",
-                "texteAlt": "Logo LightRoom",
-                "Description": "Je connais les fonctions de base de Lightroom pour la retouche photo.",
-                "dureeExperience": "Découvert fin 2024, utilisé très rarement.",
+                "img": "img/logo-divers/adobe.png",
+                "texteAlt": "Logo Adobe",
+                "Description": "Je sais effectuer des retouches photo, créer des visuels vectoriels simples et préparer des documents pour l'impression.",
+                "dureeExperience": "Découvert fin 2024, utilisé très ponctuellement.",
                 "visible": true
             },
             {
-                "Langage": "PhotoShop",
-                "Note": 1,
-                "img": "img/logo-divers/photoshop.png",
-                "texteAlt": "Logo PhotoShop",
-                "Description": "Je connais les bases de Photoshop et son utilité principale (retouche photo, création d’images).",
-                "dureeExperience": "Découvert fin 2024, utilisé très rarement.",
-                "visible": true
-            },
-            {
-                "Langage": "Illustrator",
-                "Note": 1,
-                "img": "img/logo-divers/illustrator.png",
-                "texteAlt": "Logo Illustrator",
-                "Description": "J’ai une bonne compréhension d’Illustrator, principalement pour la création de graphismes vectoriels.",
-                "dureeExperience": "Découvert fin 2024, utilisé très rarement.",
-                "visible": true
-            },
-            {
-                "Langage": "InDesign",
-                "Note": 1,
-                "img": "img/logo-divers/indesign.png",
-                "texteAlt": "Logo InDesign",
-                "Description": "Je connais les notions fondamentales d’InDesign pour la mise en page.",
-                "dureeExperience": "Découvert fin 2024, utilisé très rarement.",
+                "Langage": "Suite Office et Google",
+                "Note": 3.5,
+                "img": "img/logo-divers/office.png",
+                "texteAlt": "Logo Office",
+                "Description": "Je maîtrise les outils de traitement de texte, de tableur et de présentation pour créer des documents professionnels, analyser des données et réaliser des présentations efficaces.",
+                "dureeExperience": "Utiliser régulièrement depuis plusieurs années.",
                 "visible": true
             }
-        ]
-    },
-    {
-        "titre": "Traitement de texte :",
-        "competence": [
-            {
-                "Langage": "Word - Google Docs",
-                "Note": 4,
-                "img": "img/logo-divers/word.png",
-                "texteAlt": "Logo Word",
-                "Description": "J’utilise régulièrement Word et Google Docs pour rédiger et mettre en forme des documents. Je maîtrise les fonctions de base comme les styles, les tableaux et la collaboration en ligne.",
-                "dureeExperience": "Utilisation fréquente depuis plusieurs années.",
-                "visible": true
-            },
-            {
-                "Langage": "Excel - Google Sheets",
-                "Note": 2,
-                "img": "img/logo-divers/excel.png",
-                "texteAlt": "Logo Excel",
-                "Description": "J’ai les bases d’Excel et Google Sheets, je sais créer des tableaux simples et utiliser quelques formules de base.",
-                "dureeExperience": "Utilisation ponctuelle depuis plusieurs années.",
-                "visible": true
-            },
-            {
-                "Langage": "Power Point",
-                "Note": 4,
-                "img": "img/logo-divers/powerpoint.png",
-                "texteAlt": "Logo ",
-                "Description": "Je sais créer des présentations claires et efficaces, en ajoutant des animations et transitions simples.",
-                "dureeExperience": "Utilisation fréquente depuis plusieurs années.",
-                "visible": true
-            }
-            
         ]
     }
 ]

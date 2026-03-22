@@ -10,7 +10,7 @@ const CardTerminal = ({titre, competence }) => (
             <span className="bg-green-500 inline-block center w-3 h-3 rounded-full cursor-pointer"></span>
         </div> 
 
-        <Texte tag="h2" balise="h2" texte={titre} couleur="white" className="text-center text-2xl font-bold mt-4 mb-2"/>
+        <Texte tag="h2" balise="h2" texte={titre} couleur="white" className="text-center text-2xl font-bold mt-4 mb-8"/>
 
         <ul className="text-black dark:text-white px-6 pb-4 mt-3">
             {competence.filter((info) => info.visible).map((info, index) => (

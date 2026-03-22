@@ -89,7 +89,7 @@ const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb
           {triImage}
           {repoHref && (
             <>
-              <Texte tag="p" balise="p" texte="Pour plus d’informations sur le codage, cliquez sur l’icône GitHub :" className="text-center" />
+              <Texte tag="p" balise="p" texte="Pour plus d’informations sur mon code, cliquez sur l’icône GitHub :" className="text-center" />
               <a href={repoHref} title="Lien vers le repository GitHub" target="__blank">
                 <IoLogoGithub className="text-black dark:text-white m-auto w-10 md:w-20 h-auto"/>
               </a>
