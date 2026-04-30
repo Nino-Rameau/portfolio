@@ -4,7 +4,7 @@
     "titleProjet": "Projet IA : CMS",
     "description": "J'ai réalisé un CMS entièrement par IA en Next.js. Le projet permet de créer, lire, mettre à jour et supprimer des pages web en Drag and Drop. Le CMS est était pensé pour tout type d'utilisateur et est pensé pour le SEO et déploiement des site web créés.",
     "date": "Réalisé en avril 2026",
-    "tags": ["Next.js", "React", "Tailwind CSS", "Docker", "Travail individuel", "Projet scolaire"],
+    "tags": ["Next.js", "MySQL", "React", "Tailwind CSS", "Docker", "Travail individuel", "Projet scolaire"],
     "image": ["img/170426-projet-cms-ia/accueil.png", "img/170426-projet-cms-ia/gestion-page.png", "img/170426-projet-cms-ia/page-edition.png"],
     "nomImg": ["Visuel de l'accueil", "Visuel de la gestion des pages", "Visuel de l'édition d'une page"],
     "repoHref": "https://github.com/Nino-Rameau/projet-cms",
