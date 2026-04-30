@@ -30,11 +30,12 @@ function Cv() {
       <div className="bg-white dark:bg-zinc-700 border-4 border-bleu_fonce rounded-[2rem] w-[90%] m-auto grid md:grid-cols-2 lg:grid-cols-[1fr_1fr] lg:max-w-[2000px]">
 
         {/* photo / Contact */}
-        <div className="sm:p-4 flex flex-col items-center text-center py-4">
+        <div className="flex flex-col items-center py-4 text-center sm:p-4">
           <img
             className="rounded-full w-[15rem]"
             src="../../img/photo_nino.jpg"
             alt="Nino Rameau"
+            loading="lazy"
           />
           <Texte tag="h2" balise="h2" texte="Rameau Nino" className="m-4 lg:m-10"/>
           <Liste
@@ -182,7 +183,7 @@ function Cv() {
         {/* COMPETENCES */}
         <div className="p-4 md:col-span-2 md:border-t-[15px] border-bleu_fonce">
           <Texte tag="h3" balise="h3" texte="COMPETENCES" couleur="couleur" className="mb-4" />
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid gap-4 md:grid-cols-2">
             <div>
               <Texte tag="h4" balise="h4" texte="Logiciels :" className="mb-2" />
               <Liste
