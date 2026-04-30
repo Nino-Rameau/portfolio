@@ -1,6 +1,6 @@
 # Portfolio
 
-Ce projet est mon portfolio personnel, développé par Create React App avec React 19 et Tailwind CSS 3. Il présente mon parcours, mes compétences et mes réalisations dans le domaine du développement web.
+Ce projet est mon portfolio personnel, développé par Vite avec React 19 et Tailwind CSS 3. Il présente mon parcours, mes compétences et mes réalisations dans le domaine du développement web.
 
 Le projet est conteneurisé avec Docker et est déployé sur un VPS via un reverse proxy avec Traefik.
 
