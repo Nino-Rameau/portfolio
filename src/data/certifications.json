@@ -1,10 +1,26 @@
 [
     {
+        "id":19,
+        "titreRecto":"Optimisez le SEO en améliorant ses performances techniques",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"En cours",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Maîtriser des bonnes pratiques pour augmenter la vitesse d’un site",
+            "Optimiser le SEO d'un site construit avec un framework JavaScript",
+            "Optimiser le SEO d'un site multilingue"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/5922626-optimisez-le-referencement-de-votre-site-seo-en-ameliorant-ses-performances-techniques",
+        "visible": true
+    },
+    {
         "id":18,
         "titreRecto":"Apprendre TypeScript",
         "image":"../../img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
-        "date":"En cours",
+        "date":"28 avril 2026",
         "titreVerso":"Objectifs :",
         "descriptionVerso":[
             "Base du TypeScript",
@@ -19,7 +35,7 @@
         "titreRecto":"Apprendre React",
         "image":"../../img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
-        "date":"En cours",
+        "date":"18 avril 2026",
         "titreVerso":"Objectifs :",
         "descriptionVerso":[
             "Base du React",

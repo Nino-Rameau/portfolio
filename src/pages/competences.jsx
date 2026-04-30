@@ -24,7 +24,8 @@ function Competences() {
             <div className="flex justify-center items-center flex-wrap mt-4">
               {DataCompetences
               .map((competence) => (
-                <CardTerminal 
+                <CardTerminal
+                  key={competence.titre}
                   titre = {competence.titre}
                   competence={competence.competence}
                 />
@@ -38,6 +39,7 @@ function Competences() {
         .filter((certification) => certification.visible)
         .map((certification) => (
           <CardRV
+            key={certification.titreRecto}
             titleRecto = {certification.titreRecto}
             image = {certification.image}
             descriptionImage = {certification.descriptionImage}

@@ -25,7 +25,7 @@ function Projets() {
   }
 
   const tagEquivalences = {
-    JavaScript: ["JavaScript", "Node.js", "React"], 
+    JavaScript: ["JavaScript", "Node.js", "React", "Next.js"], 
   };
 
   const ProjetAfficher = (projet) => {
@@ -50,13 +50,13 @@ function Projets() {
 
       <BtnHaut />
 
-      <section className="mb-10 border-b-white border-b-2 lg:border-b-0 lg:w-10/12 mx-auto">
+      <section className="mx-auto mb-10 border-b-2 border-b-white lg:border-b-0 lg:w-10/12">
         
-        <Texte tag="h2" balise="h2" texte="Tags" className="text-2xl font-bold text-center mb-4" />
+        <Texte tag="h2" balise="h2" texte="Tags" className="mb-4 text-2xl font-bold text-center" />
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:max-w-[1800px] mx-auto">
           <TagCategorie title="Technologies front-end" options={["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
-          <TagCategorie title="Technologies back-end" options={["Python", "MySQL", "Node.js", "PHP", "Docker"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
+          <TagCategorie title="Technologies back-end" options={["Next.js", "Python", "MySQL", "Node.js", "PHP", "Docker"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="CMS" options={["WordPress"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="Design & Graphisme" options={["Logo", "Charte graphique", "Canva", "Figma"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="Type de travail" options={["Travail individuel", "Travail en groupe"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />

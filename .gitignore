@@ -1,13 +1,10 @@
-/build
-
-node_modules
-dist
-
+/node_modules
+/dist
 
 .env
-
-README2.md
 
 copie-texte-accueil.txt
 
 docker-compose.override.yml
+
+.DS_Store

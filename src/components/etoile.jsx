@@ -7,15 +7,15 @@ const AffichageEtoile = ({ note }) => {
     const etoiles = [];
 
     for (let i = 0; i < pleines; i++) {
-        etoiles.push(<FaStar className="text-amber-300" />);
+        etoiles.push(<FaStar key={`pleine-${i}`} className="text-amber-300" />);
     }
 
     if (demi) {
-        etoiles.push(<FaStarHalfAlt className="text-amber-300" />);
+        etoiles.push(<FaStarHalfAlt key="demi" className="text-amber-300" />);
     }
 
     for (let i = 0; i < vides; i++) {
-        etoiles.push(<FaRegStar className="text-amber-300" />);
+        etoiles.push(<FaRegStar key={`vide-${i}`} className="text-amber-300" />);
     }
 
     return etoiles;
