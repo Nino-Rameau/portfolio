@@ -1,10 +1,25 @@
 [
     {
         "id":19,
+        "titreRecto":"Créez des animations CSS modernes",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"14 mai 2026",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Maîtriser les translations, les rotations et l’opacité",
+            "Réaliser des animations dynamiques"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/5919246-creez-des-animations-css-modernes",
+        "visible": true
+    },
+    {
+        "id":19,
         "titreRecto":"Optimisez le SEO en améliorant ses performances techniques",
         "image":"../../img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
-        "date":"En cours",
+        "date":"12 mai 2026",
         "titreVerso":"Objectifs :",
         "descriptionVerso":[
             "Maîtriser des bonnes pratiques pour augmenter la vitesse d’un site",
