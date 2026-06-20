@@ -1,5 +1,53 @@
 [
   {
+    "id": 28,
+    "titleProjet": "Site de tutoriel : Nino Web Success",
+    "description": "J'ai réalisé un site web de tutoriel entièrement fonctionnel avec gestion de comptes utilisateurs. Le site permet de créer, modifier, supprimer et consulter des tutoriels. De plus j'ai réalisé logo, charte graphique, audit SEO, déploiement...",
+    "texteLienSiteWeb": "Lien vers le site web",
+    "lienSiteWeb": "https://nws.nino-rameau.fr",
+    "date": "Réalisé de février à juin 2026",
+    "tags": ["Next.js", "MySQL", "React", "Tailwind CSS", "Docker", "Logo", "Charte graphique", "Travail individuel", "Projet scolaire"],
+    "image": ["img/140626-nino-web-success/accueil.png", "img/140626-nino-web-success/tutoriel.png", "img/140626-nino-web-success/creer-tuto.png"],
+    "nomImg": ["Visuel de l'accueil de l'application", "Visuel du tutoriel", "Visuel de la création d'un tutoriel"],
+    "repoHref": "https://github.com/Nino-Rameau/tuto",
+    "visible": true
+  },
+  {
+    "id": 27,
+    "titleProjet": "App restaurant",
+    "description": "Dans le cadre d'un partiel, j'ai réalisé une application de restaurant en React. L'application permet de visualiser la carte, passer des commandes, gérer les commandes.",
+    "date": "Réalisé en juin 2026",
+    "tags": ["React", "Tailwind CSS", "Travail individuel", "Projet scolaire"],
+    "image": ["img/240626-partiel-js/accueil.png"],
+    "nomImg": ["Visuel de l'accueil de l'application"],
+    "repoHref": "https://github.com/Nino-Rameau/partiel-js-restaurant",
+    "visible": true
+  },
+  {
+    "id": 26,
+    "titleProjet": "App question / réponse",
+    "description": "Dans le cadre d'un partiel, j'ai réalisé une application de question / réponse en PHP. L'application permet d'ajouter des questions et d'y répondre.",
+    "date": "Réalisé en juin 2026",
+    "tags": ["PHP", "MySQL", "Tailwind CSS", "Travail individuel", "Projet scolaire"],
+    "image": ["img/230626-partiel-php/accueil.png", "img/230626-partiel-php/ajouter.png", "img/230626-partiel-php/repondre.png"],
+    "nomImg": ["Visuel de l'accueil de l'application", "Visuel de la page d'ajout de question", "Visuel de la page de réponse"],
+    "repoHref": "https://github.com/Nino-Rameau/partiel-php-escape-game",
+    "visible": true
+  },
+  {
+    "id": 25,
+    "titleProjet": "App météo",
+    "description": "J'ai réalisé une application météo qui permet de rechercher la météo d'une ville et d'afficher les prévisions via une API.",
+    "texteLienSiteWeb": "Lien vers le site web",
+    "lienSiteWeb": "https://meteo-app-fawn.vercel.app",
+    "date": "Réalisé en juin 2026",
+    "tags": ["React", "Tailwind CSS", "Travail individuel", "Projet scolaire"],
+    "image": ["img/100626-app-meteo/accueil.png"],
+    "nomImg": ["Visuel de l'accueil de l'application"],
+    "repoHref": "https://github.com/Nino-Rameau/meteo-app",
+    "visible": true
+  },
+  {
     "id": 24,
     "titleProjet": "Projet IA : CMS",
     "description": "J'ai réalisé un CMS entièrement par IA en Next.js. Le projet permet de créer, lire, mettre à jour et supprimer des pages web en Drag and Drop. Le CMS est était pensé pour tout type d'utilisateur et est pensé pour le SEO et déploiement des site web créés.",

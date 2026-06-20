@@ -65,9 +65,9 @@ const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb
 
   return (
     <>
-      <article className={`flex flex-col gap-5 justify-center items-center mt-8 lg:bg-bleu_clair lg:dark:bg-bleu_fonce w-full pb-6 lg:w-10/12 lg:rounded-2xl border-b-2 border-black dark:border-white lg:border-none lg:m-auto lg:mb-20 lg:max-w-[2200px] p-5 ${OrdreImage ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
+      <article className={`flex flex-col gap-5 justify-center items-center mt-8 lg:bg-bleu_clair lg:dark:bg-bleu_fonce w-full pb-6 lg:w-10/12 lg:rounded-2xl border-b-2 border-black dark:border-white lg:border-none lg:mx-auto lg:max-w-[2200px] p-5 ${OrdreImage ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
 
-        <div className="flex flex-col space-y-5 lg:w-1/2 pb-3 lg:pb-0">
+        <div className="flex flex-col pb-3 space-y-5 lg:w-1/2 lg:pb-0">
           <Texte tag="h2" balise="h2" texte={titleProjet} marge="auto"/>
           <Texte tag="p" balise="p" texte={description} marge="auto"/>
 
@@ -85,13 +85,13 @@ const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb
           </div>
         </div>
 
-        <div className="flex flex-col space-y-5 lg:w-1/2 m-auto">
+        <div className="flex flex-col m-auto space-y-5 lg:w-1/2">
           {triImage}
           {repoHref && (
             <>
               <Texte tag="p" balise="p" texte="Pour plus d’informations sur mon code, cliquez sur l’icône GitHub :" className="text-center" />
               <a href={repoHref} title="Lien vers le repository GitHub" target="__blank">
-                <IoLogoGithub className="text-black dark:text-white m-auto w-10 md:w-20 h-auto"/>
+                <IoLogoGithub className="w-10 h-auto m-auto text-black dark:text-white md:w-20"/>
               </a>
             </>
           )}
@@ -125,7 +125,7 @@ const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb
             ))}
           </Swiper>
         </div>
-          <button onClick={(e) => { setphotoOuverte(false); }} className="absolute top-40 right-3 lg:top-20 lg:right-10 bg-white p-2 rounded-full text-black border-solid border-black border-2 z-40" >
+          <button onClick={(e) => { setphotoOuverte(false); }} className="absolute z-40 p-2 text-black bg-white border-2 border-black border-solid rounded-full top-40 right-3 lg:top-20 lg:right-10" >
           <RxCross2 className="w-5 h-auto"/>
           </button>
       </div>
