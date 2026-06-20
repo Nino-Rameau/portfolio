@@ -1,6 +1,22 @@
 [
     {
         "id":19,
+        "titreRecto":"Réalisez un test d'intrusion web",
+        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "descriptionImage":"logo OpenClassrooms",
+        "date":"20 juin 2026",
+        "titreVerso":"Objectifs :",
+        "descriptionVerso":[
+            "Se familiariser avec l’écosystème d'une application web",
+            "Identifier les vulnérabilités d'une application web",
+            "Rédiger et présenter un rapport de test d'intrusion"
+        ],
+        "textLien":"Consulter la formation",
+        "lien":"https://openclassrooms.com/fr/courses/7727176-realisez-un-test-d-intrusion-web",
+        "visible": true
+    },
+    {
+        "id":19,
         "titreRecto":"Créez des animations CSS modernes",
         "image":"../../img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
