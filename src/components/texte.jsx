@@ -1,5 +1,5 @@
 import { tv } from "tailwind-variants";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const texteTags = tv({
   variants: {

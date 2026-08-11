@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 import Darkmod from "./darkmod";
 import BtnHeader from "./btnHeader";
@@ -17,13 +17,13 @@ const Header = () => {
   const FermerMenuBurger = () => setmenuOuvert(false);               // fonction qui ferme le menu (pour mobile quand on clique sur un lien)
 
   return (
-    <header className="flex items-center justify-around bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:bg-gradient-to-r dark:from-bleu_milieu dark:to-bleu_fonce h-20 sticky top-0 z-50">
+    <header className="sticky top-0 z-50 flex items-center justify-around h-20 bg-gradient-to-r from-bleu_clair2 to-bleu_milieu dark:bg-gradient-to-r dark:from-bleu_milieu dark:to-bleu_fonce">
 
       <Link to="/" onClick={() => { window.scrollTo(0, 0); FermerMenuBurger(); }} title="Retour à l'accueil">
         <img src="/img/logo.svg" alt="Logo bleu avec curseur de souris" title="Retour à l'accueil" className="w-16" />
       </Link>
 
-      <button onClick={OuvrirFermerMenuBruger} className="lg:hidden z-50 text-black dark:text-white" title="Ouvrir / fermer le menu burger">
+      <button onClick={OuvrirFermerMenuBruger} className="z-50 text-black lg:hidden dark:text-white" title="Ouvrir / fermer le menu burger">
         {menuOuvert ? (
           <RxCross2 className="w-10 h-auto"/>
         ) : (
@@ -41,7 +41,7 @@ const Header = () => {
 
       <button title="Mode clair / sombre" onClick={() => setDarkMode(!darkMode)} className="ml-4" >
         {darkMode ? (
-          <FaRegMoon className="text-white w-8 h-auto"/>
+          <FaRegMoon className="w-8 h-auto text-white"/>
         ) : (
           <FiSun className="w-8 h-auto"/>
         )}
