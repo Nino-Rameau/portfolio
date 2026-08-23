@@ -3,13 +3,13 @@
         "titre": "Ma stack principale : JavaScript",
         "competence": [
             {
-                "Langage": "Next.js et Auth.js",
+                "Langage": "Next.js",
                 "Note": 2,
                 "img": "img/logo-divers/nextjs.webp",
                 "texteAlt": "Logo Next.js",
-                "Description": "Je sais structurer des applications Fullstack modernes avec Next.js et le framework React. Je sais aussi implémenter des systèmes d'authentification sécurisés avec Auth.js pour protéger les données utilisateur.",
-                "dureeExperience": "Découvert début 2026, utilisé dans des projets comme le site de tutoriels.",
-                "visible": false
+                "Description": "Je sais structurer des applications Fullstack modernes avec Next.js et le framework React. Je sais aussi implémenter des systèmes d'authentification sécurisés pour protéger les données utilisateur.",
+                "dureeExperience": "Découvert en 2026",
+                "visible": true
             },
             {
                 "Langage": "TypeScript",
@@ -25,8 +25,8 @@
                 "Note": 3,
                 "img": "img/logo-divers/react.png",
                 "texteAlt": "Logo React",
-                "Description": "Je suis en train d'apprendre React et son écosystème. J’ai réalisé mon portfolio avec React 19, en intégrant par exemple React Router Dom pour la navigation et Tailwind CSS pour le design. J’apprends à structurer mes applications avec des composants.",
-                "dureeExperience": "Découvert début 2025, utilisé pour mon portfolio et en cours d’apprentissage.",
+                "Description": "Je suis en train d'apprendre React et son écosystème. J’ai réalisé par exemple mon portfolio intégrant par exemple React Router Dom pour la navigation et Tailwind CSS pour le design. J’apprends à structurer mes applications avec des composants.",
+                "dureeExperience": "Découvert début 2025, utilisé régulièrement dans mes projets.",
                 "visible": true
             },
             {
@@ -36,7 +36,7 @@
                 "texteAlt": "Logo Prisma",
                 "Description": "Je sais modéliser des schémas de données et effectuer des requêtes sécurisées en base de données sans écrire de SQL brut.",
                 "dureeExperience": "Utilisé depuis début 2026 pour mes projets Next.js.",
-                "visible": false
+                "visible": true
             },
             {
                 "Langage": "Node.js",
@@ -76,7 +76,7 @@
                 "img": "img/logo-divers/tailwindcss.png",
                 "texteAlt": "Logo Tailwind CSS",
                 "Description": "J’utilise Tailwind CSS pour construire mes interfaces rapidement et efficacement. Grâce à sa syntaxe, je peux créer des designs responsifs et cohérents sans passer par des fichiers CSS classiques et beaucoup plus rapidement.",
-                "dureeExperience": "Découvert début 2025, utilisé régulièrement dans mes projets, notamment sur mon portfolio.",
+                "dureeExperience": "Découvert début 2025, utilisé régulièrement dans mes projets.",
                 "visible": true
             },
             {
@@ -120,7 +120,7 @@
                 "Note": 4,
                 "img": "img/logo-divers/markdown.webp",
                 "texteAlt": "Logo Markdown",
-                "Description": "Je rédige des documentations techniques claires et structurées pour rendre mes projets GitHub lisibles et faciles à comprendre.",
+                "Description": "Je rédige des documentations techniques claires et structurées pour rendre mes projets lisibles et faciles à comprendre.",
                 "dureeExperience": "Utilisé systématiquement pour documenter mes dépôts de code.",
                 "visible": true
             }
@@ -140,7 +140,7 @@
             },
             {
                 "Langage": "Git & GitHub",
-                "Note": 4,
+                "Note": 3.5,
                 "img": "img/logo-divers/github.png",
                 "texteAlt": "Logo GitHub",
                 "Description": "Je connais les principes de Git et GitHub. Je connais les commandes de base pour Git.",
@@ -163,15 +163,15 @@
                 "texteAlt": "Logo Postman",
                 "Description": "Je teste et valide mes routes d'API. Je m'assure que les données envoyées et reçues sont correctes avant l'intégration front-end.",
                 "dureeExperience": "Utilisé ponctuellent pour tester mes API lors de leur développement.",
-                "visible": true
+                "visible": false
             },
             {
                 "Langage": "WordPress & Elementor",
-                "Note": 2,
+                "Note": 3.5,
                 "img": "img/logo-divers/wordpress.png",
                 "texteAlt": "Logo Wordpress",
-                "Description": "J'ai les bases avec Elementor et je sais utiliser des extensions pour créer des pages simples.",
-                "dureeExperience": "Découvert fin 2024, utilisé très rarement.",
+                "Description": "Je sais utiliser des plugins comme Elementor pour réaliser des sites web.",
+                "dureeExperience": "Découvert fin 2024, utilisé en entreprise.",
                 "visible": true
             }
         ]
