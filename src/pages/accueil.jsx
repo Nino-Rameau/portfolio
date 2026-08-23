@@ -6,14 +6,13 @@ import { Typewriter } from 'react-simple-typewriter'
 
 function Accueil() {
 
-  const naissance = new Date(2007, 0, 10); //  date aux format AAAA, MM, JJ
+  const naissance = new Date(2007, 0, 10);
   const date = new Date();
 
   let age = date.getFullYear() - naissance.getFullYear();
   const mois = date.getMonth() - naissance.getMonth();
   const jour = date.getDate() - naissance.getDate();
 
-  // Si l'anniversaire n'est pas encore passé cette année
   if (mois < 0 || (mois === 0 && jour < 0)) {
     age--;
   }
@@ -62,9 +61,3 @@ function Accueil() {
 }
 
 export default Accueil;
-
-
-// récupérer automatiquement les données de nos partenaires (programmes immobiliers, lots disponibles, visuels, etc.) pour les intégrer à notre site internet.
-
-
-
