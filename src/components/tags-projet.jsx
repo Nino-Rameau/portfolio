@@ -9,6 +9,7 @@ const Tag = ({ tag }) => {
     Python: "bg-[#4d9dda]",
     PHP: "bg-[#777cb4]",
     MySQL: "bg-[#929394]",
+    PostgreSQL: "bg-[#699eca]",
     "Node.js": "bg-[#55a445]",
     "Next.js": "bg-[#bbbbbb]",
     WordPress: "bg-[#14aecc]",

@@ -1,5 +1,17 @@
 [
   {
+    "id": 29,
+    "titleProjet": "Mini Games",
+    "description": "J'ai réalisé des mini-jeux en utilisant Next.js et PostgreSQL. Le projet propore plusieurs jeux, une boutique, interface d'administration et un système de connexion.",
+    "texteLienSiteWeb": "Lien vers le site web",
+    "lienSiteWeb": "https://mini-games.nino-rameau.fr",
+    "date": "Commencé en août 2026",
+    "tags": ["Next.js", "PostgreSQL", "React", "Tailwind CSS", "Docker", "Travail individuel", "Projet personnel"],
+    "image": ["img/02092026-mini-games/accueil.png", "img/02092026-mini-games/jeux.png"],
+    "nomImg": ["Visuel de la page d'accueil", "Visuel de la page des jeux"],
+    "visible": true
+  },
+  {
     "id": 28,
     "titleProjet": "Site de tutoriel : Nino Web Success",
     "description": "J'ai réalisé un site web de tutoriel entièrement fonctionnel avec gestion de comptes utilisateurs. Le site permet de créer, modifier, supprimer et consulter des tutoriels. De plus j'ai réalisé logo, charte graphique, audit SEO, déploiement...",
