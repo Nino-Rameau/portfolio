@@ -9,3 +9,6 @@ dist
 docker-compose.yml
 docker-compose.override.yml
 Dockerfile
+.github
+.DS_Store
+README.md
