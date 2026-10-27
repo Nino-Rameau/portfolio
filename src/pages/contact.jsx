@@ -1,7 +1,7 @@
 import Texte from "../components/texte";
 import SEO from "../components/seo";
 import { useState, useRef } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
 
 import { MdOutlineMailOutline } from "react-icons/md";
@@ -78,17 +78,17 @@ const Contact = () => {
       <div className="flex flex-col lg:flex-row rounded-2xl items-center gap-20 lg:gap-25 bg-bleu_clair dark:bg-bleu_fonce p-2 w-[90%] md:w-full md:py-3 md:px-20 lg:py-10 lg:px-20 xl:px-40 xl:gap-40 m-auto">
 
         <div>
-          <Texte tag="h2" balise="h2" texte="Formulaire de contact" couleur="couleur" className="text-center pb-5" />
+          <Texte tag="h2" balise="h2" texte="Formulaire de contact" couleur="couleur" className="pb-5 text-center" />
 
-          <form onSubmit={EnvoyerForm} className="flex items-center flex-col space-y-4 m-auto">
+          <form onSubmit={EnvoyerForm} className="flex flex-col items-center m-auto space-y-4">
 
-            <input type="text" name="nom" value={infoForm.nom} onChange={envoyerDonnee} placeholder="Nom et prénom" className="w-80 lg:w-full p-2 rounded dark:bg-gray-700 dark:text-white" required />
+            <input type="text" name="nom" value={infoForm.nom} onChange={envoyerDonnee} placeholder="Nom et prénom" className="p-2 rounded w-80 lg:w-full dark:bg-gray-700 dark:text-white" required />
 
-            <input type="email" name="email" value={infoForm.email} onChange={envoyerDonnee} placeholder="Adresse email" className="w-80 lg:w-full p-2 rounded dark:bg-gray-700 dark:text-white" required />
+            <input type="email" name="email" value={infoForm.email} onChange={envoyerDonnee} placeholder="Adresse email" className="p-2 rounded w-80 lg:w-full dark:bg-gray-700 dark:text-white" required />
 
-            <input type="text" name="objet" value={infoForm.objet} onChange={envoyerDonnee} placeholder="Objet" className="w-80 lg:w-full p-2 rounded dark:bg-gray-700 dark:text-white" required />
+            <input type="text" name="objet" value={infoForm.objet} onChange={envoyerDonnee} placeholder="Objet" className="p-2 rounded w-80 lg:w-full dark:bg-gray-700 dark:text-white" required />
 
-            <textarea name="message" value={infoForm.message} onChange={envoyerDonnee} placeholder="Message" className="w-80 lg:w-full p-2 rounded dark:bg-gray-700 dark:text-white" rows="3" required />
+            <textarea name="message" value={infoForm.message} onChange={envoyerDonnee} placeholder="Message" className="p-2 rounded w-80 lg:w-full dark:bg-gray-700 dark:text-white" rows="3" required />
 
             <ReCAPTCHA ref={refCaptcha} sitekey={captchaKey} onChange={envoyerCaptcha} className="pt-4" />  
 
@@ -105,20 +105,20 @@ const Contact = () => {
           )}
         </div>
 
-        <address className="flex flex-col justify-center items-center not-italic">
+        <address className="flex flex-col items-center justify-center not-italic">
 
-          <div className="flex items-center p-5 gap-4 pt-10 md:pt-0">
-            <MdOutlineMailOutline className="text-bleu_fonce dark:text-bleu_clair w-8 h-auto" />
+          <div className="flex items-center gap-4 p-5 pt-10 md:pt-0">
+            <MdOutlineMailOutline className="w-8 h-auto text-bleu_fonce dark:text-bleu_clair" />
             <Texte tag="a" balise="a" texte="nrameau@normandiewebschool.fr" couleur="couleur" className="text-nowrap" lien="mailto:nrameau@normandiewebschool.fr" />
           </div>
 
-          <div className="flex items-center p-5 gap-4">
-            <FaHome className="text-bleu_fonce dark:text-bleu_clair w-8 h-auto" />
+          <div className="flex items-center gap-4 p-5">
+            <FaHome className="w-8 h-auto text-bleu_fonce dark:text-bleu_clair" />
             <Texte tag="p" balise="p" couleur="couleur" texte="Rouen (76)" className="text-nowrap" />
           </div>
 
-          <div className="flex items-center p-5 gap-4">
-            <FaHome className="text-bleu_fonce dark:text-bleu_clair w-8 h-auto" />
+          <div className="flex items-center gap-4 p-5">
+            <FaHome className="w-8 h-auto text-bleu_fonce dark:text-bleu_clair" />
             <Texte tag="p" balise="p" couleur="couleur" texte="Evreux (27)" className="text-nowrap" />
           </div>
         </address>
