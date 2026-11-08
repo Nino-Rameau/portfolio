@@ -4,7 +4,7 @@
         "competence": [
             {
                 "Langage": "Next.js",
-                "Note": 2,
+                "Note": 2.5,
                 "img": "img/logo-divers/nextjs.webp",
                 "texteAlt": "Logo Next.js",
                 "Description": "Je sais structurer des applications Fullstack modernes avec Next.js et le framework React. Je sais aussi implémenter des systèmes d'authentification sécurisés pour protéger les données utilisateur.",
@@ -31,7 +31,7 @@
             },
             {
                 "Langage": "Prisma",
-                "Note": 3,
+                "Note": 3.5,
                 "img": "img/logo-divers/prisma.png",
                 "texteAlt": "Logo Prisma",
                 "Description": "Je sais modéliser des schémas de données et effectuer des requêtes sécurisées en base de données sans écrire de SQL brut.",
@@ -40,11 +40,11 @@
             },
             {
                 "Langage": "Node.js",
-                "Note": 3,
+                "Note": 4,
                 "img": "img/logo-divers/nodejs.png",
                 "texteAlt": "Logo Node.js",
-                "Description": "Je découvre Node.js pour le développement back-end. J’ai appris à créer des serveurs avec Express.js et à gérer des bases de données avec SQLite.",
-                "dureeExperience": "Découvert début 2026, utilisé pour des API.",
+                "Description": "J'utilise Node.js pour initialiser des projets, gérer les dépendances et exécuter des scripts côté serveur.",
+                "dureeExperience": "Découvert début 2026, utilisé au quotidien pour mes projets JavaScript et Next.js.",
                 "visible": true
             },
             {
@@ -53,12 +53,12 @@
                 "img": "img/logo-divers/puppeteer.png",
                 "texteAlt": "Logo Puppeteer",
                 "Description": "Je sais automatiser un navigateur pour réaliser du scraping de sites web, extraire des données ou simuler des actions utilisateur répétitives.",
-                "dureeExperience": "Utilisé régulièrement depuis 2025 pour divers scripts d'automatisation personel ou professionnel.",
+                "dureeExperience": "Utilisé quotidiennement depuis 2025 en entreprise.",
                 "visible": true
             },
             {
                 "Langage": "JavaScript",
-                "Note": 3.5,
+                "Note": 4,
                 "img": "img/logo-divers/js.png",
                 "texteAlt": "Logo JavaScript",
                 "Description": "J’ai acquis les bases de JavaScript pour rendre les sites web interactifs et dynamiques. J'apprends à manipuler le DOM, gérer des événements. Je maîtrise les concepts de programmation asynchrone avec les promesses et async/await.",
@@ -134,16 +134,16 @@
                 "Note": 3,
                 "img": "img/logo-divers/deploiement.png",
                 "texteAlt": "Logo Déploiement",
-                "Description": "Je sais mettre mes projets en ligne. Je configure des noms de domaine, des certificats SSL et je gère le déploiement sur des VPS (serveurs virtuels privés).",
+                "Description": "Je sais mettre mes projets en ligne. Je configure des noms de domaine, des certificats SSL et je gère le déploiement sur des VPS avec docker.",
                 "dureeExperience": "Utilisé lors de la mise en ligne de mes projets.",
                 "visible": true
             },
             {
                 "Langage": "Git & GitHub",
-                "Note": 3.5,
+                "Note": 3,
                 "img": "img/logo-divers/github.png",
                 "texteAlt": "Logo GitHub",
-                "Description": "Je connais les principes de Git et GitHub. Je connais les commandes de base pour Git.",
+                "Description": "Je connais les principes de Git et GitHub. Je connais les commandes de base pour Git pour travailler en équipe.",
                 "dureeExperience": "Découvert fin 2024, utilisé régulièrement.",
                 "visible": true
             },
@@ -152,7 +152,7 @@
                 "Note": 2.5,
                 "img": "img/logo-divers/docker.png",
                 "texteAlt": "Logo Docker",
-                "Description": "Je connais les principes de Docker et je sais créer des containers pour des sites web.",
+                "Description": "Je connais les principes de Docker et je sais créer des containers pour des sites web, base de données...",
                 "dureeExperience": "Découvert fin 2025, utilisé ponctuellement.",
                 "visible": true
             },
@@ -163,7 +163,7 @@
                 "texteAlt": "Logo Postman",
                 "Description": "Je teste et valide mes routes d'API. Je m'assure que les données envoyées et reçues sont correctes avant l'intégration front-end.",
                 "dureeExperience": "Utilisé ponctuellent pour tester mes API lors de leur développement.",
-                "visible": false
+                "visible": true
             },
             {
                 "Langage": "WordPress & Elementor",
@@ -172,6 +172,15 @@
                 "texteAlt": "Logo Wordpress",
                 "Description": "Je sais utiliser des plugins comme Elementor pour réaliser des sites web.",
                 "dureeExperience": "Découvert fin 2024, utilisé en entreprise.",
+                "visible": true
+            },
+            {
+                "Langage": "Odoo",
+                "Note": 3,
+                "img": "img/logo-divers/odoo.png",
+                "texteAlt": "Logo Odoo",
+                "Description": "J'ai utiliser Odoo V19 pour une refonte graphique de plusieurs pages d'un site web.",
+                "dureeExperience": "Découvert en 2026.",
                 "visible": true
             }
         ]
@@ -185,7 +194,7 @@
                 "img": "img/logo-divers/seo.png",
                 "texteAlt": "Logo SEO",
                 "Description": "Je sais optimiser la visibilité de mes sites. Je gère les balises meta, la sémantique, le maillage interne et les performances pour améliorer le référencement naturel.",
-                "dureeExperience": "Intégré dans mes projets web et pratiqué régulièrement en alternance.",
+                "dureeExperience": "Intégré dans mes projets web et pratiqué régulièrement en entreprise.",
                 "visible": true
             },
             {
@@ -193,8 +202,26 @@
                 "Note": 4,
                 "img": "img/logo-divers/notion.png",
                 "texteAlt": "Logo Notion",
-                "Description": "J'organise mes projets en utilisant des tableaux, To-do list... pour suivre mes tâches et je centralise ma documentation technique sur des espaces dédiés.",
+                "Description": "J'organise mes tâches en utilisant des tableaux, To-do list...",
                 "dureeExperience": "Utilisé quotidiennement pour organiser mes tâches en entreprise.",
+                "visible": true
+            },
+            {
+                "Langage": "YouTrack",
+                "Note": 2,
+                "img": "img/logo-divers/youtrack.png",
+                "texteAlt": "Logo YouTrack",
+                "Description": "J'apprend a utiliser YouTrack pour gérer mes tâches sur mes projets.",
+                "dureeExperience": "Découvert fin 2026 et utilisé pour mes projets personnels.",
+                "visible": true
+            },
+            {
+                "Langage": "Trello",
+                "Note": 4.5,
+                "img": "img/logo-divers/trello.png",
+                "texteAlt": "Logo Trello",
+                "Description": "Je sais utiliser trello pour organiser des projet simples.",
+                "dureeExperience": "Utilisé pour des projets personnels.",
                 "visible": true
             },
             {
