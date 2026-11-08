@@ -179,5 +179,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwind-variants")],
+  plugins: [],
 };

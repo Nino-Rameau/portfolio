@@ -58,7 +58,14 @@ const Contact = () => {
         setStatutMessage({ texte: "Une erreur s'est produite lors de l'envoi du message.", type: "erreur" });
       }
     } catch (erreur) {
-      setStatutMessage({ texte: "Erreur : " + erreur.text, type: "erreur" });
+      console.error(erreur);                        // garde le détail technique dans la console
+      const detail = erreur?.text;                  // erreur.text peut être absent (erreur réseau, etc.)
+      setStatutMessage({
+        texte: detail
+          ? "Erreur : " + detail
+          : "Une erreur s'est produite lors de l'envoi du message. Veuillez réessayer plus tard.",
+        type: "erreur",
+      });
     } finally {
       setChargement(false);                         // reset le btn a "envoyer" dans tous les cas
     }

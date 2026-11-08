@@ -10,16 +10,9 @@ function Projets() {
   const [tagsSelectionnes, settagsSelectionnes] = useState([]);
 
   function boxCocher(tag) {
-    var tagsActuels = tagsSelectionnes;
-    var nouveauTableau;
-
-    if (tagsActuels.includes(tag)) {
-      nouveauTableau = tagsActuels.filter(function(t) { // t est l'equivalent de i dans une boucle
-        return t !== tag;
-      });
-    } else {
-      nouveauTableau = tagsActuels.concat(tag); 
-    }
+    const nouveauTableau = tagsSelectionnes.includes(tag)
+      ? tagsSelectionnes.filter((t) => t !== tag)   
+      : tagsSelectionnes.concat(tag);
 
     settagsSelectionnes(nouveauTableau);
   }
@@ -46,7 +39,7 @@ function Projets() {
         canonical="https://nino-rameau.fr/projets"
       />
 
-      <Texte tag="h1" balise="h1" texte="Voici des projets que j'ai réalisé :" />
+      <Texte tag="h1" balise="h1" texte="Voici des projets que j'ai réalisés :" />
 
       <BtnHaut />
 
@@ -69,24 +62,22 @@ function Projets() {
         .filter((projet) => projet.visible)
         .filter(ProjetAfficher)
         .map((projet, index) => (
-          ProjetAfficher(projet) ? 
-            <Projet 
-              indexAffichage={index}
-              key={projet.id}
-              id={projet.id}
-              titleProjet={projet.titleProjet}
-              description={projet.description}
-              texteLienSiteWeb={projet.texteLienSiteWeb}
-              lienSiteWeb={projet.lienSiteWeb}
-              date={projet.date}
-              tags={projet.tags}
-              image={projet.image}
-              nomImg={projet.nomImg}
-              StyleImg={projet.StyleImg}
-              repoHref={projet.repoHref}
-              repoHrefBack={projet.repoHrefBack}
-            />
-          : null
+          <Projet
+            indexAffichage={index}
+            key={projet.id}
+            id={projet.id}
+            titleProjet={projet.titleProjet}
+            description={projet.description}
+            texteLienSiteWeb={projet.texteLienSiteWeb}
+            lienSiteWeb={projet.lienSiteWeb}
+            date={projet.date}
+            tags={projet.tags}
+            image={projet.image}
+            nomImg={projet.nomImg}
+            StyleImg={projet.StyleImg}
+            repoHref={projet.repoHref}
+            repoHrefBack={projet.repoHrefBack}
+          />
         ))}
       </section>
     </>

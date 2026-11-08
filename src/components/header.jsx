@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router";
 
-import Darkmod from "./darkmod";
+import useDarkMode from "../hooks/useDarkMode";
 import BtnHeader from "./btnHeader";
 
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -10,7 +10,7 @@ import { FiSun } from "react-icons/fi";
 import { FaRegMoon } from "react-icons/fa";
 
 const Header = () => {
-  const [darkMode, setDarkMode] = Darkmod();                         // on récupère le darkMode et la fonction setDarkMode
+  const [darkMode, setDarkMode] = useDarkMode();                         // on récupère le darkMode et la fonction setDarkMode
   const [menuOuvert, setmenuOuvert] = useState(false);              // on initialise le menuOuvert à false (fermé)
 
   const OuvrirFermerMenuBruger = () => setmenuOuvert(!menuOuvert);   // fonction qui inverse l'état du menu

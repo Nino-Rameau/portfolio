@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import Texte from "../components/texte";
 
-const Container = ({ para1, para2, img, altimg, direction, cta }) => {
+const Container = ({ para1, para2, img, altimg, direction, cta = false }) => {
   return (
     // bordure animé
     <div className="relative mx-4 lg:mx-10 lg:max-w-[1700px] 2xl:mx-40 my-20">
@@ -13,7 +13,7 @@ const Container = ({ para1, para2, img, altimg, direction, cta }) => {
           <div className="p-4 lg:p-10 lg:max-w-[55%]">
             <Texte tag="p" balise="p" texte={para1}  />
             <Texte tag="p" balise="p" texte={para2} className="pt-6 mb-8" />
-            {cta === "True" && (
+            {cta && (
               <Link to="/contact" className="flex px-4 py-2 m-auto text-white rounded-full bg-bleu_milieu text-l font-titre max-w-min whitespace-nowrap animate-bounce">
                 Me contacter
               </Link>
