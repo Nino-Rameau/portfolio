@@ -17,7 +17,7 @@ services:
       - "traefik.http.middlewares.no-www.redirectregex.permanent=true"
 
       - "traefik.http.middlewares.modif-charte.redirectregex.regex=(.*)/charteGraphique$$"
-      - "traefik.http.middlewares.modif-charte.redirectregex.replacement=https://nino-rameau.fr/projets/charteGraphique"
+      - "traefik.http.middlewares.modif-charte.redirectregex.replacement=https://nino-rameau.fr/projets/charte-graphique"
       - "traefik.http.middlewares.modif-charte.redirectregex.permanent=true"
 
       - "traefik.http.routers.portfolio.middlewares=no-www,modif-charte"

@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import Texte from "../components/texte";
 import { Title, Meta } from 'react-head';
 
-function Accueil() {
+function Erreur() {
   return (
     <>
       <Title>Page non trouvée</Title>
@@ -18,4 +18,4 @@ function Accueil() {
   );
 }
 
-export default Accueil;
+export default Erreur;

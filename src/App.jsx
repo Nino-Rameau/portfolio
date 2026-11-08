@@ -22,8 +22,8 @@ function App() {
             <Route path="/projets" element={<Projets />} />
             <Route path="/cv" element={<Cv />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/mentionsLegales" element={<MentionsLegales />} />
-            <Route path="/projets/charteGraphique" element={<CharteGraphique />} />
+            <Route path="/mentions-legales" element={<MentionsLegales />} />
+            <Route path="/projets/charte-graphique" element={<CharteGraphique />} />
             <Route path="*" element={<Erreur />} />
           </Routes>
         </Suspense>

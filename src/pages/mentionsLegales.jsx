@@ -9,7 +9,7 @@ function MentionsLegales() {
         title="Mentions Légales | Nino Rameau | Étudiant Développeur Web à la NWS de Rouen"
         description={`Voici les mentions légales de mon portfolio.`}
         keywords="Nino Rameau, développeur web, portfolio, Rouen, Normandie Web School, NWS, étudiant, mentions légales"
-        canonical="https://nino-rameau.fr/mentionsLegales"
+        canonical="https://nino-rameau.fr/mentions-legales"
       />
 
       <div className="m-10">
