@@ -13,6 +13,7 @@ const Tag = ({ tag }) => {
     "Node.js": "bg-[#55a445]",
     "Next.js": "bg-[#bbbbbb]",
     WordPress: "bg-[#14aecc]",
+    Odoo: "bg-[#885a7c]",
     Logo: "bg-[#12ca12]",
     "Charte graphique": "bg-[#64f564]",
     Canva: "bg-[#71d4e8]",

@@ -56,8 +56,8 @@ function Projets() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:max-w-[1800px] mx-auto">
           <TagCategorie title="Technologies front-end" options={["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
-          <TagCategorie title="Technologies back-end" options={["Next.js", "Python", "MySQL", "Node.js", "PHP", "Docker"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
-          <TagCategorie title="CMS" options={["WordPress"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
+          <TagCategorie title="Technologies back-end" options={["Next.js", "Python", "MySQL", "PostgreSQL", "Node.js", "PHP", "Docker"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
+          <TagCategorie title="Front-End No-Code" options={["WordPress", "Odoo"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="Design & Graphisme" options={["Logo", "Charte graphique", "Canva", "Figma"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="Type de travail" options={["Travail individuel", "Travail en groupe"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
           <TagCategorie title="Type de projet" options={["Projet personnel", "Projet scolaire"]} tagsSelectionnes={tagsSelectionnes} gestionClicTag={boxCocher} />
@@ -84,6 +84,7 @@ function Projets() {
               nomImg={projet.nomImg}
               StyleImg={projet.StyleImg}
               repoHref={projet.repoHref}
+              repoHrefBack={projet.repoHrefBack}
             />
           : null
         ))}

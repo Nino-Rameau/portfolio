@@ -1,5 +1,31 @@
 [
   {
+    "id": 31,
+    "titleProjet": "Refonte graphique du site Sciencethic",
+    "description": "Refonte du site Sciencethic : redesign de l'accueil, des ressources, du header et du footer, création d'une FAQ, optimisation SEO et UX, et création d'un motion design animé en code avec Motion Canvas.",
+    "texteLienSiteWeb": "Lien vers le site web",
+    "lienSiteWeb": "https://www.sciencethic.com/",
+    "date": "Réalisé en novembre 2026",
+    "tags": ["Odoo", "Travail individuel", "Projet personnel"],
+    "image": ["img/061126-refonte-graphique-odoo-sciencethic/accueil.png", "img/061126-refonte-graphique-odoo-sciencethic/ressources.png"],
+    "nomImg": ["Visuel de la page d'accueil", "Visuel de la page des ressources"],
+    "visible": true
+  },
+  {
+    "id": 30,
+    "titleProjet": "Heros SOS",
+    "description": "Projet réalisé en binôme : une plateforme web qui permet aux citoyens de signaler des incidents et de suivre leur traitement. Gestion de trois rôles (citoyen, super-héros, administrateur) avec un système de suivi des signalements. Architecture séparée en deux dépôts : un front en React et une API REST en Node.js.",
+    "texteLienSiteWeb": "Lien vers le site web",
+    "lienSiteWeb": "https://heros-sos.tom-fourneaux.fr",
+    "date": "Réalisé en octobre 2026",
+    "tags": ["Node.js", "PostgreSQL", "React", "Tailwind CSS", "Docker", "Travail en groupe", "Projet scolaire"],
+    "image": ["img/301126-heros-sos/accueil.png", "img/301126-heros-sos/incident.png", "img/301126-heros-sos/admin.png"],
+    "nomImg": ["Visuel de la page d'accueil", "Visuel de la page des incidents", "Visuel de la page d'administration"],
+    "repoHref": "https://github.com/tomfrx12/Hero-SOS",
+    "repoHrefBack": "https://github.com/tomfrx12/Hero-SOS-API",
+    "visible": true
+  },
+  {
     "id": 29,
     "titleProjet": "Mini Games",
     "description": "J'ai réalisé des mini-jeux en utilisant Next.js et PostgreSQL. Le projet propore plusieurs jeux, une boutique, interface d'administration et un système de connexion.",

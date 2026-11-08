@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, date, tags, image, nomImg, StyleImg, repoHref, }) => {
+const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb, lienSiteWeb, date, tags, image, nomImg, StyleImg, repoHref, repoHrefBack, }) => {
   const [photoOuverte, setphotoOuverte] = useState(false);
   const [indexAffiche, setindexAffiche] = useState(0); 
 
@@ -87,12 +87,27 @@ const Projet = ({ indexAffichage, id, titleProjet, description, texteLienSiteWeb
 
         <div className="flex flex-col m-auto space-y-5 lg:w-1/2">
           {triImage}
-          {repoHref && (
+          {repoHref && !repoHrefBack && (
             <>
-              <Texte tag="p" balise="p" texte="Pour plus d’informations sur mon code, cliquez sur l’icône GitHub :" className="text-center" />
+              <Texte tag="p" balise="p" texte="Pour plus d’informations sur le code, cliquez sur l’icône GitHub :" className="text-center" />
               <a href={repoHref} title="Lien vers le repository GitHub" target="__blank">
                 <IoLogoGithub className="w-10 h-auto m-auto text-black dark:text-white md:w-20"/>
               </a>
+            </>
+          )}
+          {repoHref && repoHrefBack && (
+            <>
+              <Texte tag="p" balise="p" texte="Pour plus d’informations sur le code, cliquez sur l’un des icônes GitHub :" className="text-center" />
+              <div className="flex flex-row justify-center gap-10">
+                <a href={repoHref} title="Lien vers le repository GitHub du front" target="_blank" rel="noreferrer" className="flex flex-col items-center gap-1 text-black dark:text-white">
+                  <IoLogoGithub className="w-10 h-auto md:w-20"/>
+                  <Texte tag="span" balise="p" texte="Front" />
+                </a>
+                <a href={repoHrefBack} title="Lien vers le repository GitHub du back" target="_blank" rel="noreferrer" className="flex flex-col items-center gap-1 text-black dark:text-white">
+                  <IoLogoGithub className="w-10 h-auto md:w-20"/>
+                  <Texte tag="span" balise="p" texte="Back" />
+                </a>
+              </div>
             </>
           )}
         </div>
