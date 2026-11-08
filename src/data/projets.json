@@ -7,7 +7,7 @@
     "lienSiteWeb": "https://www.sciencethic.com/",
     "date": "Réalisé en novembre 2026",
     "tags": ["Odoo", "Travail individuel", "Projet personnel"],
-    "image": ["img/061126-refonte-graphique-odoo-sciencethic/accueil.png", "img/061126-refonte-graphique-odoo-sciencethic/ressources.png"],
+    "image": ["/img/061126-refonte-graphique-odoo-sciencethic/accueil.png", "/img/061126-refonte-graphique-odoo-sciencethic/ressources.png"],
     "nomImg": ["Visuel de la page d'accueil", "Visuel de la page des ressources"],
     "visible": true
   },
@@ -19,7 +19,7 @@
     "lienSiteWeb": "https://heros-sos.tom-fourneaux.fr",
     "date": "Réalisé en octobre 2026",
     "tags": ["Node.js", "PostgreSQL", "React", "Tailwind CSS", "Docker", "Travail en groupe", "Projet scolaire"],
-    "image": ["img/301126-heros-sos/accueil.png", "img/301126-heros-sos/incident.png", "img/301126-heros-sos/admin.png"],
+    "image": ["/img/301126-heros-sos/accueil.png", "/img/301126-heros-sos/incident.png", "/img/301126-heros-sos/admin.png"],
     "nomImg": ["Visuel de la page d'accueil", "Visuel de la page des incidents", "Visuel de la page d'administration"],
     "repoHref": "https://github.com/tomfrx12/Hero-SOS",
     "repoHrefBack": "https://github.com/tomfrx12/Hero-SOS-API",
@@ -28,12 +28,12 @@
   {
     "id": 29,
     "titleProjet": "Mini Games",
-    "description": "J'ai réalisé des mini-jeux en utilisant Next.js et PostgreSQL. Le projet propore plusieurs jeux, une boutique, interface d'administration et un système de connexion.",
+    "description": "J'ai réalisé des mini-jeux en utilisant Next.js et PostgreSQL. Le projet propose plusieurs jeux, une boutique, une interface d'administration et un système de connexion.",
     "texteLienSiteWeb": "Lien vers le site web",
     "lienSiteWeb": "https://mini-games.nino-rameau.fr",
     "date": "Commencé en août 2026",
     "tags": ["Next.js", "PostgreSQL", "React", "Tailwind CSS", "Docker", "Travail individuel", "Projet personnel"],
-    "image": ["img/02092026-mini-games/accueil.png", "img/02092026-mini-games/jeux.png"],
+    "image": ["/img/02092026-mini-games/accueil.png", "/img/02092026-mini-games/jeux.png"],
     "nomImg": ["Visuel de la page d'accueil", "Visuel de la page des jeux"],
     "visible": true
   },
@@ -45,7 +45,7 @@
     "lienSiteWeb": "https://nws.nino-rameau.fr",
     "date": "Réalisé de février à juin 2026",
     "tags": ["Next.js", "MySQL", "React", "Tailwind CSS", "Docker", "Logo", "Charte graphique", "Travail individuel", "Projet scolaire"],
-    "image": ["img/140626-nino-web-success/accueil.png", "img/140626-nino-web-success/tutoriel.png", "img/140626-nino-web-success/creer-tuto.png"],
+    "image": ["/img/140626-nino-web-success/accueil.png", "/img/140626-nino-web-success/tutoriel.png", "/img/140626-nino-web-success/creer-tuto.png"],
     "nomImg": ["Visuel de l'accueil de l'application", "Visuel du tutoriel", "Visuel de la création d'un tutoriel"],
     "repoHref": "https://github.com/Nino-Rameau/tuto",
     "visible": true
@@ -56,7 +56,7 @@
     "description": "Dans le cadre d'un partiel, j'ai réalisé une application de restaurant en React. L'application permet de visualiser la carte, passer des commandes, gérer les commandes.",
     "date": "Réalisé en juin 2026",
     "tags": ["React", "Tailwind CSS", "Travail individuel", "Projet scolaire"],
-    "image": ["img/240626-partiel-js/accueil.png"],
+    "image": ["/img/240626-partiel-js/accueil.png"],
     "nomImg": ["Visuel de l'accueil de l'application"],
     "repoHref": "https://github.com/Nino-Rameau/partiel-js-restaurant",
     "visible": true
@@ -67,7 +67,7 @@
     "description": "Dans le cadre d'un partiel, j'ai réalisé une application de question / réponse en PHP. L'application permet d'ajouter des questions et d'y répondre.",
     "date": "Réalisé en juin 2026",
     "tags": ["PHP", "MySQL", "Tailwind CSS", "Travail individuel", "Projet scolaire"],
-    "image": ["img/230626-partiel-php/accueil.png", "img/230626-partiel-php/ajouter.png", "img/230626-partiel-php/repondre.png"],
+    "image": ["/img/230626-partiel-php/accueil.png", "/img/230626-partiel-php/ajouter.png", "/img/230626-partiel-php/repondre.png"],
     "nomImg": ["Visuel de l'accueil de l'application", "Visuel de la page d'ajout de question", "Visuel de la page de réponse"],
     "repoHref": "https://github.com/Nino-Rameau/partiel-php-escape-game",
     "visible": true
@@ -80,7 +80,7 @@
     "lienSiteWeb": "https://meteo-app-fawn.vercel.app",
     "date": "Réalisé en juin 2026",
     "tags": ["React", "Tailwind CSS", "Travail individuel", "Projet scolaire"],
-    "image": ["img/100626-app-meteo/accueil.png"],
+    "image": ["/img/100626-app-meteo/accueil.png"],
     "nomImg": ["Visuel de l'accueil de l'application"],
     "repoHref": "https://github.com/Nino-Rameau/meteo-app",
     "visible": true
@@ -88,10 +88,10 @@
   {
     "id": 24,
     "titleProjet": "Projet IA : CMS",
-    "description": "J'ai réalisé un CMS entièrement par IA en Next.js. Le projet permet de créer, lire, mettre à jour et supprimer des pages web en Drag and Drop. Le CMS est était pensé pour tout type d'utilisateur et est pensé pour le SEO et déploiement des site web créés.",
+    "description": "J'ai réalisé un CMS entièrement par IA en Next.js. Le projet permet de créer, lire, mettre à jour et supprimer des pages web en Drag and Drop. Le CMS était pensé pour tout type d'utilisateur, ainsi que pour le SEO et le déploiement des sites web créés.",
     "date": "Réalisé en avril 2026",
     "tags": ["Next.js", "MySQL", "React", "Tailwind CSS", "Docker", "Travail individuel", "Projet scolaire"],
-    "image": ["img/170426-projet-cms-ia/accueil.png", "img/170426-projet-cms-ia/gestion-page.png", "img/170426-projet-cms-ia/page-edition.png"],
+    "image": ["/img/170426-projet-cms-ia/accueil.png", "/img/170426-projet-cms-ia/gestion-page.png", "/img/170426-projet-cms-ia/page-edition.png"],
     "nomImg": ["Visuel de l'accueil", "Visuel de la gestion des pages", "Visuel de l'édition d'une page"],
     "repoHref": "https://github.com/Nino-Rameau/projet-cms",
     "visible": true
@@ -102,7 +102,7 @@
     "description": "J'ai eu une initiation au langage PHP, qui m'a appris les bases du langage et m'a permis de réaliser un CRUD (créer, lire, mettre à jour, supprimer) pour gérer une liste de jeux vidéo.",
     "date": "Réalisé en mars 2026",
     "tags": ["PHP", "HTML", "Tailwind CSS", "Travail individuel", "Projet scolaire"],
-    "image": ["img/200326-initiation-php/liste-php.png"],
+    "image": ["/img/200326-initiation-php/liste-php.png"],
     "nomImg": ["Visuel de l'initiation PHP"],
     "repoHref": "https://github.com/Nino-Rameau/rendu-php",
     "visible": true
@@ -113,7 +113,7 @@
     "description": "J'ai réalisé une API de gestion de stock avec Node.js, Express et une base de données SQLite. L'API permet de gérer les produits en effectuant des opérations CRUD, connexion avec JWT.",
     "date": "Réalisé en janvier 2026",
     "tags": ["Node.js", "Travail individuel", "Projet scolaire"],
-    "image": ["img/230126-api-stock/API-stock.png"],
+    "image": ["/img/230126-api-stock/API-stock.png"],
     "nomImg": ["Visuel de l'API"],
     "repoHref": "https://github.com/Nino-Rameau/API-Gestion-stock",
     "visible": true
@@ -124,7 +124,7 @@
     "description": "J'ai réalisé une API de gestion de projet avec Node.js, Express et une base de données SQLite. L'API permet de gérer les projets en effectuant des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer). Elle inclut également une gestion des utilisateurs avec authentification par JWT et est sécurisée avec des middlewares.",
     "date": "Réalisé en janvier 2026",
     "tags": ["Node.js", "Travail individuel", "Projet scolaire"],
-    "image": ["img/220126-api-projet/API-projet.png"],
+    "image": ["/img/220126-api-projet/API-projet.png"],
     "nomImg": ["Visuel de l'API"],
     "repoHref": "https://github.com/Nino-Rameau/cours-nodejs",
     "visible": true
@@ -137,7 +137,7 @@
     "lienSiteWeb": "https://nino-rameau.github.io/cours-javascript/index.html",
     "date": "Réalisé en novembre 2025",
     "tags": ["HTML", "Tailwind CSS", "JavaScript", "Travail individuel", "Projet scolaire"],
-    "image": ["img/181125-cours-javascript/todo.webp"],
+    "image": ["/img/181125-cours-javascript/todo.webp"],
     "nomImg": ["Visuel de la page to-do list"],
     "StyleImg": "encadreLightDark",
     "repoHref": "https://github.com/Nino-Rameau/cours-javascript",
@@ -149,7 +149,7 @@
     "description": "J'ai réalisé l'intégration web d'une maquette Figma. Il y a 4 pages : page d'accueil, page de contact avec formulaire, page relocation (2 versions). Le site a un carrousel entièrement fonctionnel et n'utilise pas de bibliothèques React.",
     "date": "Réalisé en octobre 2025",
     "tags": ["React", "CSS", "Figma", "Travail individuel", "Projet scolaire"],
-    "image": ["img/031025-integration-maquette/maquette.webp"],
+    "image": ["/img/031025-integration-maquette/maquette.webp"],
     "nomImg": ["Visuel de la page relocation"],
     "repoHref": "https://github.com/Nino-Rameau/integration-maquette-lodge-relocation",
     "visible": true
@@ -162,7 +162,7 @@
     "lienSiteWeb": "https://nino-rameau.github.io/integration-maquette-copywriting",
     "date": "Réalisé en septembre 2025",
     "tags": ["HTML", "CSS", "JavaScript", "Figma", "Travail individuel", "Projet scolaire"],
-    "image": ["img/120925-integration-maquette/maquette.webp"],
+    "image": ["/img/120925-integration-maquette/maquette.webp"],
     "nomImg": ["Visuel de la page d'accueil en mode clair"],
     "repoHref": "https://github.com/Nino-Rameau/integration-maquette-copywriting",
     "visible": true
@@ -177,10 +177,10 @@
     "date": "Réalisé en Septembre 2025",
     "tags": ["React", "Tailwind CSS","Docker", "Figma", "Travail individuel", "Projet scolaire"],
     "image": [
-      "img/110925-dashboard/accueil.webp",
-      "img/110925-dashboard/A2.webp",
-      "img/110925-dashboard/tableau.webp",
-      "img/110925-dashboard/wireframe.webp"
+      "/img/110925-dashboard/accueil.webp",
+      "/img/110925-dashboard/A2.webp",
+      "/img/110925-dashboard/tableau.webp",
+      "/img/110925-dashboard/wireframe.webp"
     ],
     "nomImg": [
       "Visuel de la page d'accueil",
@@ -198,7 +198,7 @@
       "J’ai réalisé une maquette sur Figma à partir d’un brief client. Dans cette maquette, j’ai prototypé le carrousel, une popup et l’accordéon de la partie FAQ.",
     "date": "Réalisé en Septembre 2025",
     "tags": ["Figma", "Travail individuel", "Projet scolaire"],
-    "image": ["img/050925-creation-maquette-figma/maquette.webp"],
+    "image": ["/img/050925-creation-maquette-figma/maquette.webp"],
     "nomImg": ["Visuel de ma maquette"],
     "visible": true
   },
@@ -209,7 +209,7 @@
       "J’ai développé une mini-interface permettant de scraper les prix d'un site web depuis un fichier Excel et de générer un nouveau tableau avec les résultats, affichant une erreur en cas de problème. Réalisé avec Node.js, Express, Puppeteer, ExcelJS et Multer, ce projet offre une solution simple et accessible à un utilisateur non technique.",
     "date": "Réalisé en juillet 2025",
     "tags": ["Node.js", "Travail individuel", "Projet personnel"],
-    "image": ["img/scraper-ref-prix/interface-page.png"],
+    "image": ["/img/scraper-ref-prix/interface-page.png"],
     "nomImg": ["Visuelle de l'interface"],
     "visible": true
   },
@@ -220,7 +220,7 @@
       "J'ai réalisé un wireframe, la maquette sur Figma et l'intégration web sur WordPress. J'ai également fait le SEO du site e-commerce qui permettrait la vente de goodies pour la Normandie Web School.",
     "date": "Réalisé en mars 2025",
     "tags": ["Figma", "WordPress", "Travail individuel", "Projet scolaire"],
-    "image": ["img/site_e-commerce_nws/img-figma-sweat.png"],
+    "image": ["/img/site_e-commerce_nws/img-figma-sweat.png"],
     "nomImg": ["image de la maquette de la page du produit réalisée sur Figma"],
     "visible": true
   },
@@ -231,7 +231,7 @@
       "En équipe, nous avons réalisé la refonte d’un site web en réalisant d’abord une analyse benchmark pour identifier les axes d’amélioration. Nous avons ensuite repensé l’arborescence du site, conçu une maquette sur Figma, puis intégré le site sur WordPress.",
     "date": "Réalisé de janvier à février 2025",
     "tags": ["Figma", "WordPress", "Travail en groupe", "Projet scolaire"],
-    "image": ["img/handisup/page-accueil-site.png"],
+    "image": ["/img/handisup/page-accueil-site.png"],
     "nomImg": ["image de la page d'accueil du site web intégrée sur WordPress"],
     "visible": true
   },
@@ -239,14 +239,14 @@
     "id": 12,
     "titleProjet": "Création d'un site web pour une artiste peintre",
     "description":
-      "J'ai réalisé le logo, la charte graphique, le site vitrine avec le référencement et l'hebergement (via un nom de domaine et github pages) d'une artiste peintre du Loiret.",
+      "J'ai réalisé le logo, la charte graphique, le site vitrine avec le référencement et l'hébergement (via un nom de domaine et GitHub Pages) d'une artiste peintre du Loiret.",
     "texteLienSiteWeb": "Le site web",
     "lienSiteWeb": "https://www.la-grange-aux-peintures.fr",
     "date": "Réalisé en décembre 2024",
     "tags": ["HTML", "CSS", "JavaScript", "Logo", "Charte graphique", "Travail individuel", "Projet personnel"],
     "image": [
-      "img/la-grange-aux-peintures/logo-la-grange-aux-peintures.png",
-      "img/la-grange-aux-peintures/site-web.png"
+      "/img/la-grange-aux-peintures/logo-la-grange-aux-peintures.png",
+      "/img/la-grange-aux-peintures/site-web.png"
     ],
     "nomImg": ["Le logo que j'ai réalisé", "image du site web"],
     "repoHref": "https://github.com/Nino-Rameau/grange-aux-peintures",
@@ -260,7 +260,7 @@
     "lienSiteWeb": "https://nino-rameau.github.io/partiel-html-css/",
     "date": "Réalisé en décembre 2024",
     "tags": ["HTML", "CSS", "JavaScript", "Figma", "Travail individuel", "Projet scolaire"],
-    "image": ["img/partiel-html-css-maquette-nexcent/maquette.png"],
+    "image": ["/img/partiel-html-css-maquette-nexcent/maquette.png"],
     "nomImg": ["image de la maquette à intégrer"],
     "repoHref": "https://github.com/Nino-Rameau/partiel-html-css",
     "visible": true
@@ -274,7 +274,7 @@
     "lienSiteWeb": "https://nino-rameau.github.io/normandie-blog-school/index.html",
     "date": "Réalisé en décembre 2024",
     "tags": ["HTML", "CSS", "Logo", "Travail en groupe", "Projet scolaire"],
-    "image": ["img/Normandie_Blog_School/logo.png"],
+    "image": ["/img/Normandie_Blog_School/logo.png"],
     "nomImg": ["logo du Normandie Blog School"],
     "repoHref": "https://github.com/Nino-Rameau/normandie-blog-school",
     "visible": true
@@ -288,7 +288,7 @@
     "lienSiteWeb": "https://nino-rameau.github.io/portfolio-nino-rameau/",
     "date": "Réalisé de novembre 2024 à janvier 2025",
     "tags": ["HTML", "CSS", "JavaScript", "Travail individuel", "Projet scolaire"],
-    "image": ["img/img-portfolio-v1-html-css.png"],
+    "image": ["/img/img-portfolio-v1-html-css.png"],
     "nomImg": ["Aperçu de la page d'accueil"],
     "repoHref": "https://github.com/Nino-Rameau/portfolio-nino-rameau",
     "visible": true
@@ -304,10 +304,10 @@
     "date": "Réalisé de novembre à decembre 2024",
     "tags": ["Logo", "Charte graphique", "Figma", "HTML", "CSS", "Travail individuel", "Travail en groupe", "Projet scolaire"],
     "image": [
-      "img/projet-cess/logo-cess.png",
-      "img/projet-cess/moodboard.png",
-      "img/projet-cess/charte-graphique.png",
-      "img/projet-cess/mockup.png"
+      "/img/projet-cess/logo-cess.png",
+      "/img/projet-cess/moodboard.png",
+      "/img/projet-cess/charte-graphique.png",
+      "/img/projet-cess/mockup.png"
     ],
     "nomImg": ["Le logo", "Le moodboard", "Extrait de la charte graphique", "Les mockup"],
     "repoHref": "https://github.com/Nino-Rameau/integration-maquette-figma-projet-club-eco-saint-sever",
@@ -319,10 +319,10 @@
     "description":
       "Voila ma propre charte graphique, elle est composée de mon logo, ma palette de couleur et mes polices d'écritures.",
     "texteLienSiteWeb": "Lien vers la charte graphique",
-    "lienSiteWeb": "/projets/charteGraphique",
+    "lienSiteWeb": "/projets/charte-graphique",
     "date": "Réalisé en octobre 2024",
     "tags": ["Logo", "Charte graphique", "Travail individuel", "Projet scolaire"],
-    "image": ["img/logo/logo-verti-sans-nom.png"],
+    "image": ["/img/logo/logo-verti-sans-nom.png"],
     "nomImg": ["image de mon logo"],
     "className": "w-[80%] m-auto",
     "visible": true
@@ -335,7 +335,7 @@
     "texteLienSiteWeb": "Le site web",
     "date": "Réalisé en octobre 2024",
     "tags": ["Logo", "Charte graphique", "Travail en groupe", "Projet scolaire"],
-    "image": ["img/projet_BDE_NW5/AfficheNW5.jpg", "img/projet_BDE_NW5/logoNW5.jpg"],
+    "image": ["/img/projet_BDE_NW5/AfficheNW5.jpg", "/img/projet_BDE_NW5/logoNW5.jpg"],
     "nomImg": ["Affiche Normandie Web Five", "Logo Normandie Web Five"],
     "visible": true
   },
@@ -347,14 +347,14 @@
     "date": "Réalisé en octobre 2024",
     "tags": ["Canva", "Travail individuel", "Projet scolaire"],
     "image": [
-      "img/interview/1.png",
-      "img/interview/2.png",
-      "img/interview/3.png",
-      "img/interview/4.png",
-      "img/interview/5.png",
-      "img/interview/6.png",
-      "img/interview/7.png",
-      "img/interview/8.png"
+      "/img/interview/1.png",
+      "/img/interview/2.png",
+      "/img/interview/3.png",
+      "/img/interview/4.png",
+      "/img/interview/5.png",
+      "/img/interview/6.png",
+      "/img/interview/7.png",
+      "/img/interview/8.png"
     ],
     "nomImg": [
       "image 1 de l'interview",
@@ -376,10 +376,10 @@
     "date": "Réalisé en Janvier 2024",
     "tags": ["Python", "MySQL", "HTML", "CSS", "JavaScript", "Logo", "Travail en groupe", "Projet scolaire"],
     "image": [
-      "img/mini-jeux/jeu.png",
-      "img/mini-jeux/morpion.png",
-      "img/mini-jeux/snake.png",
-      "img/mini-jeux/classement.png"
+      "/img/mini-jeux/jeu.png",
+      "/img/mini-jeux/morpion.png",
+      "/img/mini-jeux/snake.png",
+      "/img/mini-jeux/classement.png"
     ],
     "nomImg": ["Page d'accueil", "Jeu du morpion", "Jeu du snake", "Page de score"],
     "repoHref": "https://github.com/Nino-Rameau/mini_jeux",
@@ -392,7 +392,7 @@
       "Le programme permet de gérer les données des badges RFID via une interface en ligne de commande. Il est développé en Python et est connecté à une base de données MySQL, il permet d’afficher, de modifier, de supprimer des informations de manière organisée. (CRUD)",
     "date": "Réalisé en novembre 2023",
     "tags": ["Python", "MySQL", "Travail individuel", "Projet scolaire"],
-    "image": ["img/badge_RFID/img1.png"],
+    "image": ["/img/badge_RFID/img1.png"],
     "nomImg": ["image du programme"],
     "repoHref": "https://github.com/Nino-Rameau/Gestion_badge_RFID",
     "visible": true
@@ -404,7 +404,7 @@
       "J’ai créé un site web de quiz sur la Guyane. Le site utilise les langages HTML, CSS et Python avec Flask. C’est mon premier projet web, qui m’a permis de découvrir le développement de sites.",
     "date": "Réalisé en mai 2023",
     "tags": ["Python", "HTML", "CSS", "Travail individuel", "Projet scolaire"],
-    "image": ["img/quiz_guyane/1.png", "img/quiz_guyane/2.png", "img/quiz_guyane/3.png"],
+    "image": ["/img/quiz_guyane/1.png", "/img/quiz_guyane/2.png", "/img/quiz_guyane/3.png"],
     "nomImg": ["Page de connexion", "Page d'accueil", "Page du quiz"],
     "repoHref": "https://github.com/Nino-Rameau/Quiz_Guyane",
     "visible": true
@@ -417,7 +417,7 @@
     "texteLienSiteWeb": "Le site web",
     "date": "Réalisé en mars 2023",
     "tags": ["Python", "Travail en groupe", "Projet scolaire"],
-    "image": ["img/ville_turtle/ville.png"],
+    "image": ["/img/ville_turtle/ville.png"],
     "nomImg": ["image du résultat du programme"],
     "repoHref": "https://github.com/Nino-Rameau/Architecture_urbaine_sur_turtle",
     "visible": true

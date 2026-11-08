@@ -5,7 +5,7 @@
             {
                 "Langage": "Next.js",
                 "Note": 2.5,
-                "img": "img/logo-divers/nextjs.webp",
+                "img": "/img/logo-divers/nextjs.webp",
                 "texteAlt": "Logo Next.js",
                 "Description": "Je sais structurer des applications Fullstack modernes avec Next.js et le framework React. Je sais aussi implémenter des systèmes d'authentification sécurisés pour protéger les données utilisateur.",
                 "dureeExperience": "Découvert en 2026",
@@ -14,7 +14,7 @@
             {
                 "Langage": "TypeScript",
                 "Note": 3,
-                "img": "img/logo-divers/typescript.png",
+                "img": "/img/logo-divers/typescript.png",
                 "texteAlt": "Logo TypeScript",
                 "Description": "J'utilise le typage pour rendre mon code plus robuste et maintenable.",
                 "dureeExperience": "Utilisé régulièrement depuis début 2026 pour améliorer la qualité de mes projets JavaScript.",
@@ -23,7 +23,7 @@
             {
                 "Langage": "React et Vite",
                 "Note": 3,
-                "img": "img/logo-divers/react.png",
+                "img": "/img/logo-divers/react.png",
                 "texteAlt": "Logo React",
                 "Description": "Je suis en train d'apprendre React et son écosystème. J’ai réalisé par exemple mon portfolio intégrant par exemple React Router Dom pour la navigation et Tailwind CSS pour le design. J’apprends à structurer mes applications avec des composants.",
                 "dureeExperience": "Découvert début 2025, utilisé régulièrement dans mes projets.",
@@ -32,7 +32,7 @@
             {
                 "Langage": "Prisma",
                 "Note": 3.5,
-                "img": "img/logo-divers/prisma.png",
+                "img": "/img/logo-divers/prisma.png",
                 "texteAlt": "Logo Prisma",
                 "Description": "Je sais modéliser des schémas de données et effectuer des requêtes sécurisées en base de données sans écrire de SQL brut.",
                 "dureeExperience": "Utilisé depuis début 2026 pour mes projets Next.js.",
@@ -41,7 +41,7 @@
             {
                 "Langage": "Node.js",
                 "Note": 4,
-                "img": "img/logo-divers/nodejs.png",
+                "img": "/img/logo-divers/nodejs.png",
                 "texteAlt": "Logo Node.js",
                 "Description": "J'utilise Node.js pour initialiser des projets, gérer les dépendances et exécuter des scripts côté serveur.",
                 "dureeExperience": "Découvert début 2026, utilisé au quotidien pour mes projets JavaScript et Next.js.",
@@ -50,7 +50,7 @@
             {
                 "Langage": "Puppeteer",
                 "Note": 3,
-                "img": "img/logo-divers/puppeteer.png",
+                "img": "/img/logo-divers/puppeteer.png",
                 "texteAlt": "Logo Puppeteer",
                 "Description": "Je sais automatiser un navigateur pour réaliser du scraping de sites web, extraire des données ou simuler des actions utilisateur répétitives.",
                 "dureeExperience": "Utilisé quotidiennement depuis 2025 en entreprise.",
@@ -59,7 +59,7 @@
             {
                 "Langage": "JavaScript",
                 "Note": 4,
-                "img": "img/logo-divers/js.png",
+                "img": "/img/logo-divers/js.png",
                 "texteAlt": "Logo JavaScript",
                 "Description": "J’ai acquis les bases de JavaScript pour rendre les sites web interactifs et dynamiques. J'apprends à manipuler le DOM, gérer des événements. Je maîtrise les concepts de programmation asynchrone avec les promesses et async/await.",
                 "dureeExperience": "Découvert fin 2024, utilisé quotidiennement depuis.",
@@ -73,7 +73,7 @@
             {
                 "Langage": "Tailwind CSS",
                 "Note": 4.5,
-                "img": "img/logo-divers/tailwindcss.png",
+                "img": "/img/logo-divers/tailwindcss.png",
                 "texteAlt": "Logo Tailwind CSS",
                 "Description": "J’utilise Tailwind CSS pour construire mes interfaces rapidement et efficacement. Grâce à sa syntaxe, je peux créer des designs responsifs et cohérents sans passer par des fichiers CSS classiques et beaucoup plus rapidement.",
                 "dureeExperience": "Découvert début 2025, utilisé régulièrement dans mes projets.",
@@ -82,7 +82,7 @@
             {
                 "Langage": "HTML / CSS",
                 "Note": 4.5,
-                "img": "img/logo-divers/html-css.png",
+                "img": "/img/logo-divers/html-css.png",
                 "texteAlt": "Logo HTML / CSS",
                 "Description": "Je construis des structures sémantiques propres. Je maîtrise Flexbox et Grid pour réaliser des mises en page complexes et adaptées à tous les écrans.",
                 "dureeExperience": "Fondamentaux acquis en 2024, utilisés quotidiennement depuis.",
@@ -91,7 +91,7 @@
             {
                 "Langage": "Python",
                 "Note": 3,
-                "img": "img/logo-divers/python.png",
+                "img": "/img/logo-divers/python.png",
                 "texteAlt": "Logo Python",
                 "Description": "Je maîtrise Python pour créer des scripts et j'ai utilisé des frameworks comme Flask pour développer des sites web avec une base de données.",
                 "dureeExperience": "Utilisé quotidiennement pendant deux ans au lycée (2022-2024).",
@@ -100,7 +100,7 @@
             {
                 "Langage": "PHP",
                 "Note": 1.5,
-                "img": "img/logo-divers/php.png",
+                "img": "/img/logo-divers/php.png",
                 "texteAlt": "Logo PHP",
                 "Description": "Je connais les bases du langage. Je sais modifier des scripts existants ou intervenir sur des fonctions serveur simples.",
                 "dureeExperience": "Utilisé en cours en 2025 et 2026.",
@@ -109,7 +109,7 @@
             {
                 "Langage": "SQL (MySQL, PhpMyAdmin, SQLite)",
                 "Note": 4,
-                "img": "img/logo-divers/sql.png",
+                "img": "/img/logo-divers/sql.png",
                 "texteAlt": "Logo SQL",
                 "Description": "Je suis capable de concevoir des bases de données relationnelles. Je maîtrise les requêtes SQL pour manipuler les données efficacement et je sais utiliser des outils comme PhpMyAdmin pour gérer mes bases de données.",
                 "dureeExperience": "Appris en 2024 et utilisé régulièrement depuis.",
@@ -118,7 +118,7 @@
             {
                 "Langage": "Markdown",
                 "Note": 4,
-                "img": "img/logo-divers/markdown.webp",
+                "img": "/img/logo-divers/markdown.webp",
                 "texteAlt": "Logo Markdown",
                 "Description": "Je rédige des documentations techniques claires et structurées pour rendre mes projets lisibles et faciles à comprendre.",
                 "dureeExperience": "Utilisé systématiquement pour documenter mes dépôts de code.",
@@ -132,7 +132,7 @@
             {
                 "Langage": "Déploiement (VPS, DNS, SSL...)",
                 "Note": 3,
-                "img": "img/logo-divers/deploiement.png",
+                "img": "/img/logo-divers/deploiement.png",
                 "texteAlt": "Logo Déploiement",
                 "Description": "Je sais mettre mes projets en ligne. Je configure des noms de domaine, des certificats SSL et je gère le déploiement sur des VPS avec docker.",
                 "dureeExperience": "Utilisé lors de la mise en ligne de mes projets.",
@@ -141,7 +141,7 @@
             {
                 "Langage": "Git & GitHub",
                 "Note": 3,
-                "img": "img/logo-divers/github.png",
+                "img": "/img/logo-divers/github.png",
                 "texteAlt": "Logo GitHub",
                 "Description": "Je connais les principes de Git et GitHub. Je connais les commandes de base pour Git pour travailler en équipe.",
                 "dureeExperience": "Découvert fin 2024, utilisé régulièrement.",
@@ -150,7 +150,7 @@
             {
                 "Langage": "Docker",
                 "Note": 2.5,
-                "img": "img/logo-divers/docker.png",
+                "img": "/img/logo-divers/docker.png",
                 "texteAlt": "Logo Docker",
                 "Description": "Je connais les principes de Docker et je sais créer des containers pour des sites web, base de données...",
                 "dureeExperience": "Découvert fin 2025, utilisé ponctuellement.",
@@ -159,7 +159,7 @@
             {
                 "Langage": "Postman",
                 "Note": 3,
-                "img": "img/logo-divers/postman.png",
+                "img": "/img/logo-divers/postman.png",
                 "texteAlt": "Logo Postman",
                 "Description": "Je teste et valide mes routes d'API. Je m'assure que les données envoyées et reçues sont correctes avant l'intégration front-end.",
                 "dureeExperience": "Utilisé ponctuellent pour tester mes API lors de leur développement.",
@@ -168,7 +168,7 @@
             {
                 "Langage": "WordPress & Elementor",
                 "Note": 3.5,
-                "img": "img/logo-divers/wordpress.png",
+                "img": "/img/logo-divers/wordpress.png",
                 "texteAlt": "Logo Wordpress",
                 "Description": "Je sais utiliser des plugins comme Elementor pour réaliser des sites web.",
                 "dureeExperience": "Découvert fin 2024, utilisé en entreprise.",
@@ -177,7 +177,7 @@
             {
                 "Langage": "Odoo",
                 "Note": 3,
-                "img": "img/logo-divers/odoo.png",
+                "img": "/img/logo-divers/odoo.png",
                 "texteAlt": "Logo Odoo",
                 "Description": "J'ai utiliser Odoo V19 pour une refonte graphique de plusieurs pages d'un site web.",
                 "dureeExperience": "Découvert en 2026.",
@@ -191,7 +191,7 @@
             {
                 "Langage": "SEO et référencement naturel",
                 "Note": 3.5,
-                "img": "img/logo-divers/seo.png",
+                "img": "/img/logo-divers/seo.png",
                 "texteAlt": "Logo SEO",
                 "Description": "Je sais optimiser la visibilité de mes sites. Je gère les balises meta, la sémantique, le maillage interne et les performances pour améliorer le référencement naturel.",
                 "dureeExperience": "Intégré dans mes projets web et pratiqué régulièrement en entreprise.",
@@ -200,7 +200,7 @@
             {
                 "Langage": "Notion",
                 "Note": 4,
-                "img": "img/logo-divers/notion.png",
+                "img": "/img/logo-divers/notion.png",
                 "texteAlt": "Logo Notion",
                 "Description": "J'organise mes tâches en utilisant des tableaux, To-do list...",
                 "dureeExperience": "Utilisé quotidiennement pour organiser mes tâches en entreprise.",
@@ -209,7 +209,7 @@
             {
                 "Langage": "YouTrack",
                 "Note": 2,
-                "img": "img/logo-divers/youtrack.png",
+                "img": "/img/logo-divers/youtrack.png",
                 "texteAlt": "Logo YouTrack",
                 "Description": "J'apprend a utiliser YouTrack pour gérer mes tâches sur mes projets.",
                 "dureeExperience": "Découvert fin 2026 et utilisé pour mes projets personnels.",
@@ -218,7 +218,7 @@
             {
                 "Langage": "Trello",
                 "Note": 4.5,
-                "img": "img/logo-divers/trello.png",
+                "img": "/img/logo-divers/trello.webp",
                 "texteAlt": "Logo Trello",
                 "Description": "Je sais utiliser trello pour organiser des projet simples.",
                 "dureeExperience": "Utilisé pour des projets personnels.",
@@ -227,7 +227,7 @@
             {
                 "Langage": "Figma",
                 "Note": 3.5,
-                "img": "img/logo-divers/figma.png",
+                "img": "/img/logo-divers/figma.png",
                 "texteAlt": "Logo Figma",
                 "Description": "Je sais concevoir des interfaces UX/UI. Je sais réaliser des maquettes et des prototypes interactifs avant de passer au développement.",
                 "dureeExperience": "Utilisé pour le design de mon portfolio et d'autres projets.",
@@ -236,7 +236,7 @@
             {
                 "Langage": "Canva",
                 "Note": 4,
-                "img": "img/logo-divers/canva.png",
+                "img": "/img/logo-divers/canva.png",
                 "texteAlt": "Logo Canva",
                 "Description": "Je crée des supports visuels. Je réalise des présentations, et des visuels rapidement.",
                 "dureeExperience": "Utilisé régulièrement au quotidien.",
@@ -245,7 +245,7 @@
             {
                 "Langage": "CapCut",
                 "Note": 2.5,
-                "img": "img/logo-divers/capcut.webp",
+                "img": "/img/logo-divers/capcut.webp",
                 "texteAlt": "Logo CapCut",
                 "Description": "Je réalise des montages vidéo. avec transitions, rythme... et du motion design simple.",
                 "dureeExperience": "Découvert fin 2025, utilisé rarement.",
@@ -254,7 +254,7 @@
             {
                 "Langage": "Suite adobe (Photoshop, Lightroom, Illustrator, InDesign)",
                 "Note": 1.5,
-                "img": "img/logo-divers/adobe.png",
+                "img": "/img/logo-divers/adobe.png",
                 "texteAlt": "Logo Adobe",
                 "Description": "Je sais effectuer des retouches photo, créer des visuels vectoriels simples et préparer des documents pour l'impression.",
                 "dureeExperience": "Découvert fin 2024, utilisé très ponctuellement.",
@@ -263,7 +263,7 @@
             {
                 "Langage": "Suite Office et Google",
                 "Note": 3.5,
-                "img": "img/logo-divers/office.png",
+                "img": "/img/logo-divers/office.png",
                 "texteAlt": "Logo Office",
                 "Description": "Je maîtrise les outils de traitement de texte, de tableur et de présentation pour créer des documents professionnels, analyser des données et réaliser des présentations efficaces.",
                 "dureeExperience": "Utiliser régulièrement depuis plusieurs années.",

@@ -2,7 +2,7 @@
     {
         "id":19,
         "titreRecto":"Réalisez un test d'intrusion web",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"20 juin 2026",
         "titreVerso":"Objectifs :",
@@ -18,7 +18,7 @@
     {
         "id":19,
         "titreRecto":"Créez des animations CSS modernes",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"14 mai 2026",
         "titreVerso":"Objectifs :",
@@ -33,7 +33,7 @@
     {
         "id":19,
         "titreRecto":"Optimisez le SEO en améliorant ses performances techniques",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"12 mai 2026",
         "titreVerso":"Objectifs :",
@@ -49,7 +49,7 @@
     {
         "id":18,
         "titreRecto":"Apprendre TypeScript",
-        "image":"../../img/logo-divers/grafikart.png",
+        "image":"/img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
         "date":"28 avril 2026",
         "titreVerso":"Objectifs :",
@@ -64,7 +64,7 @@
     {
         "id":17,
         "titreRecto":"Apprendre React",
-        "image":"../../img/logo-divers/grafikart.png",
+        "image":"/img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
         "date":"18 avril 2026",
         "titreVerso":"Objectifs :",
@@ -80,7 +80,7 @@
     {
         "id":16,
         "titreRecto":"Apprendre le PHP",
-        "image":"../../img/logo-divers/grafikart.png",
+        "image":"/img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
         "date":"En cours",
         "titreVerso":"Objectifs :",
@@ -96,7 +96,7 @@
     {
         "id":15,
         "titreRecto":"Apprendre le JavaScript",
-        "image":"../../img/logo-divers/grafikart.png",
+        "image":"/img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
         "date":"16 mars 2026",
         "titreVerso":"Objectifs :",
@@ -111,7 +111,7 @@
     {
         "id":14,
         "titreRecto":"Écrivez la documentation technique de votre projet",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"2 février 2026",
         "titreVerso":"Objectifs :",
@@ -126,7 +126,7 @@
     {
         "id":13,
         "titreRecto":"Augmentez votre trafic grâce au référencement naturel (SEO)",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"31 janvier 2026",
         "titreVerso":"Objectifs :",
@@ -142,7 +142,7 @@
     {
         "id":12,
         "titreRecto":"Apprendre et maitriser SQL",
-        "image":"../../img/logo-divers/grafikart.png",
+        "image":"/img/logo-divers/grafikart.png",
         "descriptionImage":"logo Grafikart",
         "date":"14 octobre 2025",
         "titreVerso":"Objectifs :",
@@ -158,7 +158,7 @@
     {
         "id":11,
         "titreRecto":"Débutez avec React",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"4 avril 2025",
         "titreVerso":"Objectifs :",
@@ -174,7 +174,7 @@
     {
         "id":10,
         "titreRecto":"Apprenez les bases du langage Python",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"13 février 2025",
         "titreVerso":"Objectifs :",
@@ -190,7 +190,7 @@
     {
         "id":9,
         "titreRecto":"Créez et appliquez une charte graphique",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"31 janvier 2025",
         "titreVerso":"Objectifs :",
@@ -206,7 +206,7 @@
     {
         "id":8,
         "titreRecto":"Apprenez à utiliser la ligne de commande dans un terminal",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"24 janvier 2025",
         "titreVerso":"Objectifs :",
@@ -221,7 +221,7 @@
     {
         "id":7,
         "titreRecto":"Utilisez ChatGPT pour améliorer votre productivité",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"23 janvier 2025",
         "titreVerso":"Objectifs :",
@@ -237,7 +237,7 @@
     {
         "id":6,
         "titreRecto":"Codez un site web accessible avec HTML & CSS",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"19 décembre 2024",
         "titreVerso":"Objectifs :",
@@ -252,7 +252,7 @@
     {
         "id":5,
         "titreRecto":"Concevez un contenu web accessible",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"18 décembre 2024",
         "titreVerso":"Objectifs :",
@@ -268,7 +268,7 @@
     {
         "id":4,
         "titreRecto":"Créez une maquette web avec Figma",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"10 décembre 2024",
         "titreVerso":"Objectifs :",
@@ -284,7 +284,7 @@
     {
         "id":3,
         "titreRecto":"Apprenez à programmer avec JavaScript",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"9 décembre 2024",
         "titreVerso":"Objectifs :",
@@ -301,7 +301,7 @@
     {
         "id":2,
         "titreRecto":"Créez votre site web avec HTML5 et CSS3",
-        "image":"../../img/logo-divers/openclasseroom.jpg",
+        "image":"/img/logo-divers/openclasseroom.jpg",
         "descriptionImage":"logo OpenClassrooms",
         "date":"15 novembre 2024",
         "titreVerso":"Objectifs :",
@@ -318,7 +318,7 @@
     {
         "id":1,
         "titreRecto":"Pix",
-        "image":"../../img/logo-divers/pix.png",
+        "image":"/img/logo-divers/pix.png",
         "descriptionImage":"Logo de pix",
         "date":"18 mars 2024",
         "titreVerso":"Description :",

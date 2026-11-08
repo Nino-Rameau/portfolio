@@ -33,7 +33,7 @@ function Cv() {
         <div className="flex flex-col items-center py-4 text-center sm:p-4">
           <img
             className="rounded-full w-[15rem]"
-            src="../../img/photo_nino.jpg"
+            src="/img/photo_nino.jpg"
             alt="Nino Rameau"
             loading="lazy"
           />
@@ -64,7 +64,7 @@ function Cv() {
             lien="https://www.linkedin.com/in/nino-rameau-1a0636332/"
             texte={
               <img
-                src="../../img/QRCode_linkedin.jpg"
+                src="/img/QRCode_linkedin.jpg"
                 alt="QR code linkedIn"
                 className="mb-4 w-[8rem] md:w-40"
               />
@@ -78,7 +78,7 @@ function Cv() {
             lien="https://github.com/Nino-Rameau"
             texte={
               <img
-                src="../../img/QRCode_GitHub.png"
+                src="/img/QRCode_GitHub.png"
                 alt="QR code GitHub"
                 className="mb-4 w-[8rem] md:w-40"
               />
@@ -229,7 +229,7 @@ function Cv() {
         </div>
       </div>
 
-      <BtnTelechargement texte = "Télécharger mon CV" lien = "../autre/Nino_RAMEAU_dev_web.pdf" />
+      <BtnTelechargement texte = "Télécharger mon CV" lien = "/autre/Nino_RAMEAU_dev_web.pdf" />
     </>
   );
 }

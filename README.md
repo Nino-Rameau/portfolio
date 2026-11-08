@@ -1,6 +1,6 @@
 # Portfolio
 
-Ce projet est mon portfolio personnel, développé par Vite avec React 19 et Tailwind CSS 3. Il présente mon parcours, mes compétences et mes réalisations dans le domaine du développement web.
+Ce projet est mon portfolio personnel, développé avec Vite, React 19 et Tailwind CSS 3. Il présente mon parcours, mes compétences et mes réalisations dans le domaine du développement web.
 
 Le projet est conteneurisé avec Docker et est déployé sur un VPS via un reverse proxy avec Traefik.
 
@@ -10,10 +10,11 @@ Le projet est conteneurisé avec Docker et est déployé sur un VPS via un rever
 2. [Architecture & Déploiement Docker](#architecture--déploiement-docker)
    - [Prérequis](#prérequis)
    - [Lancement en Local](#lancement-en-local)
+   - [Lancement en Local sans Docker](#lancement-en-local-sans-docker)
    - [Déploiement en Production (VPS)](#déploiement-en-production-vps)
 3. [Pages](#pages)
 4. [Auteur](#auteur)
-5. [Licence](#Licence)
+5. [Licence](#licence)
 
 ## Technologies utilisées
 
@@ -23,10 +24,10 @@ Le projet est conteneurisé avec Docker et est déployé sur un VPS via un rever
 - **[React Router DOM](https://reactrouter.com/home)** : Gestion de la navigation entre les pages
 - **[Swiper](https://swiperjs.com/react)** : carrousel de la page projet
 - **[simple typewriter](https://react-simple-typewriter.vercel.app/?path=/story/introduction--page)** : texte animé sur la page d'accueil
-- **[React icons](https://react-icons.github.io/react-icons/)** : icones
+- **[React icons](https://react-icons.github.io/react-icons/)** : icônes
 - **[emailJS](https://www.emailjs.com/docs/tutorial/overview/)** : Permet de faire fonctionner mon formulaire
 - **[react google recaptcha](https://github.com/dozoisch/react-google-recaptcha)** : Permet l'ajout d'un captcha dans le formulaire
-- **[react head](https://github.com/tizmagik/react-head)** : Permet un meilleurs SEO avec des balise unique par page
+- **[react head](https://github.com/tizmagik/react-head)** : Permet un meilleur SEO avec des balises uniques par page
 - **[Docker](https://www.docker.com/)** : Conteneurisation de l'application
 - **[Traefik](https://doc.traefik.io/traefik/)** : Reverse Proxy et gestion SSL
 
@@ -54,13 +55,51 @@ Pour tester le projet en local :
          - "8080:8080"
    ```
 
-2. Lancer le conteneur via Docker Compose (-d pour lancer en arrière-plan et donc ne pas afficher les logs en continu et --build pour forcer la reconstruction de l'image) :
+3. Lancer le conteneur via Docker Compose (-d pour lancer en arrière-plan et donc ne pas afficher les logs en continu et --build pour forcer la reconstruction de l'image) :
 
    ```bash
       docker compose up -d --build   
    ```
 
-3. L'application est maintenant accessible sur : [http://localhost:8080/](http://localhost:8080/)
+4. L'application est maintenant accessible sur : [http://localhost:8080/](http://localhost:8080/)
+
+### Lancement en Local sans Docker
+
+Pour développer sans Docker (avec rechargement automatique à chaque modification) :
+
+1. Prérequis : **Node.js 22** (version utilisée dans le `Dockerfile`) et **npm**.
+
+2. Cloner le repository puis installer les dépendances :
+   ```bash
+      git clone https://github.com/Nino-Rameau/portfolio.git .
+      npm install
+   ```
+
+3. Créer le fichier `.env` à la racine à partir du modèle, puis renseigner les clés EmailJS et reCAPTCHA (nécessaires au formulaire de contact) :
+   ```bash
+      cp .env.example .env
+   ```
+
+   ```env
+      VITE_EMAILJS_SERVICE_ID=
+      VITE_EMAILJS_TEMPLATE_ID=
+      VITE_EMAILJS_PUBLIC_KEY=
+      VITE_RECAPTCHA_PUBLIC_KEY=
+   ```
+
+   Le fichier `.env` est ignoré par Git et ne doit jamais être commité.
+
+4. Lancer le serveur de développement :
+   ```bash
+      npm run dev
+   ```
+   L'application est accessible sur : [http://localhost:5173/](http://localhost:5173/)
+
+5. (Optionnel) Tester la version de production :
+   ```bash
+      npm run build     # génère le dossier dist/
+      npm run preview   # sert dist/ sur http://localhost:4173/
+   ```
 
 ### Déploiement en Production (VPS)
 
@@ -87,7 +126,7 @@ L'application est alors accessible sur : [nino-rameau.fr](https://nino-rameau.fr
 ## Pages
 
 - **Page d'accueil**
-- **Page de compétence et certification**
+- **Page de compétences et certifications**
 - **Page de présentation de mes projets**
 - **Page par projet**
 - **Page avec mon CV**
@@ -100,5 +139,5 @@ L'application est alors accessible sur : [nino-rameau.fr](https://nino-rameau.fr
 
 ## Licence
 
-Réalisé dans le cadre scolaire et personel en février 2025 et est mis a jour régulièrement.
+Réalisé dans le cadre scolaire et personnel en février 2025 et est mis à jour régulièrement.
 
